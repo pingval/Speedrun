@@ -43,8 +43,8 @@
 0x5120..0x5121: 0x4180..0x4181と同じ
 ```
 - チェックサムは2byte * 2箇所 = 色塗り4マス分。2箇所目はえらい遠くにあり、アニメティカで塗りにくいのでチェックサムは0に調整する。
-- チェックサムのアルゴリズムはCRC16/GENIBUSと同じ……と見せかけて、[算出に用いる要素数256のテーブルの最後の値が本来`0x1ef0`のところ`0`になっている](https://github.com/myst6re/hyne/blob/07bac0f92a68e5c789a77b7df170ce763352bfbe/SaveData.cpp#L565)ため異なる値が出る。このせいでチェックサムのhackにえらい難儀してしまった(スキルが足りないので)。
-- DQ7ではデータブロックに1フレームでも書き込まれてしまうと壊れた冒険の書となってしまいアウトだったが、FF8では`0x417f`までは書き込まれてもチェックサムに影響が及ばない。メモリーカードへの書き込みは1フレームあたり128byteであり`(0x417f + 1 - 0x4000) / 128 = 3`なので、**FF8セーブデータ改竄のメモリーカード引き抜きの猶予時間はDQ7の2f(たぶん)よりも3fだけ長い5f=0.083s(たぶん)**。
+- チェックサムのアルゴリズムはCRC16/GENIBUS……と見せかけて、[算出に用いる要素数256のテーブルの最後の値が本来`0x1ef0`のところ`0`になっている](https://github.com/myst6re/hyne/blob/07bac0f92a68e5c789a77b7df170ce763352bfbe/SaveData.cpp#L565)ため異なる値が出る。このせいでチェックサムのhackにえらい難儀してしまった(スキルが足りないので)。
+- DQ7ではデータブロックに1フレームでも書き込まれてしまうと壊れた冒険の書となってしまいアウトだったが、FF8では`0x417f`までは書き込まれてもチェックサムに影響が及ばない。メモリーカードへの書き込みは1フレームあたり128byteであり`(0x417f + 1 - 0x4000) / 128 = 3`なので、**FF8セーブデータ改竄のメモリーカード引き抜き猶予時間はDQ7の2f(たぶん)よりも3fだけ長い5f=0.083s(たぶん)**。
 
 以下の色塗りを採用した。
 ```
@@ -107,6 +107,8 @@ AnimeMaker:
 ## 参考
 
 - [プレイステーション・ＰＡＤ／メモリ・インターフェースの解析](http://kaele.com/~kashima/games/ps_jpn.txt)
+- [RPGツクール3を使ったPS1セーブデータの改ざん方法 | RTAPlay!](https://rta-play.info/tool/save-glitch/)
+- [巡回冗長検査 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%B7%A1%E5%9B%9E%E5%86%97%E9%95%B7%E6%A4%9C%E6%9F%BB)
+- [dearblue/ruby-crc: Pure ruby implemented general CRC (Cyclic Redundancy Check) generator.](https://github.com/dearblue/ruby-crc)
 - [Hyne](https://github.com/myst6re/hyne/releases)
 - [Deling](https://github.com/myst6re/deling/releases)
-- [dearblue/ruby-crc: Pure ruby implemented general CRC (Cyclic Redundancy Check) generator.](https://github.com/dearblue/ruby-crc)
