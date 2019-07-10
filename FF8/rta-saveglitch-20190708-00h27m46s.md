@@ -69,7 +69,7 @@
 - [縦長](https://github.com/pingval/Speedrun/blob/master/FF8/checksum0-vertical.txt)
 - [横長](https://github.com/pingval/Speedrun/blob/master/FF8/checksum0-horizontal.txt)
 
-これはデバッグルーム行きの色塗り(チェックサム未調整)。本当はキャラの座標を調整すべき。
+これはデバッグルーム行きの色塗り(チェックサム未調整)。本当はキャラの座標の調整もすべき。
 ```
   CE: ( 32, 27)
   83: ( 33, 27)
