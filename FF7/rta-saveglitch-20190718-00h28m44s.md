@@ -51,9 +51,7 @@
   07: (261..262, 37)
   07: (281..282, 31)
 ```
-
-その他の色塗り候補:
-- [Count < 10 || Unique Count < 6](https://github.com/pingval/Speedrun/blob/master/FF7/checksum0.txt)
+[その他の色塗り候補](./checksum0.txt)
 
 ----
 
