@@ -1,1 +1,1 @@
-[pingval / DQ7](../../../DQ7)へ
+[pingval / DQ7](https://github.com/pingval/DQ7/)へ
