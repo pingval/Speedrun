@@ -264,7 +264,7 @@ module PlayStation
       @used_block += klass::Block
       save = klass.new(@bin[0x2000 * (1 + @used_block), 0x2000 * klass::Block], pos: @used_block + 1)
       @saves << save
-      p [@used_block, save.pos, 0x2000 * (1 + @used_block), 0x2000 * klass::Block]
+      # p [@used_block, save.pos, 0x2000 * (1 + @used_block), 0x2000 * klass::Block]
       save
     end
 
