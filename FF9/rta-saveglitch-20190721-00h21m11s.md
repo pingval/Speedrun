@@ -1,7 +1,7 @@
 # [PS版FF9 セーブデータ改竄RTA in 21:11](https://www.youtube.com/watch?v=hZw2SbPTatA)
 
 - プレイ日時: 2019年07月21日
-- 計測区間: 本体の電源投入からエンドロゴ消滅まで
+- 計測区間: 本体の電源投入からTHE END表示まで
 - 使用ソフト:
   - RPGツクール3
   - PS版FF9
