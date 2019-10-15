@@ -34,3 +34,13 @@ y: (addr - 8960) / 288
 - ×: スポイト。塗ってはならないマスに塗っても背景をスポイトして塗り直してやればよい
 - L1: 「ペン→パレット→ツール」の順に窓が切り替わる
 - L2: 全ての窓を消す。システム窓も消すので座標が見えなくなる
+----
+### [DQ7のチェックサム調整サンプルスクリプト](./dq7_sample.rb)
+#### 必要なもの
+- [crc - CRC calcurator for ruby](https://github.com/dearblue/ruby-crc)
+  - インストールは`gem install crc`でよい
+- 同じフォルダに
+  - [pssaves.rb](./pssaves.rb)
+  - [animemaker.rb](./animemaker.rb)
+  - [crchack](https://github.com/resilar/crchack)のバイナリ
+    - [自分の改造版](https://github.com/pingval/crchack)もあるがこれは要らない
