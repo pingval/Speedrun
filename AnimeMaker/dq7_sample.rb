@@ -1,14 +1,21 @@
+# 必要なもの:
+# - crc - CRC calcurator for ruby (https://github.com/dearblue/ruby-crc)
+#   - gem install crc でよい
+# - 同じフォルダに
+#   - https://github.com/pingval/Speedrun/blob/master/AnimeMaker/pssaves.rb
+#   - https://github.com/pingval/Speedrun/blob/master/AnimeMaker/animemaker.rb
+#   - crchackのバイナリ(https://github.com/resilar/crchack)
+#     - 自分の改造版(https://github.com/pingval/crchack)もあるがこれは要らない
+
 require "open3"
 require "tempfile"
-# https://github.com/pingval/Speedrun/blob/master/AnimeMaker/pssaves.rb
-# animemaker.rb, https://github.com/dearblue/ruby-crc も必要
 require "./pssaves"
 include PlayStation
 
 $>.sync = true
 
-# crchack(https://github.com/resilar/crchack)の場所
-# 自分の改造版(https://github.com/pingval/crchack)は必要ない
+# crchack()の場所
+# 自分の改造版()は必要ない
 CRCHACK = "./crchack"
 # crchackに渡すコマンドラインオプション(CRCアルゴリズム)
 ALGO_OPT = "-w32 -p04c11db7 -iffffffff -xffffffff"
