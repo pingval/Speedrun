@@ -178,8 +178,6 @@ module PlayStation
     # 消費するブロック数
     Block = 1
     attr_reader :block
-    # 何ブロック目か
-    attr_reader :pos
     # 背景色(初期値は00)
     attr_reader :blank
     # バイナリ
@@ -207,15 +205,11 @@ module PlayStation
     end
 
     # アニメティカの色塗りデータに変換
-    def am(pos = @pos)
-      AM.new(self.bin, pos: pos, block: Block, blank: @blank)
+    def am(pos = MEMCARD_N)
+      AM.new(@bin, pos: pos, block: Block, blank: @blank)
     end
-    # def am(pos = MEMCARD_N)
-    #   AM.new(@bin, pos: pos, block: Block, blank: @blank)
-    # end
 
-    def initialize(bin = nil, pos: MEMCARD_N, blank: 0x00.chr)
-      @pos = pos
+    def initialize(bin = nil, blank: 0x00.chr)
       @block = Block
       @blank = blank
       @bin = bin || blank * (0x2000 * Block)
@@ -261,10 +255,10 @@ module PlayStation
         warn "error: more than 15 blocks in a Memory Card."
         return
       end
-      save = klass.new(@bin[0x2000 * (1 + @used_block), 0x2000 * klass::Block], pos: @used_block + 1)
+      save = klass.new(@bin[0x2000 * (1 + @used_block), 0x2000 * klass::Block])
       @used_block += klass::Block
       @saves << save
-      # p [@used_block, save.pos, 0x2000 * (1 + @used_block), 0x2000 * klass::Block]
+      # p [@used_block, 0x2000 * (1 + @used_block), 0x2000 * klass::Block]
       save
     end
 
@@ -272,7 +266,7 @@ module PlayStation
     def am
       self.apply
       # 管理ブロックとアニメティカ(pos:1, block:1)は除く
-      AM.new(@bin[0x2000 * 2, 0x2000 * (@used_block - 1)], pos: 2, block: @used_block - 1)
+      AM.new(@bin[0x2000 * 2, 0x2000 * (@used_block - 1)], pos: MEMCARD_N, block: @used_block - 1)
     end
 
     # ファイルからバイナリを読み込む
@@ -295,8 +289,11 @@ module PlayStation
     # 各セーブデータのバイナリ変更をメモリーカードにも適用する
     def apply
       self.fix
+      # 最初は0x2000
+      x = 0x2000
       @saves.each{|save|
-        @bin[0x2000 * save.pos, save.bin.size] = save.bin
+        @bin[x, save.bin.size] = save.bin
+        x += save.bin.size
       }
     end
 
