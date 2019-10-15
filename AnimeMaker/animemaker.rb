@@ -208,7 +208,7 @@ module PlayStation
 
     # アニメティカの色塗りデータに変換
     def am(pos = @pos)
-      AM.new(@bin, pos: pos, block: Block, blank: @blank)
+      AM.new(self.bin, pos: pos, block: Block, blank: @blank)
     end
     # def am(pos = MEMCARD_N)
     #   AM.new(@bin, pos: pos, block: Block, blank: @blank)
@@ -261,8 +261,8 @@ module PlayStation
         warn "error: more than 15 blocks in a Memory Card."
         return
       end
-      @used_block += klass::Block
       save = klass.new(@bin[0x2000 * (1 + @used_block), 0x2000 * klass::Block], pos: @used_block + 1)
+      @used_block += klass::Block
       @saves << save
       # p [@used_block, save.pos, 0x2000 * (1 + @used_block), 0x2000 * klass::Block]
       save
@@ -296,7 +296,7 @@ module PlayStation
     def apply
       self.fix
       @saves.each{|save|
-        @bin[0x2000 * (save.pos - 1), save.bin.size] = save.bin
+        @bin[0x2000 * save.pos, save.bin.size] = save.bin
       }
     end
 
