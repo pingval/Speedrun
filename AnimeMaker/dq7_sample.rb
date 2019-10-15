@@ -14,8 +14,7 @@ include PlayStation
 
 $>.sync = true
 
-# crchack()の場所
-# 自分の改造版()は必要ない
+# crchackの場所
 CRCHACK = "./crchack"
 # crchackに渡すコマンドラインオプション(CRCアルゴリズム)
 ALGO_OPT = "-w32 -p04c11db7 -iffffffff -xffffffff"
@@ -63,7 +62,7 @@ Tempfile.create{|tf|
     if !o.empty?
       ob = o.b
       cnt, uniq_cnt = ob.counts
-      # 使用色が7未満なら出力
+      # 使う色が7未満なら出力
       if uniq_cnt < 7
         # 既出なら飛ばす
         next if $found[o]
