@@ -112,7 +112,7 @@ module PlayStation
       self + -n
     end
 
-    def initialize(bin = "", pos:2, block:1, blank: 0x00.chr)
+    def initialize(bin = "", pos:MEMCARD_N, block:1, blank: 0x00.chr)
       @pos = pos
       @block = block
       @blank = blank.chr
@@ -266,7 +266,7 @@ module PlayStation
     def am
       self.apply
       # 管理ブロックとアニメティカ(pos:1, block:1)は除く
-      AM.new(@bin[0x2000 * 2, 0x2000 * (@used_block - 1)], pos: MEMCARD_N, block: @used_block - 1)
+      AM.new(@bin[0x2000 * MEMCARD_N, 0x2000 * (@used_block - 1)], pos: MEMCARD_N, block: @used_block - 1)
     end
 
     # ファイルからバイナリを読み込む
