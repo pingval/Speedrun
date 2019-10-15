@@ -1,6 +1,6 @@
 # 必要なもの:
 # - crc - CRC calcurator for ruby (https://github.com/dearblue/ruby-crc)
-#   - gem install crc でよい
+#   - インストールは gem install crc でよい
 # - 同じフォルダに
 #   - https://github.com/pingval/Speedrun/blob/master/AnimeMaker/pssaves.rb
 #   - https://github.com/pingval/Speedrun/blob/master/AnimeMaker/animemaker.rb
