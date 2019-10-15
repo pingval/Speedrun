@@ -256,7 +256,7 @@ module PlayStation
     end
 
     # クラスを引数にとってセーブデータを追加し、それを返す
-    def <<(klass)
+    def gets(klass)
       if @used_block + klass::Block > 15
         warn "error: more than 15 blocks in a Memory Card."
         return
