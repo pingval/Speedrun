@@ -289,8 +289,8 @@ module PlayStation
     # 各セーブデータのバイナリ変更をメモリーカードにも適用する
     def apply
       self.fix
-      # 最初は0x2000
-      x = 0x2000
+      # 最初は2ブロック目
+      x = 0x2000 * MEMCARD_N
       @saves.each{|save|
         @bin[x, save.bin.size] = save.bin
         x += save.bin.size
