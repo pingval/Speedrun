@@ -28,9 +28,13 @@ TARGET_CRC = 0
 # ペラッペラ: 0x715
 # 超美麗ムービー1: 0x062e
 # 超美麗ムービー2: 0x0633
-MapID = 0x0722
+MapID = 0x0724
+# エンディングか
+IS_ED = !(MapID == 0x062e || MapID == 0x0633)
+# 出力する使用色の条件
+UNIQ_CNT_BORDER = IS_ED ? 7 : 9
 # 元のバイナリ
-BIN = "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+BIN = "#{IS_ED ? "00" : "04"} 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 d0 07 08 00 00 00 00 00 00 00 00 00 00 00 00 00
 00 00 00 00 00 00 00 00 00 00 00 00 00 00 #{MapID.bin(2).b2h}
 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -62,8 +66,8 @@ Tempfile.create{|tf|
     if !o.empty?
       ob = o.b
       cnt, uniq_cnt = ob.counts
-      # 使う色が7未満なら出力
-      if uniq_cnt < 7
+      # 使う色がN未満なら出力
+      if uniq_cnt < UNIQ_CNT_BORDER
         # 既出なら飛ばす
         next if $found[o]
         $found[o] = 1
