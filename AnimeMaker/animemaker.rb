@@ -1,4 +1,6 @@
 MEMCARD_N = 2
+AM_X_SKIP_SIZE = 30
+AM_Y_SKIP_SIZE = 10
 
 class String
   # "00 01" => "\x00\x01"
@@ -167,8 +169,62 @@ module PlayStation
       "AnimeMaker(used block: ##{range}):\n#{res * "\n"}\n"
     end
 
+    # アニメティカの入力の可視化
     def inspect
-      self.to_s.inspect
+      from_x = 287
+      to_x = 0
+      from_y = 207
+      to_y = 0
+      # 最低限の範囲を調べる
+      self.each{|x, y, b|
+        from_x = x if x < from_x
+        to_x = x if x > to_x
+        from_y = y if y < from_y
+        to_y = y if y > to_y
+      }
+      # from_x = 0
+      # to_x = 287
+      # from_y = 0
+      # to_y = 207
+
+      # 範囲にチェックを入れる
+      rect = (from_y..to_y).map{ [self.blank.ord] * (to_x - from_x + 1) }
+      used_x = [false] * (to_x - from_x + 1)
+      used_y = [false] * (to_y - from_y + 1)
+      self.each{|x, y, b|
+        used_x[x - from_x] = true
+        used_y[y - from_y] = true
+        rect[y - from_y][x - from_x] = b
+      }
+      res = ""
+      # ルーラー
+      ruler = "y\\x|" + used_x.map.with_index(from_x){|ok, i| ok ? "%3d"%i : "   "} * "" + "\n"
+      res << ruler
+      res << ?- * 3 + ?+ + "---" * used_x.size + "\n"
+      # 座標
+      rect.each.with_index(from_y){|line, i|
+        l = used_y[i - from_y] ? "%3d"%i : "   "
+        r = line.map{|b| b != self.blank.ord ? " %02X"%b :"   " } * ""
+        res << l + ?| + r + "\n"
+      }
+      # yの省略
+      res.gsub!(/( +\| +\n){#{AM_Y_SKIP_SIZE},}/){
+        ?~ * ($1.size - 1) + "\n"
+      }
+      # xの省略
+      x_skip_range = []
+      ruler.scan(/(   ){#{AM_X_SKIP_SIZE},}/){
+        x_skip_range << [$~.begin(0), $~.end(0)]
+      }
+      x_skip_range.reverse!
+      res.gsub!(/.+$/){
+        s = $&
+        x_skip_range.each{|l, r|
+          s[l...r] = " ~ "
+        }
+        s
+      }
+      res
     end
   end
   AM = AnimeMaker
