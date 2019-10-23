@@ -102,6 +102,9 @@ module PlayStation
 
       # フラグ
       @bin.w(0x02ba, 1, 0x60)
+      # 0x01と0x02のビットフラグを潰す
+      b = @bin[0x02bb].ord
+      @bin.w(0x02bb, 1, b & ~(0x01 | 0x02))
       
       self.fix
     end
