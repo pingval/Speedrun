@@ -297,7 +297,7 @@ module PlayStation
 
     # 全てのセーブデータを改竄する
     def modify
-      @saves.each{|save| save.renew }
+      @saves.each{|save| save.modify }
     end
 
     # 全てのセーブデータを修復する
@@ -326,8 +326,9 @@ module PlayStation
     end
 
     # ファイルからバイナリを読み込む
-    def load(filename)
-      @bin = IO.binread(@filename)
+    def load(filename = @filename)
+      # @filename = filename # ?
+      @bin = IO.binread(filename)
     end
 
     def initialize(filename = nil)
