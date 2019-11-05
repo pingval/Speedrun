@@ -31,7 +31,8 @@
 | 7 | 16 |
 | 合計 | 70 |
 
-- RTAの計測区間は、「タイトル画面右下隅のGAME STARTボタンをクリックした瞬間」から「STAGE 7クリア後の効果音が鳴った瞬間」まで。
+- RTAの計測区間は、「タイトル画面右下隅のGAME STARTボタンをクリックした瞬間」から「STAGE 7クリア後の じょーん という効果音が鳴った瞬間」まで。
+- Flash不使用の[スマホ対応版](https://www.gamedesign.jp/sp/yoji/)も存在するが操作性が異なる上、4面までしかない。
 - こんなゲームのRTAとか冗談に思われるかもしれないが、なかなかどうして、やりこむと奥が深いのです。
 
 ----
@@ -40,7 +41,7 @@
 - PeerCastという配信コミュニティで2010~2012年に流行り、記録集では100人以上の記録が登録されている(参考: [Peercast Record/四字熟語 - Peca視聴者Wiki](https://peca.nemusg.com/index.php?cmd=read&page=Peercast%20Record%2F%BB%CD%BB%FA%BD%CF%B8%EC))。
 - 最速記録はArel.氏の3:40。比較的最近のプレイヤーだが唯一の3分台記録保持者であり、2位に30秒以上もの大差を付けている。
 - SRCにも[Leaderboard](https://www.speedrun.com/Yojijukugo_Flash)がある。私がModeratorです。
-- [くまのプーさんのホームランダービー](https://kids.yahoo.co.jp/games/sports/013.html)同様、2020年末のFlashサポート終了による競技終了が危惧されていると専らの噂である。Flash不使用の[スマホ対応版](https://www.gamedesign.jp/sp/yoji/)も存在するが操作が異なる上、4面までしかない。
+- [くまのプーさんのホームランダービー](https://kids.yahoo.co.jp/games/sports/013.html)同様、2020年末のFlashサポート終了による競技終了が危惧されていると専らの噂である。[Adobe Flash Player - Debug Downloads](https://www.adobe.com/support/flashplayer/debug_downloads.html)からダウンロードできるFlash Player projectorを使えばスタンドアローンでyojijuku.swfを再生できるのでサポートが切れても安心！(たぶん)
 <!-- - 2019年11月現在、4分台はその中でも6人しかいない。そして、その中で一番遅い4:59という記録を持っているのが自分(ping値)。 -->
 
 ## 基本戦略
@@ -155,6 +156,8 @@
 
 | 熟語 | 共通の漢字 | 確定方法 |
 | :---:  | :---:  | :---:  |
+| 整理整頓<br>理路整然 | 整・理 | 頓: 整理整頓<br>路: 理路整然 |
+| 栄枯盛衰<br>盛者必衰 | 盛・衰 | 枯: 栄枯盛衰 |
 | 異口同音<br>大同小異 | 異・同 |
 | 一世一代<br>世代交代 | 世・代 |
 | 行方不明<br>一方通行<br>品行方正 | 行・方 |
