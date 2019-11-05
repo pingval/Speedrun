@@ -12,6 +12,8 @@
 
 # 四字熟語Flash RTA攻略
 
+[旧ページ](http://pingval.g1.xrea.com/etc/4ji-strategy.html)
+
 ----
 
 ## どんなゲーム？
