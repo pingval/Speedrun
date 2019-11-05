@@ -39,7 +39,7 @@
 
 ## RTAの歴史
 - PeerCastという配信コミュニティで2010~2012年に流行り、記録集では100人以上の記録が登録されている(参考: [Peercast Record/四字熟語 - Peca視聴者Wiki](https://peca.nemusg.com/index.php?cmd=read&page=Peercast%20Record%2F%BB%CD%BB%FA%BD%CF%B8%EC))。
-- 最速記録は「あれるん♪」氏の3:40。比較的最近のプレイヤーだが唯一の3分台記録保持者であり、2位に30秒以上もの大差を付けている。
+- 最速記録はArel.氏の3:40。比較的最近のプレイヤーだが唯一の3分台記録保持者であり、2位に30秒以上もの大差を付けている。
 - SRCにも[Leaderboard](https://www.speedrun.com/Yojijukugo_Flash)がある。私がModeratorです。
 <!-- - 2019年11月現在、4分台はその中でも6人しかいない。そして、その中で一番遅い4:59という記録を持っているのが自分(ping値)。 -->
 
