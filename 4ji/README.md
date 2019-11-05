@@ -22,6 +22,10 @@
 
 ## 外部リンク
 
+- [四字熟語](https://www.gamedesign.jp/flash/yojifla/yojifla.html)
+  - [スマホ対応版](https://www.gamedesign.jp/sp/yoji/)
+- [三字熟語](https://www.gamedesign.jp/flash/sanjuku/sanjuku.html)
 - [Yojijukugo Flash - speedrun.com](https://www.speedrun.com/Yojijukugo_Flash)
   - [Resources - Yojijukugo Flash - speedrun.com](https://www.speedrun.com/yojijukugo_flash/resources) AutoSplitあり
 - [Peercast Record/四字熟語 - Peca視聴者Wiki](https://peca.nemusg.com/index.php?cmd=read&page=Peercast%20Record%2F%BB%CD%BB%FA%BD%CF%B8%EC)
+- [Adobe Flash Player - Debug Downloads](https://www.adobe.com/support/flashplayer/debug_downloads.html) 2021年なんか怖くない！
