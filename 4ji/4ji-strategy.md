@@ -42,9 +42,9 @@
 
 ## RTAの歴史
 - PeerCastという配信コミュニティで2010~2012年に流行り、記録集では100人以上の記録が登録されている(参考: [Peercast Record/四字熟語 - Peca視聴者Wiki](https://peca.nemusg.com/index.php?cmd=read&page=Peercast%20Record%2F%BB%CD%BB%FA%BD%CF%B8%EC))。
-- 最速記録はArel.氏の3:40。比較的最近のプレイヤーだが唯一の3分台記録保持者であり、2位に30秒以上もの大差を付けている。
 - SRCにも[Leaderboard](https://www.speedrun.com/Yojijukugo_Flash)がある。私がModeratorです。
-- [くまのプーさんのホームランダービー](https://kids.yahoo.co.jp/games/sports/013.html)同様、2020年末のFlashサポート終了による競技終了が危惧されていると専らの噂である。[Adobe Flash Player - Debug Downloads](https://www.adobe.com/support/flashplayer/debug_downloads.html)からダウンロードできるFlash Player projectorを使えばスタンドアローンでyojijuku.swfを再生できるのでサポートが切れても安心！(たぶん)
+- 最速記録は[Arel.氏の3:40](https://www.youtube.com/watch?v=rgydJa7T6hU)。比較的最近のプレイヤーだが唯一の3分台記録保持者であり、2位に30秒以上もの大差を付けている。
+- [くまのプーさんのホームランダービー](https://kids.yahoo.co.jp/games/sports/013.html)などのFlashゲー同様、2020年末のFlashサポート終了に伴う競技終了が危惧されていると専らの噂である。しかし[Adobe Flash Player projector](https://www.adobe.com/support/flashplayer/debug_downloads.html)を使えばスタンドアローンでyojijuku.swfを再生できるのでサポートが切れても安心！(たぶん)
 <!-- - 2019年11月現在、4分台はその中でも6人しかいない。そして、その中で一番遅い4:59という記録を持っているのが自分(ping値)。 -->
 
 ## 基本戦略
@@ -80,6 +80,7 @@
 ### 熟語の出現率の偏り
 このゲームは熟語をランダムに取り出すのに「熟語406個(405と「一攫千金」の二重入力で+1)の配列をシャッフル→先頭から順番に取り出す」という手順を踏んでいる。一様分布なら出現率は全て`(4+6+8+10+12+14+16)/406=約17.24%`になるが、シャッフルアルゴリズムに問題があるようで、実際の出現率には偏りがある。最大は「頑固一徹」の21.44%、最小は「避難訓練」の13.26%で、約1.6倍の開きがある。  
 実際のプレイでは「竜」の「画竜点睛」(21.31%)と「竜頭蛇尾」(13.66%)くらい出現率に差があれば気にすべきかもしれない。
+<!-- 出現率STAGEごとでも異なるはずだがそこまでカバーするのはめんどいな -->
 
 ![四字熟語の出現率](./img/4ji-dist.png)
 - [四字熟語の出現率一覧](./4ji-dist.txt)
