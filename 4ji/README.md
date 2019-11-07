@@ -8,6 +8,7 @@
   - [括弧つき](./4ji-bracket.txt)
 - [熟語の出現率一覧](./4ji-dist.txt)
   - [出現率で降順](./4ji-dist-sorted.txt)
+- [三/四字熟語Flash練習ツール](./jukugo-practice.zip) 元ネタは[あやせひろみ](https://twitter.com/hiromi_ayase)氏の[似非四字熟語(404)](https://dl.dropboxusercontent.com/u/9407653/Applications/4jukugo/4jukugo.html)
 
 ----
 
