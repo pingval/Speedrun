@@ -1,7 +1,7 @@
 # usage: psff8_stepid_manip.rb ENCOUNTER_COUNT_LIMIT WALKING_COUNT_LIMIT TARGET_DISTANCE
 
 # search conditions
-ENCOUNTER_COUNT_LIMIT = ARGV[0] ? ARGV[0].to_i : 40
+ENCOUNTER_COUNT_LIMIT = ARGV[0] ? ARGV[0].to_i : 19
 WALKING_COUNT_LIMIT = ARGV[1] ? ARGV[1].to_i : 20
 TARGET_DISTANCE = ARGV[2] ? ARGV[2].to_i : 830
 
@@ -92,7 +92,7 @@ def min_encounter_search(start_stepidx = 0)
     }.sort_by{|dist, walk_cnt, stepids_size, enc_his, walk_his|
       [-dist, walk_cnt]
     }
-    return [enc_cnt - 1, res]
+    [enc_cnt - 1, res]
   else
     []
   end
