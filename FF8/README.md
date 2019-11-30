@@ -1,9 +1,9 @@
 ## Pre New Game StepID Manipulation
 
 - [ODS Sheet](./psff8rta-stepid-manip-en.zip)
-  - 19 enconters, 21 walking stepIDs with manip (17 encounters; Luzbel's 8:19:13s strat)
-  - 19 enconters, 17 walking stepIDs with manip (495 encounters).
-  - 18 enconters, 25 walking stepIDs with crazy manip (4340 encounters).
+  - 19 enconters, 21 walking stepIDs with manip. index: 146 (17 encounters; Luzbel's 8:19:13s strat)
+  - 19 enconters, 17 walking stepIDs with manip. index: 4626 (495 encounters).
+  - 18 enconters, 25 walking stepIDs with crazy manip. index: 40969 (4340 encounters).
   - Information for Pre New Game StepID Manipulation
 - [Ruby Script](./psff8_stepid_manip_en.rb)
   - [Output of "psff8_stepid_manip_en.rb 40 20 830"](./psff8_stepid_manip_40_20_830.zip) **100 MB over**
