@@ -92,7 +92,6 @@ def min_encounter_search(start_stepidx = 0)
     }.map{|dist, walk_cnt, stepidx, enc_his, walk_his|
       [dist - 1, walk_cnt, stepidx - start_stepidx, enc_his, walk_his]
     }.sort_by{|dist, walk_cnt, stepids_size, enc_his, walk_his|
-      # [-dist, walk_cnt]
       [walk_cnt, -dist]
     }
     [enc_cnt - 1, res]
