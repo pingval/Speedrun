@@ -64,6 +64,8 @@ def min_encounter_search(start_stepidx = 0)
       new_elem = [dist, walk_cnt, stepidx, new_enc_his, new_walk_his]
       # replace item if better state
       idx = new_q.index{|_dist, _walk_cnt, _stepidx, _enc_his, _walk_his|
+        # this condition is also ok?
+        # stepidx >= _stepidx && dist >= _dist && walk_cnt <= _walk_cnt
         stepidx == _stepidx && dist >= _dist && walk_cnt <= _walk_cnt
       } || new_q.size
       new_q[idx] = new_elem
@@ -90,7 +92,8 @@ def min_encounter_search(start_stepidx = 0)
     }.map{|dist, walk_cnt, stepidx, enc_his, walk_his|
       [dist - 1, walk_cnt, stepidx - start_stepidx, enc_his, walk_his]
     }.sort_by{|dist, walk_cnt, stepids_size, enc_his, walk_his|
-      [-dist, walk_cnt]
+      # [-dist, walk_cnt]
+      [walk_cnt, -dist]
     }
     [enc_cnt - 1, res]
   else
