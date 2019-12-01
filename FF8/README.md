@@ -5,7 +5,7 @@
   - idx = 146: 19 enconters, 17 walking stepIDs. 17 encounters in manip. Luzbel's 8:19:13s strat. Tight.
   - idx = 4626: 19 enconters, 17 walking stepIDs. 495 encounters in manip. Loose than the above one.
   - idx = 40969: 18 enconters, 25 walking stepIDs. crazy **4340 encounters** in manip.
-  - idx = 38213: 35 enconters, 0 walking stepIDs. Just a joke.
+  - idx = 38213: 34 enconters, 0 walking stepIDs. Just a joke.
   - Information for making a savegame for manip.
 - [Search Script (Ruby)](./psff8_stepid_manip_en.rb)
   - About all 65536 StepID states, search the least encounter count until learning Enc-None with practical walking and its way.
