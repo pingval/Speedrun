@@ -4,7 +4,7 @@
   - 19 enconters, 17 walking stepIDs with manip. index: 146 (17 encounters; Luzbel's 8:19:13s strat). Tight.
   - 19 enconters, 17 walking stepIDs with manip. index: 4626 (495 encounters). Loose.
   - 18 enconters, 25 walking stepIDs with crazy manip. index: 40969 (**4340 encounters**).
-  - Information for Pre New Game StepID Manipulation
+  - Information for making a savegame.
 - [Search Script (Ruby)](./psff8_stepid_manip_en.rb)
   - [Output of "psff8_stepid_manip_en.rb 40 20 830"](./psff8_stepid_manip_40_20_830.zip) **100 MB over**
     - ENCOUNTER_COUNT_LIMIT: 40
