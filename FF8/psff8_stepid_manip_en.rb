@@ -19,7 +19,6 @@ def make_danger_limit_table(output = false)
   stepid = 0
   offsync = 0
   danger_limit_table = []
-  offsync_table = []
   (256 ** 2).times{|idx|
     danger_limit = (DANGER_LIMITS[stepid] + offsync) & 0xff
     danger_limit_table << danger_limit
