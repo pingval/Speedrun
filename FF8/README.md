@@ -1,4 +1,4 @@
-## Pre New Game StepID Manipulation
+## Pre New Game Stepcount Manipulation
 
 - [ODS Sheet](./psff8rta-stepid-manip-en.zip)
   - 19 enconters, 17 walking stepIDs with manip. index: 146 (17 encounters; Luzbel's 8:19:13s strat). Tight.
