@@ -8,7 +8,7 @@
   - idx = 38213: 34 enconters, 0 walking stepIDs. Just a joke.
   - Information for making a savegame for manip.
 - [Search Script (Ruby)](./psff8_stepid_manip_en.rb)
-  - About all 65536 StepID states, search the least encounter count until learning Enc-None with practical walking and its way.
+  - About all 65536 StepID states, search the least encounters until learning Enc-None with practical walking and its way.
   - Usage: `psff8_stepid_manip_en.rb ENCOUNTER_COUNT_LIMIT WALKING_COUNT_LIMIT TARGET_DISTANCE`
   - [Output of "psff8_stepid_manip_en.rb 40 20 830"](./psff8_stepid_manip_40_20_830.zip) **100 MB over**
   - [Output of "psff8_stepid_manip_en.rb 40 30 830"](./psff8_stepid_manip_40_30_830.zip) **100 MB over**
