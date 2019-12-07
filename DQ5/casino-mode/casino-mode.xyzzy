@@ -1,0 +1,44 @@
+;; Windows風キーバインド
+(require "gates")
+
+;; インクリメンタルサーチ設定
+(require "isearch")
+(require "isearch-deco")
+;; ポップアップを抑止
+(setq *coloring-popup* nil)
+;; 1文字でも色付けさせる
+(setq *coloring-pattern-min-word-length* 1)
+;; 最初から isearch-mode:isearch-scanner-hook
+(setq *isearch-mode* (1- (length *isearch-mode-pattern-func-list*)))
+
+;; casino-mode設定
+(require "casino-mode")
+;; casino-modeと出目表の関連付け
+(push '("100?C\\.txt$" . casino-mode) *auto-mode-alist*)
+;; インクリメンタルサーチは単語の先頭にのみマッチ
+;; "/"を無視してマッチ
+(setq *isearch-scanner-hook*
+      #'(lambda (pat)
+          (if (eq buffer-mode 'casino-mode)
+              (progn
+                (setq pat (remove #\/ pat))
+                (while (string-matchp "\\(.*?[^?/]\\{5\\}\\)\\([^/]+\\)" pat)
+                  (setq pat (string-replace-match pat "\\1/?\\2")))
+                (setq pat (concat "\\_<" pat)))
+            pat)))
+
+
+;; 起動と同時に出目表を開く
+(progn
+  (find-file (merge-pathnames "100C.txt" *casino-dir*)) ;; 100C表を開く
+  (find-file (merge-pathnames "10C.txt" *casino-dir*)) ;; 10C表を開く
+  (casino-goto "-5-1") ;; 10C表の-5回転へ移動
+  (recenter 0))
+
+;; casino-modeのキーバインド
+(define-key *casino-mode-map* #\a 'casino-list-jackpot)
+(define-key *casino-mode-map* #\s 'isearch-forward-deco)
+(define-key *casino-mode-map* #\r 'isearch-backward-deco)
+;; タイマー開始と停止
+(define-key *casino-mode-map* #\F3 'casino-start-timer-and-list-jackpot)
+(define-key *casino-mode-map* #\F4 'casino-stop-timer)
