@@ -32,4 +32,4 @@
     - [アニメティカのSS(ズーム1)](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-letter-race-ss.md)
       - [1枚絵](https://github.com/pingval/DQ7/raw/master/img/letter-all.jpg)
 - 東方永夜抄
-  - [リプレイ](https://github.com/pingval/Speedrun/raw/master/TH08/th8_ud%40181.rpy)
+  - [保存したリプレイ](https://github.com/pingval/Speedrun/raw/master/TH08/th8_ud%40181.rpy)
