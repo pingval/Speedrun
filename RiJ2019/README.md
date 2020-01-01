@@ -22,14 +22,19 @@
 
 ## おまけ
 
-- ドラゴンクエストVII セーブデータ改竄RTA (一発勝負エディション)
-  - THE ENDルート
-    - [攻略チャート](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-race-chart.txt)
-    - [アニメティカのSS(ズーム1)](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-race-ss.md)
+- ドラゴンクエストVII アニメティカ使用セーブデータ改竄
+  - 録画
+    - [Twitch](https://www.twitch.tv/videos/528371792)
+    - [YouTube](https://www.youtube.com/watch?v=A2bWFKkcRRI)
+  - 攻略チャート(一発勝負エディション)
+    - [THE ENDルート](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-race-chart.txt)
+      - [アニメティカのSS(ズーム1)](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-race-ss.md)
       - [1枚絵](https://github.com/pingval/DQ7/raw/master/img/theend-all.jpg)
-  - ズッ友ルート
-    - [攻略チャート](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-letter-race-chart.txt)
+    - [ズッ友ルート](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-letter-race-chart.txt)
     - [アニメティカのSS(ズーム1)](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-letter-race-ss.md)
       - [1枚絵](https://github.com/pingval/DQ7/raw/master/img/letter-all.jpg)
-- 東方永夜抄
-  - [保存したリプレイ](https://github.com/pingval/Speedrun/raw/master/TH08/th8_ud%40181.rpy)
+- 東方永夜抄 Extra
+  - 録画
+    - [Twitch](https://www.twitch.tv/videos/528371793)
+    - [YouTube](https://www.youtube.com/watch?v=tSS78cUYyGA)
+  - [リプレイ](https://github.com/pingval/Speedrun/raw/master/TH08/th8_ud%40181.rpy)
