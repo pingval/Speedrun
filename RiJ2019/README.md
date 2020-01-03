@@ -22,6 +22,12 @@
 
 ## おまけ
 
+- 東方永夜抄 Extra
+  - [レポート](./th08rta-extra-20191230-rij2019.md)
+  - 録画
+    - [Twitch](https://www.twitch.tv/videos/528371793)
+    - [YouTube](https://www.youtube.com/watch?v=tSS78cUYyGA)
+  - [リプレイ](https://github.com/pingval/Speedrun/raw/master/TH08/th8_ud%40181.rpy)
 - ドラゴンクエストVII アニメティカ使用セーブデータ改竄
   - [レポート](./dq7rta-saveglitch-20191230-rij2019.md)
   - 録画
@@ -38,9 +44,3 @@
     - [ズッ友ルート](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-letter-race-chart.txt)
     - [アニメティカのSS(ズーム1)](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-letter-race-ss.md)
       - [1枚絵](https://github.com/pingval/DQ7/raw/master/img/letter-all.jpg)
-- 東方永夜抄 Extra
-  - [レポート](./th08rta-extra-20191230-rij2019.md)
-  - 録画
-    - [Twitch](https://www.twitch.tv/videos/528371793)
-    - [YouTube](https://www.youtube.com/watch?v=tSS78cUYyGA)
-  - [リプレイ](https://github.com/pingval/Speedrun/raw/master/TH08/th8_ud%40181.rpy)
