@@ -23,9 +23,14 @@
 ## おまけ
 
 - ドラゴンクエストVII アニメティカ使用セーブデータ改竄
+  - [レポート](./dq7rta-saveglitch-20191230-rij2019.md)
   - 録画
     - [Twitch](https://www.twitch.tv/videos/528371792)
     - [YouTube](https://www.youtube.com/watch?v=A2bWFKkcRRI)
+    - [くらっちょ](https://twitter.com/Clutchon)さんによる手元撮影
+      - [自分(練習中)](https://twitter.com/Clutchon/status/1211609880676560896)
+      - [yagamuuさん(練習中)](https://twitter.com/Clutchon/status/1211610166812016640)
+      - [自分(本番)](https://twitter.com/Clutchon/status/1211625000467197959)
   - 攻略チャート(一発勝負エディション)
     - [THE ENDルート](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-race-chart.txt)
       - [アニメティカのSS(ズーム1)](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-race-ss.md)
@@ -34,6 +39,7 @@
     - [アニメティカのSS(ズーム1)](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-letter-race-ss.md)
       - [1枚絵](https://github.com/pingval/DQ7/raw/master/img/letter-all.jpg)
 - 東方永夜抄 Extra
+  - [レポート](./th08rta-extra-20191230-rij2019.md)
   - 録画
     - [Twitch](https://www.twitch.tv/videos/528371793)
     - [YouTube](https://www.youtube.com/watch?v=tSS78cUYyGA)
