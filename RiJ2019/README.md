@@ -41,4 +41,4 @@
       - [1枚絵](https://github.com/pingval/DQ7/raw/master/img/theend-all.jpg)
     - [ズッ友ルート](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-letter-race-chart.txt)
       - [アニメティカのSS(ズーム1)](https://github.com/pingval/DQ7/blob/master/psdq7-saveglitch-letter-race-ss.md)
-        - [1枚絵](https://github.com/pingval/DQ7/raw/master/img/letter-all.jpg)
+       - [1枚絵](https://github.com/pingval/DQ7/raw/master/img/letter-all.jpg)
