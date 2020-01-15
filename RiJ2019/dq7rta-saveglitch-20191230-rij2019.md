@@ -1,6 +1,8 @@
-# [PS版DQ7 セーブデータ改竄RTA in 4:00](https://www.twitch.tv/videos/528371793) @ [RTA in Japan 2019](https://oengus.io/marathon/rtaij2019/schedule)
-
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">東京でもアニメティ花の生息が確認されました！ <a href="https://t.co/xHi6JLUjM0">pic.twitter.com/xHi6JLUjM0</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1211483945679736832?ref_src=twsrc%5Etfw">December 30, 2019</a></blockquote>
+
+----
+
+# [PS版DQ7 セーブデータ改竄RTA in 4:00](https://www.twitch.tv/videos/528371793) @ [RTA in Japan 2019](https://oengus.io/marathon/rtaij2019/schedule)
 
 - 計測区間: 本体の電源投入からTHE ENDの羽ペン消滅まで
 - 使用ソフト:
