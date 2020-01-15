@@ -1,3 +1,7 @@
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">RTA in Japan 2019おつかれさまでした<br>自分の出番がうまくいってほんとよかった……インペリ失敗してたら絶対来年まで引きずってたわ<br>ただ視聴者としてリアルタイムでもっと楽しみたかったな。見せたいゲームがなきゃ自宅視聴安定だ<br>さて掃除と録画を消化する作業か…… <a href="https://twitter.com/hashtag/RTAinJapan?src=hash&amp;ref_src=twsrc%5Etfw">#RTAinJapan</a> <a href="https://t.co/Eey1vfyEmR">pic.twitter.com/Eey1vfyEmR</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1211982569652178945?ref_src=twsrc%5Etfw">December 31, 2019</a></blockquote>
+
+----
+
 # RTA in Japan 2019
 
 - [配信](https://www.twitch.tv/rtainjapan)
