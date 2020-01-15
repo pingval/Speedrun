@@ -1,13 +1,5 @@
 # RTA in Japan 2019
 
-## プレイヤー・解説用
-
-- 解説テキスト
-  - [東方永夜抄](./TH08.md)
-  - [ドラゴンクエストVII](./DQ7.md)
-
-----
-
 - [配信](https://www.twitch.tv/rtainjapan)
 - [RTA in Japan](https://rtain.jp/)
 - [公式Twitter](https://twitter.com/rtainjapan)
@@ -23,13 +15,15 @@
 ## おまけ
 
 - 東方永夜抄 Extra
-  - [レポート](./th08rta-extra-20191230-rij2019.md)
+  - [***解説テキスト***](./TH08.md)
+  - [***レポート***](./th08rta-extra-20191230-rij2019.md)
   - 録画
     - [Twitch](https://www.twitch.tv/videos/528371793)
     - [YouTube](https://www.youtube.com/watch?v=tSS78cUYyGA)
   - [リプレイ](https://github.com/pingval/Speedrun/raw/master/TH08/th8_ud%40181.rpy)
 - ドラゴンクエストVII アニメティカ使用セーブデータ改竄
-  - [レポート](./dq7rta-saveglitch-20191230-rij2019.md)
+  - [***解説テキスト***](./DQ7.md)
+  - [***レポート***](./dq7rta-saveglitch-20191230-rij2019.md)
   - 録画
     - [Twitch](https://www.twitch.tv/videos/528371792)
     - [YouTube](https://www.youtube.com/watch?v=A2bWFKkcRRI)
