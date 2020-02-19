@@ -121,6 +121,7 @@ y\x|222223                                                                      
 
 - [PS2本体のコピー機能](http://www.palantir-k.net/palawiki/index.php?%E3%82%BC%E3%83%8E%E3%82%AE%E3%82%A2%E3%82%B9%2F%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%86%E3%82%A3%E3%82%AB#rd2819e5)に行き着いた[Palantir](https://twitter.com/Palantir_K)氏はやばい。アニメティカ使用のレースやタイマントーナメントなどの一発勝負や各種調査プレイにも役立つに違いないテク。
 - 冒頭にも書いたが[PSドライバ2.00のSCPH-90000では高速読み込みがゼノギアスに適用されない](https://www.youtube.com/watch?v=TvKFy7Wxbrk)。SCPH-50000かなんかを使うのがベストなんだろうけども、めんどいのでそこまではやらない。
+- [なんか英語版ゼノギアスでも全く同じ方法でできるらしいです](https://www.speedrun.com/xenogears/thread/f2w47)。なんてこった！
 
 ----
 
