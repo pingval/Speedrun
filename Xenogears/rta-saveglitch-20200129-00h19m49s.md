@@ -132,3 +132,4 @@ y\x|222223                                                                      
 - [記録集 | うぐらぼ](http://liveug.web.fc2.com/xenogears/speedrun/records.htm)
 - [ゼノギアス/アニメティカ - Palantir's Wiki](http://www.palantir-k.net/palawiki/index.php?%E3%82%BC%E3%83%8E%E3%82%AE%E3%82%A2%E3%82%B9%2F%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%86%E3%82%A3%E3%82%AB)
 - [ゼノギアス　アニメティカ使用データ改竄方法:じぐぞぅのブロマガ - ブロマガ](https://ch.nicovideo.jp/Jiguzoooo/blomaga/ar1849949)
+- [烏氏のMapID調査](https://twitter.com/karasu43croven/status/1213349418201575424)
