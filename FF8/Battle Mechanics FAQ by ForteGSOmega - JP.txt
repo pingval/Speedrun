@@ -1,0 +1,2343 @@
+3DS DS IOS PC PS3 PS4 PSP VITA WII U XBOX 360 XBOX ONE MORE SYSTEMS Log In Sign Up
+GameFAQs
+
+Game Title Search
+ANSWERS
+BOARDS
+CONTRIBUTE
+GAMES
+USERS
+WHAT’S NEW
+PlayStationRole-PlayingJapanese-Style
+Final Fantasy VIII
+Home
+FAQs
+Cheats
+Saves
+Reviews
+Images
+Videos
+Answers
+Board
+Would you recommend this FAQ? Yes No
+Battle Mechanics FAQ by ForteGSOmegaDonate directly to the author of this guide
+Version: 0.7 | Updated: 02/02/10 | Search Guide | Bookmark Guide
+
+===============================================================================
+Final Fantasy 8 Battle Mechanics FAQ v0.7
+===============================================================================
+
+by ForteGSOmega (ph0rt3 [at] yahoo [dot] de)
+
+This may be not be reproduced under any circumstances except for personal, 
+private use. It may not be placed on any web site or otherwise distributed 
+publicly without advance written permission. Use of this guide on any other 
+web site or as a part of any public display is strictly prohibited, and a 
+violation of copyright.
+これは、個人的・私的利用を除いていかなる状況下でも転載は許されない。事前の許可なく、いかなるWEBサイトでの公開やその他の公的な配布も許されない。いかなる他のサイトや一般公開の一部としての使用も厳禁であり、著作権侵害である。
+
+===============================================================================
+                               Introduction
+===============================================================================
+
+This FAQ explains most aspects of the battle system in Final Fantasy VIII.
+All of the info in this document either got through testing or by reverse 
+engineering of the game, so everything should be mostly correct.
+Since this FAQ is not yet complete, some descriptions are incomplete and some
+things are missing for now.
+このFAQはFF8におけるバトルシステムのいろいろをほぼ全て解説している。この文書の全ての情報は、このゲームの調査或いはリバースエンジニアリンクによるものである。だから大部分は正確なはずである。このFAQはいまだ完全ではないから、現在のところは不完全な記述や不足もある。
+
+===============================================================================
+                             Table of Contents
+===============================================================================
+
+1.  Definitions, Terms 定義・用語
+
+2.  Random Number Generator 乱数生成
+
+3.  Battle Timing 戦闘の時間
+ 3.1  ATB
+ 3.2  Dead Time 無駄時間
+ 3.3  Global Counter 広域カウンタ
+
+4.  Damage Types ダメージの種類
+ 4.1  Physical Damage 物理ダメージ
+ 4.2  Magical Damage 魔法ダメージ
+ 4.3  Curative Spells 回復魔法
+
+5.  GF Mechanics GFの機序
+ 5.1  Summoning 召喚
+ 5.2  Junctionable GFs ジャンクション可能なGF
+ 5.3  Non-Junctionable GFs ジャンクション不可なGF
+  5.3.1  Odin オーディン
+  5.3.2  Phoenix フェニックス
+  5.3.3  Gilgameshギルガメッシュ
+  5.3.4  Moomba ムンバ
+  5.3.5  Boko ボコ
+
+6.  Damage Modification ダメージの変化
+
+7.  Other Battle Skills その他の戦闘コマンド
+ 7.1  Command Abilities コマンドアビリティ
+  7.1.1  Draw ドロー
+  7.1.2  Item アイテム
+  7.1.3  Card カード
+  7.1.4  Defend ぼうぎょ
+  7.1.5  Darkside あんこく
+  7.1.6  Absorb きゅうしゅう
+  7.1.7  Kamikaze じばく
+  7.1.8  Devour たべる
+ 7.2  Character Abilities キャラクターアビリティ
+  7.2.1  Mug ぶんどる
+  7.2.2  Counter カウンター
+  7.2.3  Cover かばう
+  7.2.4  Auto-Potion オートポーション
+
+8.  Statuses ステータス異常
+ 8.1  Status Infliction ステータス異常の影響
+ 8.2  Negative Statuses
+ 8.3  Positive Statuses
+
+9.  Limit Break Mechanics 特殊技の機序
+ 9.1  Crisis Level CL
+ 9.2  Squall
+ 9.3  Zell
+ 9.4  Irvine
+ 9.5  Quistis
+ 9.6  Rinoa
+  9.6.1  Angelo Limit Break アンジェロの特殊技
+  9.6.2  Other Angelo Skills 他のアンジェロの技
+  9.6.3  Angelo Search アンジェロサーチ
+ 9.7  Selphie
+ 9.8  Seifer, Edea, Laguna, Kiros, Ward
+
+10.  Encounter Mechanics エンカウントの機序
+ 10.1  Encounters (World Map) エンカウント(ワールドマップ)
+ 10.2  Back attack, Struck first バックアタック, せんせいこうげき
+ 10.3  Running Away 逃走
+ 10.4  After the battle 戦闘後
+
+===============================================================================
+1.  Definitions, Terms
+===============================================================================
+
+Rounding:
+Generally, you should round down after every division, and in some cases 
+multiplication. However, even if you don't round down in damage calculations,
+the difference will be 5 to 10 damage points at most.
+丸め処理：
+基本的に、除算のたびに切り捨てる。乗算のたびに切り捨てることもある。しかし、例えダメージ計算で切り捨てを行わないとしても、誤差は最大でも5~10ダメージだろう。
+
+Tick:
+Used in anything related to battle timing. A tick is a 1/60th second.
+時間単位：
+戦闘タイミングに関することなら何にでも使用される。1時間単位は1/60秒である。
+
+[x..y]:
+Means "a random value from x to y". E.g. [0..4] would mean that the values
+0, 1, 2, 3 or 4 could be used. 
+[x..y]：
+「xからyまでの乱数」を意味する。例えば[0..4]は0,1,2,3,4の値が使用されることを意味する。
+
+Power:
+For both Physical and Magical Damage formulas, there's a variable called 
+Power; each spell and Limit Break attack has its own value and a higher
+value means more damage.
+基礎攻撃力：
+物理と魔法ダメージの公式両方において、基礎攻撃力と呼ばれる値が出てくる；それぞれの魔法と特殊技攻撃には固有の値があり、高ければダメージがより大きくなる。
+
+x MOD y:
+Divide x by y but instead of using the division result, you use the remainder.
+E.g. "2 MOD 5" would result in 2 and "7 MOD 3" would result in 1.
+x MOD y：
+xをyで除算するが商の代わりに剰余を使用する。例えば「2 MOD 5」の結果は2で「7 MOD 3」の結果は1。
+
+===============================================================================
+2. Random Number Generator
+===============================================================================
+
+A Random Number Generator, or RNG for short, is used to get random numbers
+which are used in probability calculations.
+In this game, there's a static list of 256 numbers, ranging from 0 to 255 
+(no two values are the same) in a certain order. 
+乱数生成器(または短縮してRNG)は、確率計算に使用される乱数を得るのに用いられる。
+このゲームでは、256個の数字の静的リストがあり、それは0~255の範囲(ふたつとして同じ値はない)で一定の並び順にある。
+
+To determine which number from that list is used, an "index" is employed.
+The index simply keeps track of what random number to use next, e.g. if the
+index has the value 0, the very first number from the RNG list will be used
+and if the index has the value 255, the very last number from the list will
+be read. Each time a random number is used, the index value increases by one,
+pointing to the next integer in the RNG list.
+The index is reset to 0 after the 255. number is used.
+そのリストからどの数字が使用されるかを決定するには、「インデックス」が用いられる。インデックスは次に使用される乱数を追い続ける。例えば、もしインデックス値が0なら、RNGリストから最初の値が使われ、インデックス値が255ならリストの最後の値が読み込まれる。乱数が使用されるたびにインデックス値が1増加し、RNGリストの次の整数を示す。
+インデックスは255の後は0にリセットされる。数字が使用される。
+
+Unfortunately, this means that the RNG is not a "true" one and is pretty
+unreliable.
+残念ながら、つまりRNGは「真の」RNGではなく、とてもあてにならないものであることを意味する。
+
+You can't call it random if you know that after a "99", there's always a "6", 
+now can you?
+「99」の次は常に「6」が来ることがわかっていたら、ランダムとは呼べない。そうじゃない？
+
+===============================================================================
+3.  Battle Timing
+===============================================================================
+
+Almost everything related to battle timing depends on the Battle Speed.
+Battle Speed is a setting in the Config menu and there are five values:
+5 (slowest), 4, 3 (standard), 2 and 1 (fastest)
+ほぼ全て、バトルスピードに依存した戦闘タイミングに関係している。バトルスピードはコンフィグメニューの設定で、値は5個ある。：
+5(最遅)・4・3(通常)・2・1(最速)
+
+This setting will be referred to as BattleSpeed from now on.
+この設定は、今後「バトルスピード」として参照される。
+
+------------
+3.1  ATB Bar
+------------
+
+Although nothing changes visually, the size of the ATB bar changes depending
+on BattleSpeed
+見た目には違いがなくても、ATBバーのサイズはバトルスピードに依存して変化する。
+
+  BarSize = BattleSpeed * 4000
+  バーの長さ = バトルスピード * 4000
+
+Every tick, the bar is increased by the BarIncrement
+毎フレーム、バーはバー増分だけ増加する。
+
+  BarIncrement = (Spd + 30) * SpeedMod / 2
+  バー増分 = (早さ + 30) * 早さ変化 / 2
+
+SpeedMod:
+  1 Character has Slow status
+  2 Character has neither Slow nor Haste status
+  3 Character has Haste status
+早さ変化：
+  1：キャラがスロウ状態
+  2：キャラがスロウ状態でもヘイスト状態でもない
+  3：キャラがヘイスト状態
+
+In other words, it takes
+言い換えれば、ATBバーを満たすのに
+
+  200 * BattleSpeed / (3 * (Spd + 30))
+  200 * バトルスピード / (3 * (早さ + 30))
+
+seconds to fill the ATB bar.
+秒掛かる。
+
+At the start of battle, each enemy's and party member's starting ATB bar is
+determined by
+戦闘開始時、敵とパーティそれぞれの開始ATBバーは以下で決定される。
+
+  StartingBar = Spd / 4 + [0..127] - 34
+  StartingBar = StartingBar * BattleSpeed * 40
+  開始時バー = 早さ / 4 + [0..127] - 34
+  開始時バー = 開始時バー * バトルスピード * 40
+
+  Note: StartingBar cannot be greater than BarSize or lesser than 0
+  ※開始時バーはバーの長さより大きく/0より小さくならない。
+
+With 255 Spd, that would mean the character starts with 29% - 100% of the bar
+filled.
+早さ255では、キャラはバーが29~100%満たされた状態で開始する。
+
+Note: For whatever reason, enemies' StartingBar is calculated before their
+      Spd stat is loaded, that means that it's always assumed that they have
+      0 Spd for this calculation.
+      Also, StartingBar changes if you get a Struck first/Back attack
+      See section 10. for more info.
+※いかなる理由でも、敵の開始時バーはその早さがロードされる前に計算される。即ちこの計算においては常に早さ0と見做される。
+　また、開始時バーはせんせいこうげき/バックアタックをとると変化する。詳細情報は10節を参照。
+
+--------------
+3.2  Dead Time
+--------------
+
+The "Dead Time" timer is a variable with the initial value of 200 
+that counts down every 4th tick.
+「無駄時間」のタイマーは初期値200の変数。4fごとにカウントダウンされる。
+
+This timer only counts down if there is nothing happening, so it will only
+decrease when no one attacks, just like the ATB bar could only fill when 
+nothing else is happening.
+このタイマーは、何も起きないときだけカウントダウンされる。だからこれは誰も攻撃しないときだけ減少する。ちょうどATBバーの進行だけして他に何も起きないときのような。
+
+After the timer reaches 0(after 13.3~ seconds), the following things will 
+be checked in that order:
+Will Gilgamesh appear?
+Will Angelo Recover be used?
+Will Angelo Reverse be used?
+Will Angelo Search be used?
+タイマーが0に達した後(13.3s以上後)、以下のことがこの順番でチェックされる。
+ギルガメッシュは登場するか？
+アンジェロリカバーは使われるか？
+アンジェロリバースは使われるか？
+アンジェロサーチは使われるか？
+
+If you don't have one of these things, its check will be skipped. For more
+information on the individual skills, see the GF and Rinoa's Limit Break 
+sections.
+これらのうちどれも持っていなければ、このチェックは飛ばされる。それぞれのコマンドの詳細情報は、GFとリノアの特殊技の節を参照。
+
+-------------------
+3.3  Global Counter
+-------------------
+
+Unlike the Dead Time timer, the Global Counter increases every tick by one, 
+even if you have ATB set to Wait and are in a sub-menu.
+無駄時間とは異なり、広域カウンタは毎fに1ずつ増加する。例えATB設定がウェイトで窓を開いていたとしても。
+
+This counter is only used for Angelo Search, see section 9.6.3 for more 
+details.
+このカウンタはアンジェロサーチにだけ用いられる。詳細は9.6.3節を参照。
+
+===============================================================================
+4.  Damage Types
+===============================================================================
+
+--------------------
+4.1  Physical Damage
+--------------------
+
+Step 1: Hit Determination
+段階1：命中決定
+
+  Hit% = (AttackerLuck / 2 + AttackerHit - TargetEva - TargetLuck)
+  命中% = (a.運 / 2 + a.命中 - b.回避 - b.運)
+
+  Note: If AttackerHit equals 255, this step is skipped and the Attacker will 
+        always hit the target.
+  ※a.命中が255の場合、この段階はステップされaは常にbに命中する。
+
+Step 2: Critical Determination
+段階2：クリティカル決定
+
+  Critical% = (AttackerLuck + 1) / 256 * 100
+  クリティカル% = (a.運 + 1) / 256 * 100
+
+  Note: Skip this step if the attacker is Squall or Seifer
+  Instead of a chance to get a critical hit, they have their Trigger ability
+  ※aがスコールかサイファーの場合この段階は飛ばされる。
+    クリティカル判定の代わりに、自身のトリガー能力がある。
+
+Step 3: Base Damage Calculation
+段階3：基本ダメージ計算
+
+  Damage = AttackerStr^2 / 16 + AttackerStr
+  Damage = Damage * (265 - TargetVit) / 256
+  Damage = Damage * Power / 16
+  ダメージ = a.力^2 / 16 + a.力
+  ダメージ = ダメージ * (265 - b.体力) / 256
+  ダメージ = ダメージ * 基礎攻撃力 / 16
+
+  Note: A normal attack has a Power value of 20
+  ※通常攻撃の基礎攻撃力は20。
+
+-------------------
+4.2  Magical Damage
+-------------------
+
+Base Damage Calculation
+基本ダメージ計算
+
+  Damage = AttackerMag + Power
+  Damage = Damage * (265 - TargetSpr) / 4
+  Damage = Damage * Power / 256
+  ダメージ = a.魔力 + 基礎攻撃力
+  ダメージ = ダメージ * (265 - b.精神) / 4
+  ダメージ = ダメージ * 基礎攻撃力 / 256
+
+Power values of spells:
+魔法の基礎攻撃力：
+
+  18  Fire, Blizzard, Thunder
+  20  Meteor
+  22  Aero
+  24  Fira, Blizzara, Thundara
+  26  Water, Drain
+  30  Bio
+  32  Meltdown
+  35  Firaga, Blizzaga, Thundaga
+  38  Tornado
+  40  Quake
+  48  Holy, Flare
+  80  Ultima
+  120 Apocalypse
+
+  15  Percent
+  180 Catastrophe
+
+  0   Status-inflicting spells
+
+If the spell is Demi:
+  Damage = TargetHP / 4
+スペルがグラビデの場合：
+  ダメージ = b.HP / 4
+
+--------------------
+4.3  Curative Spells
+--------------------
+
+Healing Calculation:
+回復計算：
+
+  HealingAmount = (Power + HealerMag) * Power / 2
+  回復量 = (基礎攻撃力 + a.魔力) * 基礎攻撃力 / 2
+
+Power values of curative spells:
+回復魔法の基礎攻撃力：
+
+  18  Cure
+  36  Cura
+  60  Curaga
+
+  Note: Curative spells are only affected by the Random Damage Modifier and
+        Shell
+  ※回復魔法はランダムダメージ変化とシェルによってのみ影響される。
+
+===============================================================================
+5.  GF Mechanics
+===============================================================================
+
+Both junctionable and non-junctionable GFs use this GF damage formula:
+ジャンクション可と不可のGF両方がこのGFダメージ計算式を使用する：
+
+  Damage = LevelMod * Level / 10 + Power + PowerMod
+  Damage = Damage * (265 - TargetSpr) / 8
+  Damage = Damage * Power / 256
+  Damage = Damage * Boost / 100
+  Damage = Damage * (100 + SummonMagBonus) / 100
+  ダメージ = レベル変化 * レベル / 10 + 基礎攻撃力 + 基礎攻撃力変化
+  ダメージ = ダメージ * (265 - b.精神) / 8
+  ダメージ = ダメージ * 基礎攻撃力 / 256
+  ダメージ = ダメージ * おうえん / 100
+  ダメージ = ダメージ * (100 + 召喚魔法ボーナス) / 100
+
+  Notes:
+  Boost equals 100 if you don't have the "Boost" ability or you didn't try 
+  to boost the summon.
+  SummonMagBonus are the SumnMag+x% abilities, stacked additively 
+  (all four means SummonMagBonus = 100).
+  ※ 「おうえん」は、「おうえん」アビリティがない或いは召喚で「おうえん」してない場合100。
+    召喚魔法ボーナスは「召喚魔法+x%」アビリティの累積(4種全てだと召喚魔法ボーナス=100)。
+
+LevelMod, Power and PowerMod are static values different for every GF.
+レベル変化、基礎攻撃力、基礎攻撃力変化はGFごとに違う固定値。
+
+  GF           | Attack Name    | Power | PowerMod | LevelMod | Element
+  -------------|----------------|-------|----------|----------|--------
+  Quezacotl    | Thunder Storm  |    44 |        0 |       60 | Thunder
+  Shiva        | Diamond Dust   |    43 |        0 |       62 | Ice
+  Ifrit        | Hell Fire      |    45 |        2 |       61 | Fire
+  Siren        | Silent Voice   |    35 |        0 |       55 | -
+  Brothers     | Brotherly Love |    46 |        4 |       60 | Earth
+  Leviathan    | Tsunami        |    47 |       10 |       63 | Water
+  Pandemona    | Tornado Zone   |    46 |       14 |       65 | Wind
+  Alexander    | Holy Judgment  |    48 |       20 |       63 | Holy
+  Doomtrain    | Runaway Train  |    45 |       10 |       58 | Poison
+  Bahamut      | Mega Flare     |    55 |       30 |       70 | -
+  Tonberry     | Chef's Knife   |    60 |        4 |       45 | -
+  Eden         | Eternal Breath |    70 |      250 |      100 | -
+  -------------|----------------|-------|----------|----------|--------
+  Phoenix      | Rebirth Flame  |    30 |       50 |      254 | Fire
+  -------------|----------------|-------|----------|----------|--------
+  Gilgamesh    | Excaliber      |    50 |      100 |      100 | -
+  Gilgamesh    | Masamune       |   100 |      100 |      100 | -
+  -------------|----------------|-------|----------|----------|--------
+  Boko         | ChocoFire      |    40 |      100 |      100 | Fire
+  Boko         | ChocoFlare     |    60 |      100 |      100 | -
+  Boko         | ChocoMeteor    |    80 |      100 |      100 | -
+  Boko         | ChocoBocle     |   100 |      100 |      100 | -
+
+  Note: Eternal Breath's and ChocoBocle's damage cap is 60,000
+        Eternal Breath and Mega Flare also ignore enemy Spr
+  ※エターナルブレスとチョコボックルのダメージ限界は60000。
+    エターナルブレスとメガフレアは敵の精神を無視する。
+
+==============
+5.1  Summoning
+==============
+
+The relevant variable for the summoning duration is Compability.
+However, the value you see in the GF menu is a converted value, to get the 
+real value (where ShownCompability is what you see in the menu):
+召喚の待ち時間に関係する変数は相性である。しかし、GFメニューで確認できる値は変換された値で、実際の値を得るには(見かけ上の相性はメニュー上の値)：
+
+  Compability = 6000 - 5 * ShownCompability
+  相性 = 6000 - 5 * 見かけ上の相性
+
+How long it takes to summon the GF is calculated with
+GF召喚に掛かる時間は以下で計算される
+  
+  Duration = Compability * BattleSpeed * 0.9143 / 32
+  待ち時間 = 相性 * バトルスピード * 0.9143 / 32
+
+Duration is decreased by SpeedMod every tick and when it reaches 0, 
+the GF is summoned.
+待ち時間は毎fに早さ変化分減少し、0に達したらGFが召喚される。
+
+=====================
+5.2  Junctionable GFs
+=====================
+
+The GFs which don't follow the normal GF damage formula are covered here.
+Also, the damage calculated here is not further modified.
+通常のGFのダメージ計算式はここでは対象としていない。
+また、ここで計算されたダメージの更なる変化はない。
+
+--------------
+5.2.1  Diablos
+--------------
+
+Damage = TargetMaxHP * Level / 100
+ダメージ = b.MHP * レベル / 100
+
+Note: The damage cap of 9999 still applies.
+※ダメージ限界9999はやはり適用される。
+
+--------------
+5.2.2  Cactuar
+--------------
+
+Damage = Level * 100
+ダメージ = レベル * 100
+
+Note: Ignores damage cap.
+※ダメージ限界を無視。
+
+--------------------------
+5.2.3  Carbuncle, Cerberus
+--------------------------
+
+Carbuncle inflicts Reflect on the party.
+Cerberus inflicts Double and Triple on the party.
+カーバンクルはパーティをリフレク状態にする。
+ケルベロスはパーティをダブル・トリプル状態にする。
+
+=========================
+5.3  Non-Junctionable GFs
+=========================
+
+The level of all non-junctionable GFs (except for Boko) is the average level 
+of all junctionable GFs in your possession.
+全てのジャンクション不可のGFのレベル(ボコを除く)は、所有している全てのGFの平均レベルである。
+
+-----------
+5.3.1  Odin
+-----------
+
+At the start of non-boss battle, there is a 33/256 or 12.9% chance that Odin
+will appear and use Zantetsuken to kill every enemy not immune to it.
+非ボス戦の開始時、33/256または12.9%の確率でオーディンが登場し、無効なものを除いて斬鉄剣で全ての敵を殺す。
+
+--------------
+5.3.2  Phoenix
+--------------
+
+Phoenix appears if you use the Phoenix Pinion item and the damage he does is
+calculated via the normal GF damage formula. Additionally, he revives every
+KO'd party member with 12.5% of their Max HP
+フェニックスの羽(アイテム)を使用するとフェニックスが登場し、通常のGFダメージ計算式によってよるダメージを与える。また、全ての戦闘不能パーティを最大HPの12.5%で蘇生する。
+
+If you have already summoned Phoenix at least once and if the whole party is 
+KO'd, there is a 65/256 or 25.4% chance that Phoenix is summoned.
+少なくとも1回フェニックスを召喚したことがあれば、パーティが全て戦闘不能になった場合に65/256または25.4%の確率でフェニックスが召喚される。
+
+----------------
+5.3.3  Gilgamesh
+----------------
+
+At the start of battle, there is a 9/256 or 3.5% chance that Gilgamesh will
+appear.
+戦闘開始時、9/256または3.5%の確率でギルガメッシュが登場する。
+
+After Dead Time timer is 0 (see Battle Timing section):
+  If (12 >= [0..255]) Gilgamesh will appear (13/256 or 5.1%)
+  else perform Angelo checks (see Rinoa's Limit Break section)
+無駄時間タイマーが0になった後(戦闘タイミングの節を参照)：
+  if (12 >= [0..255])
+    ギルガメッシュが登場(13/256または5.1%の確率)
+  else
+    アンジェロのチェック(リノアの特殊技の節を参照)
+
+If Gilgamesh will appear, either at the start of through the Dead Time check:
+ギルガメッシュが登場したら、開始時でも無駄時間チェック経由でも、
+
+Gilgamesh will use..
+  Excaliber   with a probability of 65/256 or 25.4%
+  Excalipoor  with a probability of 64/256 or 25%
+  Masamune    with a probability of 64/256 or 25%
+  Zantetsuken with a probability of 63/256 or 24.6%
+ギルガメッシュはこれを使う
+  エクスカリバー(65/256または25.4%の確率)
+  エクスカリパー(64/256または25%の確率)
+  正宗(64/256または25%の確率)
+  斬鉄剣(63/256または24.6%の確率)
+
+Excaliber and Masamune use the normal GF damage formula to inflict damage.
+Excalipoor ignores Spr of the target and does 1 damage.
+Zantetsuken kills every enemy not immune to it.
+エクスカリバーと正宗は与ダメに通常のGFダメージ計算式を用いる。
+エクスカリパーはbの精神を無視し1ダメージを与える。
+斬鉄剣は無効以外の敵全てを殺す。
+
+Note: Gilgamesh can only be summoned once per battle.
+※ギルガメッシュは戦闘につき1回だけ召喚される。
+
+-------------
+5.3.4  Moomba
+-------------
+
+Moomba can only be summoned with the item Friendship got through the 
+Pocket Station-exclusive mini game Chocobo World
+ムンバはポケステ特有のミニゲームのおでかけチョコボRPGを通して手に入るアイテム「ゆうじょうのあかし」でのみ召喚できる。
+
+  Damage = TargetHP - 1
+  ダメージ = b.HP - 1
+
+Note: The damage cap of 9999 still applies.
+※ダメージ限界9999はやはり適用される。
+
+----------
+5.3.5 Boko
+----------
+
+Boko can only be summoned with the item Gysahl Greens got through the 
+Pocket Station-exclusive mini game Chocobo World.
+ボコはポケステ固有のミニゲームのおでかけチョコボRPGを通して手に入るアイテム「ギザールの野菜」でのみ召喚できる。
+
+All of his attacks use the GF damage formula and to get better attacks, you
+have to collect power ups in the Chocobo World.
+Unlike other non-junctionable GFs, the level he uses for damage calculation
+is his level in the Chocobo World.
+攻撃は全てGFダメージ計算式が用いられる。より強い攻撃を手に入れるには、おでかけチョコボRPGのパワーアップを収集する必要がある。
+他のジャンクション不可GFとは異なり、ダメージ計算に用いられるレベルはおでかけチョコボRPG内のボコのレベルである。
+
+===============================================================================
+6.  Damage Modification
+===============================================================================
+
+The damage calculated with the base formulas is further adjusted through 
+various other things, except when stated otherwise.
+The order of modifications is in the order presented, the terms in parentheses
+are what type of damage that step refers to.
+基本の計算式で求められたダメージは、その他の状態異常のときを除き、更に様々な他のことによって調整される。
+
+---------------------------------
+6.1  Random Damage Modifier (all)
+---------------------------------
+
+  Damage = Damage * ([0..32] + 240) / 256 
+  ダメージ = ダメージ * ([0..32] + 240) / 256
+
+---------------------------------
+6.2  Damage Multiplier (Physical)
+---------------------------------
+  
+  Damage = Damage * 1.5    //Squall's and Seifer's Trigger 
+  Damage = Damage * 2      //Critical hit
+  Damage = Damage * 1.5    //Berserk 
+  Damage = Damage * 2      //Target is attacked from behind
+  ダメージ = ダメージ * 1.5 ;; スコールとサイファーのトリガー
+  ダメージ = ダメージ * 2 ;; クリティカルヒット
+  ダメージ = ダメージ * 1.5 ;; バーサク
+  ダメージ = ダメージ * 2 ;; bの背後からの攻撃
+
+  Damage = Damage / 2      //Target has Protect status effect
+  Damage = Damage / 2      //Target is Undead or has Zombie status effect
+  Damage = 0               //Target has Invincibility or Defend status
+  ダメージ = ダメージ / 2 ;; bがプロテス状態
+  ダメージ = ダメージ / 2 ;; bがアンデッドまたはゾンビ状態
+  ダメージ = 0 ;; bが無敵または防御状態
+
+------------------------------------
+6.3  Elemental Properties (Physical)
+------------------------------------
+
+  Note: Skip this if ElemAttack is 0%
+  ※属攻が0%なら飛ばされる
+
+  DamageBonus = Damage * ElemAtt * (800 - ElemDef) / 10000
+  Damage = Damage + DamageBonus
+  ダメージボーナス = ダメージ * a.属攻 * (800 - b.属防) / 10000
+  ダメージ = ダメージ + ダメージボーナス
+  
+  Notes:
+  ElemAtt can be between 0(0%) and 100(100%).
+  ElemDef starts at 800 (0%), 900 is 100% defense and 1000 is 100% absorption.
+  If an enemy is shown to be weak against an element, his ElemDef is below 800.
+  A value higher than 800 means the enemy resists/absorbs the element.
+  If Damage becomes negative (due to high ElemDef), the target will be healed
+  by that amount.
+  ※
+  属攻は0(0%)と100(100%)の間。
+  属防は800(0%)から始まり、900が100%防御で1000が100%吸収。
+  もしある敵がある属性に対して弱いと表示されていたら、その敵の属防は800未満。
+  800を超える値はその敵がその属性に耐性がある/吸収することを意味する。
+  もし(高い属防によって)ダメージが負の値になったら、bはその分回復される。
+
+--------------------------------
+6.4  Damage Multiplier (Magical)
+--------------------------------
+  
+  Damage = Damage * 5      //Rinoa's Angel Wing Limit
+  ダメージ = ダメージ * 5 ;; リノアのヴァリー
+
+  Damage = Damage / 2      //if target has Shell status
+  Damage = Damage / 2      //if target has Defend status
+  Damage = 0               //if target has Invincibility status
+  ダメージ = ダメージ / 2 ;; bがシェル状態
+  ダメージ = ダメージ / 2 ;; bが防御状態
+  ダメージ = 0 ;; bが無敵状態
+
+---------------------------------------
+6.5  Elemental Properties (Magical, GF)
+---------------------------------------
+
+  Note: Skip this if the spell or GF is non-elemental
+  ※もし魔法/GFが無属性ならこれは飛ばされる
+
+  Damage = Damage * (900 - ElemDef) / 100
+  ダメージ = ダメージ * (900 - 属防) / 100
+
+  Notes:
+  ElemDef starts at 800 (0%), 900 is 100% defense and 1000 is 100% absorption.
+  If an enemy is shown to be weak against an element, his ElemDef is below 800.
+  A value higher than 800 means the enemy resists/absorbs the element.
+  If Damage becomes negative (due to high ElemDef), the target will be healed
+  by that amount.
+  ※
+  属防は800(0%)から始まり、900が100%防御で1000が100%吸収。
+  もしある敵がある属性に対して弱いと表示されていたら、その敵の属防は800未満。
+  800を超える値はその敵がその属性に耐性がある/吸収することを意味する。
+  もし(高い属防によって)ダメージが負の値になったら、bはその分回復される。
+
+===============================================================================
+7.  Other Battle Skills
+===============================================================================
+
+======================
+7.1  Command Abilities
+======================
+
+Command Abilities make up your command menu in battle, apart from GF and 
+Magic, there are several other skills and the ones with special mechanics
+will be covered here.
+GFと魔法は別として、コマンドアビリティは戦闘のコマンドメニューを構成する。他のいくつかのコマンドがあり、特殊な仕組みのコマンドはこれに変換される。
+
+-----------
+7.1.1  Draw
+-----------
+
+  DrawAmount = (DrawerLevel - TargetLevel) / 2 + 4
+  DrawAmount = (DrawAmount + DrawerMag - DrawResist + [1..32]) / 5
+  ドロー量 = (a.レベル - b.レベル) / 2 + 4
+  ドロー量 = (ドロー量 + a.魔力 - ドロー耐性 + [1..32]) / 5
+
+DrawResist values:
+ドロー耐性値：
+
+  0   Cure, Fire, Blizzard, Thunder
+  1   Scan
+  2   Sleep, Silence
+  11  Float
+  12  Blind
+  13  Berserk
+  15  Cura, Zombie
+  16  Fira, Blizzara, Thundara, Double, Esuna
+  17  Protect, Shell, Aero
+  18  Haste, Slow, Drain, Water
+  20  Life, Dispel
+  22  Bio
+  26  Confuse
+  28  Stop
+  39  Break
+  33  Firaga, Blizzaga, Thundaga
+  34  Curaga, Death
+  35  Reflect, Meltdown
+  36  Triple, Regen, Demi
+  38  Full-life, Quake
+  39  Tornado
+  40  Aura, Pain, Holy, Flare
+  42  Meteor
+  44  Ultima
+  46  Apocalypse
+
+Draw(Stock):
+
+  DrawAmount is how much you will draw of that spell.
+  If DrawAmount < 1, Draw command fails
+  If DrawAmount > 9, DrawAmount = 9
+  ドロー量はその魔法のドローの数。
+  ドロー失敗 if ドロー量 < 1
+  ドロー量 = 9 if ドロー量 > 9
+
+Draw(Cast):
+
+  Step 1: 
+    If (DrawAmount < 1) cast fails
+    else:
+  段階1：
+    if ドロー量 < 1
+      魔法失敗
+    else
+
+  Step 2: 
+    Use section 4.2 to calculate the damage
+  段階2：
+    ダメージ計算に4.2節を用いる
+
+  Step 3: 
+    Damage = Damage * ([0..255] + 10) / 150
+  段階3：
+    ダメージ = ダメージ * ([0..255] + 10) / 150
+
+-----------
+7.1.2  Item
+-----------
+
+Flare Stone, Holy Stone, Meteor Stone, Ultima Stone, Protect Stone, 
+Shell Stone, Aura Stone and Death Stone work as if the user is casting 
+the respective spell.
+Hero-trial and Holy War-trial work, despite their descriptions, 100% of the
+time.
+フレアストーン・ホーリーストーン・メテオストーン・アルテマストーン・プロテスストーン・シェルストーン・オーラストーン・デスストーンは、使用者がそれぞれの魔法を唱えた時のように振る舞う。
+英雄の薬と聖戦の薬は、その説明に関わらず、100%の確率で成功する。
+
+-----------
+7.1.3  Card
+-----------
+
+The actual formula is a bit complicated:
+(Note: you must round down after the first step)
+実際の計算式はちょっと難解：
+(※1段階目の後、切り捨てを行う)
+
+  Card% = (256 * TargetMaxHP - 255 * TargetHP) / TargetMaxHP
+  Card% = (Card% + 1) / 256 * 100
+  カード% = (256 * b.MHP - 255 * b.HP) / b.MHP
+  カード% = (カード% + 1) / 256 * 100
+
+or simplified:
+または単純化すれば：
+
+  Card% = 100 * (TargetMaxHP - TargetHP) / TargetMaxHP
+  カード% = 100 * (b.MHP - B.HP) / B.MHP
+
+Just keep in mind that an enemy with full HP still has a chance of 1/128 to
+be carded.
+HP満タンの敵でもカード変化する確率は1/128ある事実は気に留めておくこと。
+
+If the Card command succeeds, there is a 17/256 or 6.6% chance that you'll
+receive the rare card instead.
+カードコマンドが成功したら、代わりにレアカードが手に入る確率が17/256または6.6%ある。
+
+-------------
+7.1.4  Defend
+-------------
+
+The user is inflicted with the Defend status, see section 8.3 for more info.
+キャラが防御状態のときの詳細情報は8.3節を参照。
+
+---------------
+7.1.5  Darkside
+---------------
+
+This command is treated as if the character was using the "Attack" command, 
+only that the damage will be multiplied by three and the user will take damage
+equal to 1/10th of his MaxHP.
+このコマンドは「こうげき」を用いたかのように処理される。ダメージが3倍になり、aがMHPの1/10のダメージを受けるだけ。
+
+-------------
+7.1.6  Absorb
+-------------
+
+This command works almost the same as the spell Drain.
+While Drain has a Power of 26, Absorb's Power is 14.
+However, Absorb is not affected by Shell.
+このコマンドは魔法「ドレイン」とほぼ同じように振る舞う。ドレインの基礎攻撃力は26だがきゅうしゅうは14だ。しかしきゅうしゅうはシェルの影響を受けない。
+
+---------------
+7.1.7  Kamikaze
+---------------
+
+Kamikaze is an auto-hit physical attack that removes the user from battle.
+The game treats the character as dead, so any GF junctioned will still 
+receive AP and EXP.
+じばくは使用者を戦闘から除外させる必中物理攻撃である。
+そのキャラは戦闘不能として扱われるため、ジャンクションされたGFはAPとEXPを受け取れる。
+
+  Damage = MaxHP * 6
+  ダメージ = a.MHP * 6
+
+  Note: The damage cap is set to 60,000 and this attack can critical. 
+  ※ダメージ限界は60000に設定され、更にクリティカルが発生しうる。
+
+-------------
+7.1.8  Devour
+-------------
+
+  If TargetHP > AttackerHP, Devour fails
+    Devour% = 100 * (AttackerHP - TargetHP) / AttackerHP
+  たべる失敗 if b.HP > a.HP
+  たべる% = 100 * (a.HP - b.HP) / a.HP
+
+If the Devour failed, the target receives 8 damage.
+たべるが失敗したら、bは8ダメージ受ける。
+
+========================
+7.2  Character Abilities
+========================
+
+Character abilities are passive abilities, which are always activated.
+Like with the Command abilities, only some will be covered.
+キャラアビリティは受け身のアビリティで、常時発動型である。
+
+----------
+7.2.1  Mug
+----------
+
+Mug is a normal physical attack that has the added effect of stealing items.
+ぶんどるはアイテム盗みの追加効果のある通常物理攻撃である。
+
+  Mug% = (MugDifficulty + (MuggerSpd / 2) + 1) / 256 * 100
+  ぶんどる% = (ぶんどる難易度 + (a.早さ / 2) + 1) / 256 * 100
+
+MugDifficulty is different for every enemy, but will be 128 or higher most
+of the time (giving you a base Mug% of 50% or higher, which is further
+increased by your Spd) 
+If you successfully mug an enemy, the game decides which item slot's item 
+you get:
+ぶんどる難易度は敵ごとに異なるが、たいていの場合は128以上である(ぶんどる%は50%以上で、更にa.早さで上昇する)。
+ある敵からぶんどるが成功した場合、アイテムスロットのうちから入手アイテムが決定される。
+
+  rnd = [0..255]
+  if (rnd < 178) Slot = 0
+    else if (rnd < 229) Slot = 1
+      else if (rnd < 244) Slot = 2
+        else Slot = 3
+  rnd = [0..255]
+  if rnd < 178
+    スロット = 0
+  elsif rnd < 229
+    スロット = 1
+  elsif rnd < 244
+    スロット = 2
+  else
+    スロット = 3
+  end
+
+  Probability of..
+    Slot 0           178/256    69.5%
+    Slot 1            51/256    20%
+    Slot 2            15/256     5.8%
+    Slot 3            12/256     4.7%
+  確率は、
+    スロット0 : 178/256(69.5%)
+    スロット1 : 51/256(20%)
+    スロット2 : 15/256(5.8%)
+    スロット3 : 12/256(4.7%)
+
+Higher slots usually contain better/rarer items.
+If you have the Rare Item party ability, the probabilities are modified:
+大きいスロットには、よりよい/よりレアなアイテムが設定されている。
+もしパーティアビリティ「レアアイテム」があれば、確率はこう変化する：
+
+  rnd = [0..255]
+  if (rnd < 128) Slot = 0
+    else if (rnd < 242) Slot = 1
+      else if (rnd < 261) Slot = 2
+        else Slot = 3
+  rnd = [0..255]
+  if rnd < 128
+    スロット = 0
+  elsif rnd < 242
+    スロット = 1
+  elsif rnd < 261
+    スロット = 2
+  else
+    スロット = 3
+  end
+
+  Probability of..
+    Slot 0           128/256    50%
+    Slot 1           114/256    44.5%
+    Slot 2            14/256     5.5%
+    Slot 3             0/256     0%
+  確率は、
+    スロット0 : 128/256(50%)
+    スロット1 : 114/256(44.5%)
+    スロット2 : 14/256(5.5%)
+    スロット3 : 0/256(0%)
+
+Since you can never get values higher than 255 from the RNG, it's impossible
+to get Slot = 3 with Rare Item.
+乱数は255以上の値をとらないため、「レアアイテム」ありだとスロット3を入手できない。
+
+Note: You can only steal once from an enemy and if you do so successfully, 
+      the enemy will not drop any items.
+※敵1匹からは一度しか盗むことができない。更に、成功したらその敵はアイテムをドロップしない。
+
+--------------
+7.2.2  Counter
+--------------
+
+Character uses his normal attack if he/she is attacked by a physical attack, 
+though it doesn't matter if any damage is received or if it even hits.
+物理攻撃を受けると、例えどんなダメージを受けようが命中しようが関係なく通常攻撃を使用する。
+
+------------
+7.2.3  Cover
+------------
+
+If a party member is attacked by a physical attack that would otherwise kill
+him/her, the chracter with this ability will step in front that party member,
+taking the damage and halving it.
+パーティメンバーが他に殺されるような(?)攻撃を受けた場合に、このアビリティをもつキャラがそのパーティメンバーの前に踏み出して、半減されたダメージを受ける。
+
+Note: This will only work if the character with Cover is adjascent to the one
+      being attacked and if the attack is not multi target.
+※このアビリティは、かばう装着キャラが被攻撃キャラに隣接しかつその攻撃が複数対象でないときのみ発動する。
+
+------------------
+7.2.4  Auto-Potion
+------------------
+
+The character will use a healing item if the damage received from an attack
+is greater than 0.
+攻撃で受けたダメージが0を超える場合に回復アイテムを使用する。
+
+Items that can be used are:
+Potion, Potion+, Hi-Potion, Hi-Potion+ and X-Potion
+使用されうるアイテムは：
+ポーション・ポーション改・ハイポーション・ハイポーション改・エクスポーション
+
+The item selected depends on their order in the normal item menu
+(not the battle menu).
+使用されるアイテムは通常のアイテムメニューにおける順番に依存する(戦闘メニューではない)。
+ 
+===============================================================================
+8.  Statuses
+===============================================================================
+
+This section covers the rate of status infliction as well as every status in 
+the game.
+この節はゲーム内の全てステータス異常はもちろんのこと、ステータス異常の確率についても取り扱う。
+
+Some status effects wear over time (Sleep, Haste etc), but how long it will
+takes depends on what you have set as Battle Speed:
+時間経過で解消されるステータス異常(睡眠、ヘイストなど)はあるが、その時間はバトルスピード設定に依存する。
+
+  Duration = BaseDuration * BattleSpeed
+  時間 = 基礎時間 * バトルスピード
+
+where BaseDuration is different for each status effect and Duration is the
+actual duration. It decreases by SpeedMod ever 4th tick, so divide by 15
+to get the duration in seconds.
+「基礎時間」はステータス異常によって異なり、「時間」は実際の時間である。「時間」は4fごとに早さ変化分減少する。だから実際の時間を秒で求めるには15で割ってやればよい。
+
+I will provide the time value of the BaseDuration in this section.
+この節では「基礎時間」の値を与える。
+
+======================
+8.1  Status Infliction
+======================
+
+The calculation of the infliction rate of negative status effects depends on
+whether you use a physical attack or the status magic(or other magical attacks
+that inflict statuses) itself.
+負のステータス異常の成功率の計算は、物理攻撃を使ったかステータス異常魔法(またはステータス異常を与える他の魔法攻撃か)に依存する。
+
+Status Infliction for physical attacks:
+物理攻撃のステータス異常：
+
+  If (StatusDefense >= 200) Target doesn't get the status
+
+    else: Infliction% = AttackerStr / 4 - TargetVit / 4 
+          Infliction% = Infliction% - StatusDefense + StatusAttack
+  if b.ST防 >= 200
+    bはステータス異常にならない
+  else
+    成功% = a.力 / 4 - b.体力 / 4
+    成功% = 成功% - b.ST防 + a.ST攻
+  end
+
+For magical attacks:
+魔法攻撃：
+  
+  If (StatusDefense >= 200) Target doesn't get the status
+
+    else: Infliction% = AttackerMag / 4 - TargetSpr / 4 
+          Infliction% = Infliction% - StatusDefense + 200
+  if b.ST防 >= 200
+    bはステータス異常にならない
+  else
+    成功% = a.魔力 / 4 - b.精神 / 4
+    成功% = 成功% - b.ST防 + 200
+  end
+
+StatusDefense and StatusAttack start at 100 (0%) and the cap is 200 (100%). 
+ST防とST攻は100(0%)から始まり、その限界は200(100%)である。
+
+======================
+8.2  Positive Statuses
+======================
+
+Positive status effects generally provide you with some advantage.
+All positive status effects except for Invincibility can be negated with
+Dispel.
+正のステータス異常は基本的に有利になるものである。
+無敵を除く全ての正のステータス異常はデスペルによって解除できる。
+
+-----
+Regen
+-----
+
+BaseDuration: 320
+Time: 21.3~ seconds
+
+Heals 5% MaxHP every (80 * BattleSpeed) ticks. In other words, it will heal 
+the target 16 times per cast and will recover 80% MaxHP total.
+(80*バトルスピード)fごとにMHPを5%回復する。言い換えれば、唱えるたびに16回回復し、合計MHPの80%を再生する。
+
+-------
+Protect
+-------
+
+BaseDuration: 480
+Time: 32 seconds
+
+Halves physical damage.
+物理ダメージを半減する。
+
+-----
+Shell
+-----
+
+BaseDuration: 480
+Time: 32 seconds
+
+Halves magical damage but also curative spells.
+魔法ダメージを半減するが回復魔法についてもそう。
+
+-------
+Reflect
+-------
+
+BaseDuration: 480
+Time: 32 seconds
+
+Reflects single target magical spells back to the caster.
+単体対象の魔法を詠唱者に対し反射する。
+
+----
+Aura
+----
+
+BaseDuration: 100
+Time: 6.6~ seconds
+
+Increases Limit Break rate (see section 9.1)
+特殊技の確率を増加させる(9.1節を参照)
+
+------
+Double
+------
+
+Permanent (until end of battle)
+
+Allows the target to cast a spell twice in a row.
+対象を、魔法を2回連続使用可能にする
+
+------
+Triple
+------
+
+Permanent (until end of battle)
+
+Allows the target to cast a spell three times in a row.
+対象を、魔法を3回連続使用可能にする
+
+-----
+Haste
+-----
+
+BaseDuration: 480
+Time: 32 seconds
+
+Increases the rate with which the target's ATB gauge fills (see section 3.1), 
+but also shortens the time positive effects last.
+対象のATBバーが満ちる速度を速める(3.1節参照)。
+しかし正のステータス異常の持続時間を縮めもする。
+
+-----
+Float
+-----
+
+BaseDuration: 176
+Time: 11.73~ seconds
+
+Makes the target immune against Earth-elemental attacks.
+対象を地属性攻撃無効にする。
+
+------
+Defend
+------
+
+Effect lasts until the target selects another action
+効果は対象が他の行動を選択するまで持続する。
+
+Physical damage is nullified, magical damage is halved.
+Also, if the user is attacked by a physical attack that could inflict a 
+negative status, the status won't ever be inflicted.
+物理ダメージは無効にされ、魔法ダメージは半減される。
+また、負のステータス異常を付与する物理攻撃で攻撃されても決して付与されない。
+
+-------------
+Invincibility
+-------------
+
+BaseDuration: 360
+Time: 24 seconds
+
+Makes the target immune against most types of damage and status effects, 
+both negative and positive and nullifies negative status effects.
+However, curative spells and items still work.
+対象を殆どの種類のダメージとステータス異常(正と負両方)に対する完全耐性を持たせ、かつ負のステータス変化を解除する。しかし、回復魔法とアイテムは効果を発揮する。
+
+Also, the target still takes damage from Poison and the "Darkside" command.
+また、対象は毒と「あんこく」コマンドによるダメージは受ける。
+
+======================
+8.2  Negative Statuses
+======================
+
+Negative status effect generally put you at a disadvantage but some are also
+useful if you want to increase your Crisis Level (see sectio\^@^n 9.1)
+負のステータス効果は基本的に不利にさせる。しかしピンチ度を上げたい時は役立つものもある(9.1節参照)。
+
+----
+Slow
+----
+
+BaseDuration: 100
+Time: 6.6~ seconds
+
+Decreases the rate with which the target's ATB gauge fills (see section 3.1), 
+but also lengthens the time positive effects last.
+対象のATBバーが満ちる速度を遅くする(3.1節参照)。しかし正のステータス異常の継続時間を伸ばしもする。
+
+----
+Stop
+----
+
+BaseDuration: 200
+Time: 13.3~ seconds
+
+Nullifies Slow/Haste and stops every other status effect timer.
+Also, the target's ATB bar stops filling.
+スロウ/ヘイストを解除し全ての他の効果タイマーを停止する。また、対象のATBバーが進行を止める。
+
+Note: Target can't avoid attacks while Stopped.
+対象が停止している間は攻撃を回避できない。
+
+------
+Poison
+------
+
+Permanent
+
+The target takes damage after every action.
+対象が行動するたびダメージを受ける。
+
+  Damage = [5..7] * MaxHP / 100
+  ダメージ = [5..7] * b.MHP / 100
+
+-----
+Blind
+-----
+
+Permanent
+
+The target's Hit% decreases by 75%.
+Note that characters with a base Hit% of 255 skip the Hit Determination and
+therefore are not affected by Blind.
+対象の命中%を75%下げる。
+※基本命中%が255のキャラは命中決定が飛ばされるので暗闇の影響を受けない。
+
+-------
+Confuse
+-------
+
+Permanent (until end of battle)
+
+This status is nullified if the character receives physical damage.
+Confuse causes the character to select a random command and uses it on either
+allies or enemies.
+このステータスは物理攻撃を受けると解除される。
+混乱するとランダムなコマンドを選択し味方か敵にそれを使用するようになる。
+
+Step 1: 
+  Randomly select one of the four commands a character has.
+  If selected command is neither "Attack", "Mug", "Magic" nor "Item", the 
+  selection defaults to "Attack"/"Mug"
+段階1：
+  キャラのもつ4個のコマンドからランダムに選択する。
+  選択されたコマンドが「こうげき」「ぶんどる」「まほう」「アイテム」のどれでもない場合、「たたかう」/「ぶんどる」が選択される。
+
+Step 2:
+  If either "Magic" or "Item" are selected, the game proceeds to select a
+  spell/item from the list of available spells/items randomly.
+段階2：
+  「まほう」または「アイテム」が選択された場合、使用可能な魔法/アイテムのリストからランダムにひとつ選択される。
+
+Step 3:
+  The game decides which target group(allies or enemies) should be selected
+  with both groups having a 50% chance.
+段階3：
+  どちらのグループ(味方/敵)が対象として選択されるか決定する。どちらのグループも50%の確率である。
+
+  Note: If the selected action only has one target group (e.g. "Hero" item),
+        that group will always be selected.
+  ※選択された行動が片方のグループのみ対象としている場合(例：英雄/聖戦の薬)、常にそのグループが選択される。
+
+Step 4:
+  A random target from the target group is selected if the attack is 
+  single-target.
+段階4：
+  攻撃が単体対象だった場合、対象となったグループからランダムな単体対象が選択される。
+
+-----
+Sleep
+-----
+
+BaseDuration: 200
+Time: 13.3~ seconds
+
+The target's ATB gauge stops filling, and all other status effect timers 
+are stopped.
+対象のATBバーの進行が停止し、他のステータス異常のタイマーが全て停止する。
+
+If the target is attacked by a physical attack, whether it hits or not, 
+this status is nullified.
+対象が物理攻撃を受けた場合、それが命中してもしなくてもこのステータスは解除される。
+
+Note: The target's Evasion is not reduced.
+※対象の回避は低下しない。
+
+-------
+Silence 沈黙
+-------
+
+Permanent
+
+Target can't use the "Magic", "GF" and "Draw" commands.
+対象は「まほう」「GF」「ドロー」が使えなくなる。
+
+-------
+Petrify 石化
+-------
+
+Permanent
+
+Target is marked as dead. 
+対象は戦闘不能として扱われる。
+
+------------
+Slow Petrify 徐々に石化
+------------
+
+BaseDuration: 200
+Time: 13.3~ seconds
+
+After the timer for this status effect reaches 0, the target is inflicted with
+the Petrify status.
+このステータス効果のタイマーが0に達したら、対象は石化状態にされる。
+
+-----
+Death 即死
+-----
+
+Target is marked as dead, HP are reduced to 0.
+対象は戦闘不能として扱われる。HPは0に減少する。
+
+----
+Doom 死の宣告
+----
+
+BaseDuration: 240
+Time: 16 seconds
+
+After the timer for this status effect reaches 0, the the target is marked as
+dead and will have its HP reduced to 0.
+このステータス効果のタイマーが0に達したら、対象は戦闘不能として扱われ、HPは0に減少する。
+
+--------------
+Drain / Absorb ドレイン/きゅうしゅう
+--------------
+
+Not really a status effect. Drain/Absorb allows the caster to magically damage
+an enemy and receive the damage dealt as HP.
+If the target is immune to Drain, it will still take damage, but the caster
+won't heal.
+実際はステータス効果ではない。ドレイン/きゅうしゅうは使用者が敵に魔法ダメージを与え、そのダメージをHPとして受け取ることができる。
+対象がドレイン無効の場合もダメージを与えられるが、使用者は回復しない。
+
+-------
+Berserk バーサク
+-------
+
+Permanent (until end of battle)
+
+The target will randomly use one of the four "Berserk-attacks" it has.
+Most enemies and all allies have four of the same attack, so you won't 
+notice a difference.
+The enemy/ally under this effect will randomly target someone from the
+opposite target group.
+対象が、自身のもつ4種の「狂化攻撃」のうちのひとつをランダムに使用する。
+たいていの敵と全ての味方は4種とも同じ攻撃なので、違いはわからない。
+この効果下の敵/味方は、相手の対象グループからランダムな対象を選択する。
+
+Note: Damage dealt is increased by 50%.
+※与えるダメージは50%増加する。
+
+------
+Zombie ゾンビ
+------
+
+Permanent
+
+Healing for the target under this effect will be reversed. I.e., Potions and
+curative spells deal damage.
+Drain/Absorb will also deal damage to the caster unless the target of the spell
+is considered Undead or under the Zombie status itself.
+この効果下の対象への回復は反転する。つまり、ポーションや回復魔法でダメージを与える。
+ドレイン/きゅうしゅうも、魔法の対象自体がアンデッドやゾンビ状態と見做されていない限り、使用者にダメージを与える。
+
+The target will also gain an immunity to Death and Doom and has its ElemDef
+for the Holy element set to 700, which means double damage.
+Additionally, all physical damage the target receives is halved.
+対象は即死と死の宣告に対する完全耐性も得る。また聖属性に対する属防が700に設定される。これは2倍のダメージを意味する。
+更に、対象が受ける物理攻撃は全て半減される。
+
+Note: Undead enemies are considered to be always under the Zombie effect, even
+      if it's not shown, so all of the above applies to them. 
+      Also, targets under the Zombie status do not deal more damage.
+※アンデッドの敵は常にゾンビ状態であると見做される。そう表示されていなくても、上記が全て適用されている。
+  また、ゾンビ効果下の対象はさらなるダメージを与えられない(?)。
+
+-----
+Curse カーズ
+-----
+
+BaseDuration: 320
+Time: 21.3~ seconds
+
+Target will not be able to use Limit Breaks.
+対象は特殊技を使用できない。
+
+----
+Vit0 体力0
+----
+
+Permanent (until end of battle)
+
+Target has its Vit and Spr reduced to 0.
+対象の体力と精神が0に低下する。
+
+===============================================================================
+9.  Limit Break Mechanics 特殊技の機序
+===============================================================================
+
+This section covers everything related to everyone's Limits.
+It should be noted that a Limit Break move will never miss and is not
+affected by whatever you have junctioned to ElemAtt.
+この節は全員の特殊技の関すること全てを取り扱う。
+注目すべきは、特殊技の行動は決して外れず、属攻のジャンクションの影響を受けないことだ。
+
+=================
+9.1  Crisis Level CL
+=================
+
+Before we can determine what Crisis Level(or CL for short) the character is 
+at, we have to calculate what I call "LimitLevel"
+キャラのピンチ度(または略してピンチ度)を定義する前に、特殊技レベルを計算する必要がある。
+
+  HPMod = 2500 * CurrentHP / MaxHP
+  DeathBonus = DeadCharacters * 200 + 1600
+  StatusBonus = StatusSum * 10
+  RandomMod = [0..255] + 160
+  HP変化 = 2500 * HP / MHP
+  死亡ボーナス = 死亡キャラ * 200 + 1600
+  ステータスボーナス = ステータス合計 * 10
+  ランダム変化 = [0..255] + 160
+
+  LimitLevel = (StatusBonus + DeathBonus - HPMod) / RandomMod
+  特殊技レベル = (ステータスボーナス + 死亡ボーナス - HP変化) / ランダム変化
+
+  If (LimitLevel > 4) Limit Break can be used.
+  特殊技使用可能 if 特殊技レベル > 4
+
+Seifer uses a different HPMod:
+サイファーは異なるHP変化を使用する：
+
+  HPMod = 1000 * CurrentHP / MaxHP
+  HP変化 = 1000 * HP / MHP
+
+Each status effect has a certain value. 
+The StatusSum variable is the sum of all statuses in effect.
+ステータス効果はそれぞれ固有の値がある。
+ステータス合計変数は効果中の全てのステータス変化の合計値だ。
+
+  200 Aura
+  15  Slow
+  30  Poison
+  30  Blind
+  30  Silence
+  30  Slow Petrify
+  45  Doom
+  0   Everything else
+   
+  E.g. If a character has Aura, Blind and Silence, StatusSum would be 260.
+  例：オーラ・暗闇・沈黙状態なら、ステータス合計は260
+
+LimitLevel to Crisis Level conversion:
+特殊技レベルからピンチ度への変換：
+
+  LimitLevel  | Crisis Level
+  ------------|-------------
+  4 or lower  | 0
+  5           | 1
+  6           | 2
+  7           | 3
+  8 or higher | 4
+
+A higher Crisis Level means that the character's Limit Break is, in some 
+way, enhanced. You need at least Crisis Level 1 to be able to use a 
+Limit Break.
+ピンチ度が高いということは、そのキャラの特殊技がなにやら高度であることを意味する。特殊技を使用可能になるためには、少なくともピンチ度が1である必要がある。
+
+-You need 11.2% HP with Aura to reach Crisis Level 4 100% of the time. 
+-51.84% HP to reach it 50% of the time
+-Without Aura and with 10% HP, there's a 3% chance to get Crisis Level 4.
+・100%の確率でピンチ度4に達するためにはHP11.2%とオーラを要する。
+・50%の確率ならHP51.84%で達する。
+・オーラなしのHP10%なら、ピンチ度4の可能性は3%である。
+
+===========
+9.2  Squall スコール
+===========
+
+The Crisis Level affects how many Renzokuken hits Squall performs and 
+increases the chance to perform a Finisher.
+ピンチ度はスコールが行う連続剣の回数に影響し、フィニッシュブローを行う確率を上げる。
+
+  CL | # of Renzokuken hits
+  ---|---------------------
+   1 |          4
+   2 |          5
+   3 |          6
+   4 |          7
+
+There is a 50% probability that the amount of Renzokuken hits is increased by
+one, making the maximum possible amount 8.
+If the enemy has a special Renzokuken sequence, like Bahamut or Ultima Weapon,
+that amount of hits will always be performed instead.
+50%の確率で連続剣のヒット回数が1増える。最大可能回数は8となる。
+ハバムートやアルテマウェポンのように、敵に特殊な連続剣シーケンスがある場合、代わりにそれが常に実行される。
+
+After Squall does his Renzokuken sequence, there's a chance he'll 
+perform a Finisher:
+スコールの連続剣シーケンスの後、フィニッシュブローを行う可能性は：
+
+  Finisher% = (CL * 60 + 1) / 256 * 100
+  フィニッシュブロー% = (ピンチ度 * 60 + 1) / 256 * 100
+
+So, there's a (CrisisLevel * ~23.4%) chance that a Finisher is performed.
+だから、「ピンチ度 * ~23.4%」の確率でフィニッシュブローが実行される。
+
+Which Finisher is performed depends on which Squall has:
+実行されるフィニッシュブローはスコールの所持に依存しており：
+
+  If he only has Rough Divide
+    100%  Rough Divide 
+  ラフディバイドのみ所持：
+    100% ラフディバイド
+
+  If he has Rough Divide and Fated Circle
+    25%   Rough Divide
+    75%   Fated Circle
+  ラフディバイドとフェイテッドサークルを所持
+    25% ラフディバイド
+    75% フェイテッドサークル
+
+  If he has Rough Divide, Fated Circle and Blasting Zone
+    25%   Rough Divide
+    25%   Fated Circle
+    50%   Blasting Zone
+  ラフディバイドとフェイテッドサークルとブラスティングゾーンを所持
+    25% ラフディバイド
+    25% フェイテッドサークル
+    50% ブラスティングゾーン
+
+  If he has Rough Divide, Fated Circle, Blasting Zone and Lion Heart
+    25%   Rough Divide
+    25%   Fated Circle
+    25%   Blasting Zone
+    25%   Lion Heart
+  ラフディバイドとフェイテッドサークルとブラスティングゾーンとエンドオブハートを所持
+    25% ラフディバイド
+    25% フェイテッドサークル
+    25% ブラスティングゾーン
+    25% エンドオブハート
+
+All of Squall's Finishers are considered physical and can critical depending 
+on his Luck.
+You can use Trigger with the normal Renzokuken hits, they can't critical 
+themselves.
+スコールのフィニッシュブローは全て物理として扱われ、クリティカルはスコールの運に依存する。
+通常の連続剣の一撃はトリガー使用可能で、それ自体はクリティカルは発動しない。
+
+His attacks and their Power values:
+  
+  Attack       | Power | Notes
+  -------------|-------|-----------------------------------------
+  Renzokuken   |    22 | his normal Renzokuken hit, single target
+  Rough Divide |    48 | one target
+  Fated Circle |    40 | all targets
+  Blasing Zone |    44 | all targets
+  Lion Heart   |   100 | one target, 17 hits
+
+=========
+9.3  Zell ゼル
+=========
+
+The time Zell gets to input button combinations in his Duel Limit Break 
+depending on what Crisis Level he has.
+ゼルが特殊技のデュエルの最中にコンボを入力できる時間はゼルのピンチ度に依存する。
+
+  CL | Duel Time
+  ---|----------
+   1 |   4.66 s
+   2 |   6.66 s
+   3 |   9.33 s
+   4 |   12   s
+
+His attacks and their Power values:
+
+  Attack          | Power | Notes
+  ----------------|-------|---------------
+  Punch Rush      |    16 |  
+  Booya           |    18 |
+  Heel Drop       |    20 |
+  Mach Kick       |    24 |
+  Dolphin Blow    |    28 | 
+  Meteor Strike   |     - | Gravity damage
+  ----------------|-------|---------------
+  Burning Rave    |    48 | all targets
+  Meteor Barret   |    52 | one target
+  Different Beat  |    72 | one target
+  My Final Heaven |    50 | all targets
+
+  Note: All attacks are considered physical.
+        Meteor Strike's damage is TargetHP / 4, however, it's still considered
+        a physical attack, i.e. it's halved by Protect but can also critical.
+  ※攻撃は全て物理扱い。メテオストライクのダメージは「b.HP/4」だが、これも物理扱い。
+    即ちプロテスで半減されるしクリティカルも発動する。
+
+===========
+9.4  Irvine
+===========
+
+Like Zell's Limit, Irvine's Shoot's time is extended depending on what Crisis
+Level he has. 
+ゼルの特殊技のように、アーヴァインのショットの時間はアーヴァインのピンチ度に依存して延びる。
+
+  CL | Shoot Time
+  ---|-----------
+   1 |   8    s
+   2 |   12   s
+   3 |   20   s
+   4 |   26.6 s
+
+Additionally, all shots he makes have increased Critical%:
+加えて、アーヴァインのショットのクリティカル%は増加する：
+
+  Critical% = (Luck + 26) / 256 * 100
+  クリティカル% = (a.運 + 26) / 256 * 100
+
+His attacks and their Power values:
+
+  Attack          | Power | Notes
+  ----------------|-------|------------------------------
+  Normal Shot     |    16 |  
+  Scatter Shot    |    14 | hits all ; 全体攻撃
+  Dark Shot       |    14 | can inflict negative statuses ; 負のステータスを与える
+  Flame Shot      |    40 | hits all, fire elemental ; 全体攻撃
+  Canister Shot   |    60 | 
+  Quick Shot      |     7 |
+  Armor Shot      |    80 | ignores Vit ; 体力を無視
+  Hyper Shot      |   120 |
+
+  Note: All of his attacks are physical.
+        Dark Shot can inflict Poison, Blind, Silence, Sleep or Slow.
+        The game assumes that Irvine has 100% for each status effect and it
+        uses the physical infliction formula (section 8.1)
+  ※攻撃は全て物理。
+    暗黒弾は毒、暗闇、沈黙、睡眠、スロウを付与する。
+    それぞれのステータス効果は100%と見做され、物理付与の計算式が使用される(8.1節参照)
+
+============
+9.5  Quistis
+============
+
+Quistis' Blue Magic powers up depending on what her Crisis Level is.
+キスティスの青魔法はピンチ度に依存して強力になる。
+
+All her skills which inflict normal damage and their Power values:
+技全ての通常のダメージと基礎攻撃力：
+
+  Attack           | CL1 | CL2 | CL3 | CL4 | Element  | Target(s)
+  -----------------|-----|-----|-----|-----|----------|----------
+  Laser Eye        |  40 |  48 |  58 |  64 | -        | one
+  Ultra Waves      |  27 |  33 |  40 |  48 | -        | all 
+  Electrocute      |  30 |  36 |  44 |  50 | Lighting | all
+  Aqua Breath      |  50 |  70 |  80 | 100 | Water    | all
+  Acid             |  30 |  38 |  44 |  52 | -        | all
+  Gatling Gun      |  60 |  80 | 100 | 120 | -        | one
+  Fire Breath      |  70 |  90 | 100 | 120 | Fire     | all
+  Homing laser     | 100 | 150 | 200 | 250 | -        | one
+  Ray-Bomb         |  80 |  90 | 100 | 110 | -        | all
+  Shockwave Pulsar | 150 | 200 | 200 | 250 | -        | all
+
+  Note: Shockwave Pulsar has a  damage cap of 60,000
+        Gatling Gun is physical, everything else is magical
+  ※ショックウェーブパルサーのダメージ限界は60000。
+    ガトリング砲は物理、それ以外は全て魔法。
+
+Acid may also inflict status effects depending on the Crisis Level:
+溶解液はピンチ度に依存したステータス変化の付与もする：
+
+  CL1: Poison
+  CL2: Poison, Darkness
+  CL3: Poison, Darkness, Silence, Vit0
+  CL4: Poison, Darkness, Silence, Vit0, Petrify
+  ピンチ度1: 毒
+  ピンチ度2: 毒・暗闇
+  ピンチ度3: 毒・暗闇・沈黙・体力0
+  ピンチ度4: 毒・暗闇・沈黙・体力0・石化
+
+Her other Blue Magics:
+その他の青魔法：
+
+  LV? Death (all)
+    CL1: Casts Death on enemies whose level is a multiple of 4
+    CL2: Casts Death on enemies whose level is a multiple of 3
+    CL3: Casts Death on enemies whose level is a multiple of 2
+    CL4: Casts Death on enemies whose level is a multiple of 1
+    ピンチ度1: Lvが1の倍数の敵にデス
+    ピンチ度2: Lvが2の倍数の敵にデス
+    ピンチ度3: Lvが3の倍数の敵にデス
+    ピンチ度4: Lvが4の倍数の敵にデス
+
+  Degenerator (one)
+    Kills any enemy not immune to it.
+    即死無効でない敵を殺す
+
+  Micro Missle (one), gravity damage
+    CL1: 50% HP
+    CL2: 75% HP
+    CL3: 87.5% HP
+    CL4: 93.75% HP   
+
+  Bad Breath (all), inflicts status effects
+    CL1: Poison, Darkness, Silence, Sleep, Slow, Confuse
+    CL2: Poison, Darkness, Silence, Sleep, Slow, Confuse, Berserk, Stop, 
+         Slow Petrify
+    CL3: Poison, Darkness, Silence, Sleep, Slow, Confuse, Berserk, Stop,
+         Slow Petrify, Petrify, Zombie
+    CL4: Poison, Darkness, Silence, Sleep, Slow, Confuse, Berserk, Stop,
+         Slow Petrify, Petrify, Zombie, Vit0, Doom, Death
+    ピンチ度1: 毒・暗闇・沈黙・睡眠・スロウ・混乱
+    ピンチ度2: 毒・暗闇・沈黙・睡眠・スロウ・混乱・バーサク・ストップ・徐々に石化
+    ピンチ度3: 毒・暗闇・沈黙・睡眠・スロウ・混乱・バーサク・ストップ・徐々に石化・石化・ゾンビ
+    ピンチ度4: 毒・暗闇・沈黙・睡眠・スロウ・混乱・バーサク・ストップ・徐々に石化・石化・ゾンビ・体力0・死の宣告・即死
+
+  White Wind (all allies), heals HP
+    HealingAmount = QuistisMaxHP - CurrentHP
+   回復量 = a.MHP - a.HP
+
+  Mighty Guard (all allies), inflicts status effects
+    CL1: Protect, Shell
+    CL2: Protect, Shell, Regen, Haste, Float
+    CL3: Protect, Shell, Regen, Haste, Float, Aura
+    CL4: Protect, Shell, Regen, Haste, Float, Aura
+    ピンチ度1: プロテス・シェル
+    ピンチ度2: プロテス・シェル・リジェネ・ヘイスト・レビテト
+    ピンチ度3: プロテス・シェル・リジェネ・ヘイスト・レビテト・オーラ
+    ピンチ度4: プロテス・シェル・リジェネ・ヘイスト・レビテト・オーラ
+
+==========
+9.6  Rinoa リノア
+==========
+
+Rinoa has technically three sections: Angelo, Angel Wing and her 
+other skills (Angelo Rush, Angelo Search etc), two of which will be covered
+here.
+リノアにはテクニカルなみっつの節がある。アンジェロとヴァリーとその他のスキル(アンジェロラッシュとアンジェロサーチなど)。そのうちふたつはここで扱う。
+
+--------------------------
+9.6.1  Angelo Limit Breaks アンジェロ
+--------------------------
+
+Rinoa has four Limit Breaks which can be used by selecting Angelo>Combine.
+However, what attack is performed depends on your Crisis Level.
+リノアにはアンジェロ→コンバインで使用できる4種の特殊技がある。
+しかし、その攻撃はピンチ度に依存して実行される。
+
+  CL | Attack          | Power | Notes
+  ---|-----------------|-------|---------------------------------------------
+   1 | Angelo Cannon   |    72 | one target, physical damage
+   2 | Angelo Strike   |   120 | one target, physical damage
+   3 | Invincible Moon |     - | Invincibility status on all allies
+   4 | Wishing Star    |   130 | hits 8 times, random targets, magical damage
+
+If you get a certain CL but the attack in this slot is not learned, it 
+selects the attack in the next highest slot (=of a lower CL). 
+もし特定のピンチ度であってもそのスロットの攻撃が未習得なら、その次に高いスロット(=一段階低いピンチ度)の攻撃が選択される。
+
+--------------------------
+9.6.2  Other Angelo Skills その他のアンジェロのスキル
+--------------------------
+
+First, if Rinoa is hit by the enemy, there's a chance that Angelo Rush or
+Angelo Recover will activate:
+まず、リノアが敵に攻撃されたらアンジェロラッシュかアンジェロリカバーが発動する可能性がある：
+
+  if (16 >= [0..255]) Angelo Recover is used on Rinoa (6.6%)
+    else if (16 >= [0..255]) Angelo Rush is used (6.2%)
+  if 16 >= [0..255]
+    リノアにアンジェロリカバー(6.6%)
+  elsif 16 >= [0..255]
+    アンジェロラッシュ(6.2%)
+  end
+
+If Angelo Recover is not learned, it's skipped.
+アンジェロリカバーが未習得ならこれは飛ばされる。
+
+Here's what each of her skills do:
+  
+  Skill          | Power | Notes
+  ---------------|-------|--------------------------------------------------
+  Angelo Rush    |    32 | handled as if a normal physical attack from Rinoa
+  Angelo Recover |     - | heals 62.5% HP
+  Angelo Reverse |     - | Restores a KO'd party member with 12.5% HP
+  Angelo Search  |     - | Searches items
+
+As mentioned in the Battle Timing section, after the Dead Time timer 
+reaches 0 (after 13.3~ seconds), several checks are performed:
+戦闘タイミング節で既に述べたように、無駄時間タイマーが0に達したら(13.3~秒後)、数回のチェックが行われる：
+
+  if (12 >= [0..255]) Gilgamesh is summoned (5.1%)
+    else if (8 >= [0..255] Angelo Recover is used (3.3%)
+      else if (2 >= [0..255] Angelo Reverse is used (1%)
+        else if (8 >= [0..255] Angelo Search is used (3.2%)
+  if 12 >= [0..255]
+    ギルガメッシュが召喚される(5.1%)
+  elsif 8 >= [0..255]
+    アンジェロリカバー(3.3%)
+  elsif 2 >= 0..255
+    アンジェロリバース(1%)
+  elsif 8 >= 0..255
+    アンジェロサーチ(3.2%)
+  end
+
+If you don't have one of the skills, its check is skipped.
+Angelo Recover and Angelo Reverse can only be checked/used if their conditions
+are met:
+技のうちどれかを持っていなければ、そのチェックは飛ばされる。
+アンジェロリカバーとアンジェロリバースは条件を満たした場合のみチェック/使用される。
+  
+  Angelo Recover will only be checked if there's an ally with less than 25% 
+  of their MaxHP
+  Angelo Reverse will only be checked if there's a KO'd ally.
+  アンジェロリカバーは、MHPの25%未満の味方がいるときのみチェックされる。
+  アンジェロリバースは戦闘不能の味方がいるときのみチェックされる。
+
+--------------------
+9.6.3  Angelo Search アンジェロサーチ
+--------------------
+
+If the game determined that Angelo Search will be used, it must first be 
+decided what algorithm should be used to calculate the item gotten from the
+search. That's where the Global Counter comes into play.
+アンジェロサーチの発動が決定されたら、まずはサーチで手に入るアイテムの計算に用いられるべきアルゴリズムが決定される。ここはプレイに広域カウンタが使用される場所である。
+
+  rnd = (value of Global Counter) MOD 256
+  rnd = 広域カウンタの値 % 256
+
+  (You could see rnd as "[0..255]" which doesn't use the RNG.)
+  RNGが使用されない[0..255]のrndが登場する
+
+  if (rnd < 128) Algorithm_1
+    else if (rnd < 160) Algorithm_2
+      else if (rnd < 176) Algorithm_3
+        else if (rnd < 192) Algorithm_4
+          else if (rnd < 200) Algorithm_5
+            else Algorithm_6
+  if rnd < 128
+    Algorithm_1
+  elsif rnd < 160
+    Algorithm_2
+  elsif rnd < 176
+    Algorithm_3
+  elsif rnd < 192
+    Algorithm_4
+  elsif rnd < 200
+    Algorithm_5
+  else
+    Algorithm_6
+  end
+
+  Probability of..
+    Algorithm_1     128/256    50%
+    Algorithm_2      32/256    12.5%
+    Algorithm_3      16/256     6.2%
+    Algorithm_4      16/256     6.2%
+    Algorithm_5       8/256     3.1%
+    Algorithm_6      56/256    22%
+
+I should probably mention that I changed the formulas a bit so they're easier
+to read. 
+If the 0 from [0..255] would ever be selected, it bypasses the
+"if ItemID == 0, set ItemID to x", so I included a note.
+計算式を少し変えたので読みやすくなったと、恐らく言っていいだろう。
+仮に[0..255]から0が選択されたら、「if ItemID == 0, set ItemID to x」を回避される。だから注意書きを加えた。
+
+  Algorithm_1:
+    ItemID = [0..255] MOD 8 + 1
+
+  Algorithm_2:
+    ItemID = [0..255] MOD 98
+      if ItemID == 0, set ItemID to 98
+    ItemID = ItemID + 101
+
+    Note: There would be a 1/256 chance that ItemID == 101
+
+  Algorithm_3:
+    ItemID = [0..255] MOD 23  
+      if ItemID == 0, set ItemID to 23
+    ItemID = ItemID + 101 
+
+    Note: There would be a 1/256 chance that ItemID == 101
+
+  Algorithm_4: 
+    ItemID = [0..255] MOD 34
+      if ItemID == 0, set ItemID to 34
+    ItemID = ItemID + 66
+
+    Note: There would be a 1/256 chance that ItemID == 66
+
+  Algorithm_5:
+    ItemID = [0..255] MOD 32 + 33
+
+  Algorithm_6:
+    ItemID = [0..255] MOD 7 + 33
+
+    Note: There would be a 1/256 chance that ItemID == 33
+
+ItemID would be the ID of the item you get.
+ItemIDは手に入るアイテムのIDである。
+
+Now, let me tell you why bothering with these algorithms is a waste of time.
+As I mentioned in section 2, the RNG is a simple, static list of integers.
+This means, for example, that after "5", there's always a "255".
+For Angelo Search to occur, a number less than 9, so 0-8, is needed. The 
+problem is that the game would always select the next number to be the input
+for "[0..255]", so it's predictable and not random at all.
+In other words, you always get the same thing from the same algorithm.
+ここで、このアルゴリズムのややこしさを教示するのは時間の無駄だ。
+2節で述べたように、このRNGは単純な静的整数リストである。つまり、例えば5の後には常に255があるのだ。発動したアンジェロサーチには、9未満(0~8)が必要である。問題は、このゲームでは[0..255]に入力された次の数字が常に選ばれることで、だからこれは予測可能であり全くランダムではないのだ。
+言い換えれば同じアルゴリズムからは同じモノしか入手できないということだ。
+
+Here's what values follow the ones that trigger Angelo Search:
+以下はアンジェロサーチ発動の次の値だ：
+
+  "Random" Value | Value after that | Index of the value
+  ---------------|------------------|-------------------
+         6       |       240        |          1
+         1       |       193        |          7
+         2       |        23        |         47
+         8       |        86        |        129
+         0       |        59        |        163
+         4       |       224        |        184
+         3       |       152        |        227
+         7       |       244        |        230
+         5       |       255        |        250
+
+The only somewhat random thing would be the selection of the algorithm.
+With that, it's possible to compile a list of items that can be gotten:
+アルゴリズムによって選出されたモノは多少ランダムなだけだ。
+そのため、入手可能なアイテムのリストをまとめることができる。
+
+  Input value | Algorithm_1     | Algorithm_2     | Algorithm_3     
+  ------------|-----------------|-----------------|-----------------
+       240    | Potion          | North Wind      | Hero            
+       193    | Potion+         | Occult Fan II   | Hero-Trial      
+        23    | Mega Phoenix    | Sleep Powder    | Elixir          
+        86    | Phoenix Down    | Combat King 004 | Holy Stone      
+        59    | Hi-Potion+      | Cactus Thorn    | Shell Stone     
+       224    | Potion          | Curse Spike     | Holy Stone      
+       152    | Potion          | Dragon Fin      | Protect Stone   
+       244    | X-Potion        | Steel Orb       | Protect Stone   
+       255    | Mega Phoenix    | Cactus Thorn    | Antidote        
+  ------------|-----------------|-----------------|-----------------
+  Input value | Algorithm_4     | Algorithm_5     | Algorithm_6   
+  ------------|-----------------|-----------------|-----------------
+       240    | Energy Crystal  | Aegis Amulet    | Cottage
+       193    | Jet Engine      | Pet House       | G-Hi-Potion
+        23    | Jet Engine      | GF Scroll       | Cottage
+        86    | Force Armlet    | Magic Scroll    | Cottage
+        59    | Moon Curtain    | Healing Ring    | G-Potion
+       224    | Circlet         | Tent            | Tent
+       152    | Adamantine      | Draw Scroll     | G-Mega-Potion
+       244    | Gold Armor      | Status Guard    | G-Returner
+       255    | Rune Armlet     | Hungry Cookpot  | G-Potion
+
+For more info on this and how to exploit the RNG in this case, refer to the
+Angelo Search Limit Break FAQ by DarkLordOfTheSith.
+これに関する詳細情報とこの場合の乱数調整の方法は、DarkLordOfTheSithのAngelo Search Limit Break FAQを参照。
+
+============
+9.7  Selphie セルフィ
+============
+
+Selphie's Tombola has access to several spell sets from which a random spell
+is selected. The higher Selphie's level and Crisis Level is, the better spell
+sets she can select from.
+セルフィのスロットは、ランダムな魔法が選択された数個の魔法セットを利用できる。セルフィのより高いレベルとより高いピンチ度によって、よりよい魔法セットが選択できる。
+
+The first step is to calculate her "TombolaLevel":
+最初の段階はセルフィの「スロットレベル」の計算：
+
+  TombolaLevel = Level / 10 + Crisis Level + [0..4] - 1
+  スロットレベル = レベル / 10 + ピンチ度 + [0..4] - 1
+
+While you can influence the TombolaLevel via her level and her Crisis Level,
+the next step, TombolaMod, is purely random:
+セルフィのレベルとピンチ度からスロットレベルを求めたら、次の段階はスロット変化、単純なランダムだ。
+  
+  rnd = [0..255]
+
+  if (rnd >= 249) TombolaMod = 4
+    else if (rnd >= 209) TombolaMod = 3
+      else if (rnd >= 159) TombolaMod = 2
+        else if (rnd >= 39) TombolaMod = 1
+          else TombolaMod = 0
+  if rnd >= 249
+    スロット変化 = 4
+  elsif rnd >= 209
+    スロット変化 = 3
+  elsif rnd >= 159
+    スロット変化 = 2
+  elsif rnd >= 39
+    スロット変化 = 1
+  else
+    スロット変化 = 0
+  end
+
+  Probability of..
+    TombolaMod 0      39/256    15.2%
+    TombolaMod 1     120/256    47.9%
+    TombolaMod 2      50/256    19.5%
+    TombolaMod 3      40/256    15.6%
+    TombolaMod 4       7/256     2.7%
+
+  SpellSet# = TombolaMod * 12 + TombolaLevel
+  魔法セット# = スロット変化 * 12 + スロットレベル
+
+There's a list in the game which determines what SpellSet you get, depending
+on what the value of SpellSet# is.
+以下は、ゲーム内で手に入る魔法セットの定義リストで、魔法セット#の値に依存する。
+
+        |  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
+  ------|----|----|----|----|----|----|----|----|----|----|
+  00-09 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |
+  10-19 |  1 |  1 |  0 |  0 |  0 |  0 |  0 |  1 |  1 |  2 |
+  20-29 |  2 |  2 |  3 |  4 |  9 |  9 |  9 | 10 | 10 | 11 |
+  30-39 | 11 | 12 | 12 | 13 | 13 | 14 |  0 |  0 |  1 |  1 |
+  40-49 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  0 |  1 |
+  50-59 |  2 | 15 |  3 |  4 |  5 |  6 |  7 |  8 |  8 | 15 |
+  60-65 |  1 |  2 |  4 |  2 |  7 |  2 |	
+
+  E.g., SpellSet# = 35 would get you Set 14
+  例：魔法セット# = 35 ならセット14を得る
+
+As for what each set contains:
+それぞれのセットの内容に関しては：
+
+  |---------------|---------------|---------------|---------------|     
+  |     Set 0     |     Set 1     |     Set 2     |     Set 3     |
+  |---------------|---------------|---------------|---------------|
+  | 2 | Fire      | 2 | Fira      | 2 | Firaga    | 3 | Water     |
+  | 2 | Blizzard  | 2 | Blizzara  | 2 | Blizzaga  | 3 | Aero      |
+  | 2 | Thunder   | 2 | Thundara  | 2 | Thundaga  | 2 | Bio       |
+  | 2 | Cure      | 1 | Cura      | 1 | Curaga    | 1 | Full-cure |
+  | 3 | Fire      | 3 | Cura      | 3 | Firaga    | 3 | Firaga    |
+  | 3 | Blizzard  | 3 | Blizzara  | 3 | Blizzaga  | 3 | Blizzaga  |
+  | 3 | Thunder   | 3 | Thundara  | 3 | Thundaga  | 3 | Thundaga  |
+  | 1 | Full-cure | 1 | Full-cure | 1 | Wall      | 1 | Rapture   |
+  |---------------|---------------|---------------|---------------|
+  |     Set 4     |     Set 5     |     Set 6     |     Set 7     |
+  |---------------|---------------|---------------|---------------|
+  | 3 | Water     | 3 | Bio       | 3 | Demi      | 3 | Holy      |
+  | 3 | Aero      | 3 | Demi      | 3 | Holy      | 3 | Flare     |
+  | 3 | Bio       | 2 | Holy      | 2 | Flare     | 1 | Meteor    |
+  | 3 | Demi      | 2 | Flare     | 1 | Meteor    | 2 | Quake     |
+  | 2 | Holy      | 2 | Meteor    | 1 | Quake     | 1 | Tornado   |
+  | 2 | Flare     | 1 | Quake     | 1 | Tornado   | 2 | Ultima    |
+  | 1 | Quake     | 1 | Tornado   | 1 | Ultima    | 1 | Rapture   |
+  | 1 | Rapture   | 1 | Rapture   | 1 | Rapture   | 2 | Tornado   |
+  |---------------|---------------|---------------|---------------|
+  |     Set 8     |     Set 9     |     Set 10    |     Set 11    |
+  |---------------|---------------|---------------|---------------|
+  | 2 | Meteor    | 3 | Blind     | 3 | Protect   | 3 | Break     |
+  | 3 | Holy      | 3 | Sleep     | 3 | Aura      | 3 | Float     |
+  | 1 | Ultima    | 3 | Silence   | 3 | Haste     | 3 | Regen     |
+  | 2 | Ultima    | 3 | Esuna     | 3 | Drain     | 3 | Protect   |
+  | 1 | Ultima    | 3 | Blind     | 3 | Blind     | 3 | Aura      |
+  | 2 | Ultima    | 3 | Sleep     | 3 | Sleep     | 3 | Haste     |
+  | 2 | Ultima    | 3 | Silence   | 3 | Silence   | 2 | Drain     |
+  | 2 | Ultima    | 1 | Full-cure | 1 | Full-cure | 1 | Wall      |
+  |---------------|---------------|---------------|---------------|
+  |     Set 12    |     Set 13    |     Set 14    |     Set 15    |
+  |---------------|---------------|---------------|---------------|
+  | 3 | Dispel    | 3 | Death     | 3 | Berserk   | 3 | Holy      |
+  | 3 | Shell     | 3 | Pain      | 3 | Death     | 2 | Meteor    |
+  | 3 | Double    | 3 | Stop      | 3 | Pain      | 1 | Ultima    |
+  | 3 | Slow      | 3 | Dispel    | 3 | Zombie    | 2 | Ultima    |
+  | 3 | Break     | 3 | Shell     | 3 | Meltdown  | 3 | Meteor    |
+  | 3 | Confuse   | 3 | Double    | 3 | Curaga    | 2 | Ultima    |
+  | 3 | Curaga    | 3 | Slow      | 3 | Reflect   | 3 | Ultima    |
+  | 1 | Wall      | 1 | Rapture   | 3 | Triple    | 1 | The End   |
+  |---------------|---------------|---------------|---------------|
+
+After the set is selected, the game randomly picks one spell from the
+set, which is what Selphie will be able to cast.
+The numbers next to the spells are the maximum amount of casts. The actual
+amount of casts is simply
+セットが選択されたら、そのセットからランダムでひとつの魔法を採択する。セルフィはそれを使うことができる。
+ 
+  Casts = [1..MaxAmount]
+
+If you select "do over", the whole process is repeated from the beginning, 
+with your old CL.
+「やり直し」を選択したら、ピンチ度はそのままで、工程全てを最初から繰り返す。
+
+There are some unique spells in the tombola:
+スロット特有の魔法はこれだけ：
+
+  Spell     | Effect
+  ----------|----------------------------------------
+  Full-cure | Heals all allies fully
+  Wall      | Protect + Shell for all allies
+  Rapture   | All enemies not immune to it are killed
+  The End   | All enemies except Undead are killed
+
+  フルケア 味方を全て全快する
+  ウォール 味方全てにプロテスとシェルをかける
+  レビテガ 無効以外の敵を全て殺す
+  ジエンド アンデッド以外の敵を全て殺す
+
+======================================
+9.8  Seifer, Edea, Laguna, Kiros, Ward サイファー・イデア・ラグナ・キロス・ウォード
+======================================
+
+All of the temporary characters only have their Limit attack. Unlike
+the permanent characters, their Limits are not influenced by the Crisis Level.
+全ての一時キャラは、固有の特殊技をもっている。固定キャラとは異なり、これらの特殊技はピンチ度に影響されない。
+
+  Limit Break | Attack         | Power | Notes, targets
+  ------------|----------------|-------|----------------------
+  Fire Cross  | No Mercy       |   80  | physical, all
+  Sorcery     | Ice Strike     |  120  | magical, one 
+  Limit       | Desperado      |  140  | physical, all
+  Limit       | Blood Pain     |   25  | physical, 6 hits, one
+  Limit       | Massive Anchor |  150  | physical, one
+
+It's worth noting that Seifer's normal attack works like Squall's; he can't
+critical based on Luck (his Limit can) and instead uses his Trigger to 
+increase damage.
+Also, as seen in the Crisis Level section, it's easier for him to be able
+to use his Limit.
+サイファーの通常攻撃がスコールのそれのように振る舞うのはまったく意味がない。サイファーは運によるクリティカルを出せない(特殊技は可能)ので、代わりにトリガーを使ってダメージを増加させる。
+また、ピンチ度節で見られたように、特殊技を使用するのはサイファーにとって簡単だ。
+
+===============================================================================
+10.  Encounter Mechanics エンカウントの機序
+===============================================================================
+
+This section covers various aspects of encounters, such as how the game
+determines when a battle occurs or what the chances for item/card drops are.
+この節ではエンカの様々な面を扱う。バトル発生をどう決定しているかや、アイテム/カードのドロップ率はいくらかなど。
+
+----------------------------
+10.1  Encounters (World Map) ワールドマップのエンカ
+----------------------------
+
+Every 51 steps you take(which is just one step visually), the game performs 
+a check that decides whether a battle starts or not. 
+There is a variable which increases by 3 each time the check is 
+performed(walking diagonally and down/uphill increases it by 4).
+If that variable + LocationMod is greater than [0..255], a battle is started.
+51歩移動する(見た目にはちょうど一歩にあたる)ごとに、戦闘開始か否かのチェックが実行される。
+チェックの実行ごとに毎回3ずつ(斜め歩きと下り/上り坂では4ずつ)加算される変数がある。
+  戦闘開始 if その変数 + 地形変数 > [0..255]
+
+LocationMod
+  12  party is in a forest
+ 128  party is on Island closest to Hell/Heaven
+   2  anywhere else
+地形変数
+  12 森
+ 128 天国/地獄に一番近い島
+   2 それ以外
+
+With the party ability "Enc-Half", the check is performed every 198 steps, 
+meaning that the Encounter rate is ~1/4 instead of just 1/2.
+パーティアビリティ「エンカウント半減」が有効なら、チェックは198歩ごとに実行される。
+つまり、エンカ率は1/2ちょうどの代わりに1/4未満になることを意味する。
+
+If the ability "Enc-None" is equipped, the check is skipped completely.
+「エンカウントなし」が装着されたら、チェックは完全に飛ばされる。
+
+-------------------------------
+10.2  Back Attack, Struck First バックアタック・先制攻撃
+-------------------------------
+
+To determine whether you get an advantage/disadvantage over the enemy:
+敵に対する有利/不利の決定は：
+
+  rnd = [0..255] + EncounterMod
+  if (rnd < 20) "Back attack!"
+    else if (rnd < 236) no change
+      else "Struck first!"
+  rnd = [0..255] + エンカ変化
+  if rnd < 20
+    バックアタック
+  elsif rnd < 236
+    何もなし
+  else
+    先制攻撃
+  end
+
+  Note: EncounterMod can be either 0 or 20, depending on the enemies.
+  ※エンカ変化は0か20のどちらかで、敵に依存する。
+
+  Probability of..
+    "Back attack!"    20/256 or  0/256    7.8% or  0%
+    no change             216/256            84.3%
+    "Struck first!"   20/256 or 40/256    7.8% or 15.6%
+  確率：
+			EM=0		EM=20
+    バックアタック	20/256(7.8%)	0/256(0%)
+    何もなし		216/256(84.3%)
+    先制攻撃		20/256(7.8%)	40/256(15.6%)
+
+  Note: Equipping the "Alert" party ability reduces "rnd" by 20, essentially
+        increasing the odds of "Back attack!" and decreasing odds of 
+        "Struck first!"
+  ※パーティアビリティの「けいかい」をつけるとrndが20減り、根本的にバックアタックの確率を上げ、せんせいこうげきの確率を下げる。
+
+Back attack:
+All allies will start with 100% of the ATB bar filled.
+Enemies start with 0% of the ATB bar filled.
+バックアタック：
+全ての味方がATBバーの充填100%で開始する。
+敵はATBバーの充填0%で開始する。
+
+Struck first:
+All allies will start with 0% of the ATB bar filled.
+Enemies start with 100% of the ATB bar filled.
+せんせいこうげき：
+全ての味方がATBバーの充填0%で開始する。
+敵はATBバーの充填100%で開始する。
+
+No change:
+All enemies' and allies' starting ATB bar calculated normally, see section 3.1
+for more details.
+何もなし：
+全ての敵と味方の開始ATBバーは通常通り計算される。詳細情報は3.1節を参照。
+
+After this, the game checks if Odin/Gilgamesh should be summoned (section 5.3)
+この後、オーディン/ギルガメッシュの召喚チェックが行われる(5.3節参照)
+
+------------------
+10.3  Running away 逃走
+------------------
+
+Pressing and holding the L2 and R2 buttons causes all party members to run
+away. Every second or so, the game will check if [0..255] is less than
+the "running difficulty" (provided you're holidng L2 and R2). 
+If that is the case, you'll run away.
+The running difficulty depends on each encounter, usually being 255 or 128.
+Bosses always have a running difficulty of 0, meaning you can't ever escape.
+L2とR2を押し続けることでパーティ全員が逃げられる。毎秒かそこらで[0..255]が「逃走難易度」未満であるかチェックされる(L2とR2を押したままという条件下で)。その場合は逃げることができる。
+逃走難易度はそれぞれのエンカに依存しており、通常は255か128である。
+ボスの逃走難易度は常に0で、即ち決して逃げられないことを意味する。
+
+By running away, you don't get any AP and only partial EXP.
+E.g. Damaging the enemy for 10% of it's max HP would mean you'd get 10% of the
+EXP the enemy would've normally dropped.
+逃走するとAPは得られず、EXPは僅かしか手に入らない。
+例：敵のMHPの10%のダメージを与えると、その敵から通常得られるEXPの10%が手に入る。
+
+----------------------
+10.4  After the battle 戦闘後
+----------------------
+
+After successfully defeating all enemies, the game first checks if their card,
+if they have one, is dropped. the chance for that is 9/256 or 3.5%
+全ての敵を撃破したら、まず敵のカード(敵がもっていれば)のドロップがチェックされる。その確率は9/256または3.5%だ。
+
+The calculation for item drops is similar to mugging and is also affected by
+the "Rare item" party ability. In short, the probabilites are:
+アイテムドロップの計算はぶんどるに似ており、パーティアビリティ「レアアイテム」にも影響される。簡単にいえばその確率は：
+
+  Slot              |    0    |    1    |    2    |    3
+  ------------------|---------|---------|---------|--------
+  Without Rare Item | 178/256 |  51/256 |  15/256 |  12/256
+  ------------------|---------|---------|---------|--------
+  With Rare Item    | 128/256 | 114/256 |  14/256 |   0/256
+
+Check section 7.2.1 for more details.
+Instead of a MuggingDifficulty, there's DropDifficulty which is not 
+necessarily the same value. A value of 255 would mean that an item is always
+dropped.
+詳細情報は7.2.1節を参照。ぶんどる難易度の代わりに、必ずしも同じ値とは言えないドロップ難易度が存在する。255の値は常にアイテムがドロップすることを意味する。
+
+
+===============================================================================
+                             Revision History
+===============================================================================
+
+04/13/10 - Corrected the GF damage formula and Curse duration.
+
+===============================================================================
+                                 Credits
+===============================================================================
+
+I would like to thank the following people:
+
+- CzarDragon for compiling various documents which helped me to figure out some
+  things faster
+- Everyone at the FF8 Message Boards, especially Vilurum and phiefer3
+FAQ Display Options: Printable Version
+
+GameFAQs.comfacebook.com/GFAQstwitter.com/GameFAQsHelp / Contact UsChange Colors 
+gamespot.comgiantbomb.commetacritic.comgamerankings.com
+c 2016 CBS Interactive Inc. All rights reserved.SitemapAdvertisePrivacy PolicyAd ChoiceTerms of Use
