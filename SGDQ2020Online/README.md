@@ -51,7 +51,7 @@ SGDQに応募しようと考える。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今年はSGDQに出ることを目標にしよっかな<br>今のところ東方文花帖と四字熟語FlashとアニメティカDQ7を考えていますよろしくお願いします</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1217456551859904512?ref_src=twsrc%5Etfw">January 15, 2020</a></blockquote>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ダブルスポイラーも<br>東方本家が[AS]GDQに採用されたことが未だにないので</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1217458817685831680?ref_src=twsrc%5Etfw">January 15, 2020</a></blockquote>
 
-個人的にひじょーーーーーーーーに楽しみにしていた[last](https://twitter.com/last_794780)さんのメジャーデビューも煽りつつ。
+個人的にひっじょーーーーーに楽しみにしていた[last](https://twitter.com/last_794780)さんのメジャーデビューも煽りつつ。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ええっ、今年6月に開催される世界最大規模のオフラインRTAイベントSGDQに50打席中40ホーマーを打たれないと負けを認めないラスボスのクリストファー・ロビン(5)通称ロビカスで有名なWinnie the Pooh&#39;s Home Run Derbyことくまのプーさんのホームランダービーで応募する予定の日本人がいるんですか！？</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1227132288195891200?ref_src=twsrc%5Etfw">February 11, 2020</a></blockquote>
 
 #### 2020/03/05
