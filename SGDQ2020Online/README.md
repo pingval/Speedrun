@@ -26,6 +26,9 @@
   - [本家](https://gamesdonequick.com/schedule/30)
   - [日本語](https://docs.google.com/spreadsheets/d/e/2PACX-1vTVmldoOXRNlmjkOm_bx8N0IQ_mSHwf02AE0YKHOGQlk_3KRBlHMK9b9w89o95GdTCfATnS8FyeoiSm/pubhtml#)
 - [Bid Index — Summer Games Done Quick 2020](https://gamesdonequick.com/tracker/bids/sgdq2020)
+- [Donation Index -- Summer Games Done Quick 2020](https://gamesdonequick.com/tracker/donations/sgdq2020)
+  - [351ページ(東方文花帖のbid公開)](https://gamesdonequick.com/tracker/donations/sgdq2020?page=351)
+  - [248ページ(東方文花帖開始)](https://gamesdonequick.com/tracker/donations/sgdq2020?page=248)
 - [GDQ VODs · SGDQ 2020](https://gdqvods.com/event/sgdq-2020)
 - 自分の出番
   - 本家
