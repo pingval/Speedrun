@@ -1,6 +1,6 @@
 <!-- TOC depthFrom:1 depthTo:3 insertAnchor:false orderedList:false -->
 
-- [SGDQ 2020 Online とかレポート](#sgdq-2020-online-とかレポート)
+- [SGDQ 2020 Onlineとかレポート](#sgdq-2020-onlineとかレポート)
   - [時系列を追う](#時系列を追う)
     - [受かるまで](#受かるまで)
     - [受かってから](#受かってから)
@@ -18,7 +18,7 @@
 
 ----
 
-# SGDQ 2020 Online とかレポート
+# SGDQ 2020 Onlineとかレポート
 
 - [【SGDQ 2020 Online向け】走者自身の紹介する東方文花帖RTA | RTAGamers](https://rtagamers.com/stg/th095/)
 - [東方文花帖 RTA情報 - Google スプレッドシート](https://docs.google.com/spreadsheets/d/1jIzIlX9QnDxGvFWEyxSBrkok5tIpkPk0Og6wJ5ln0Ws/edit#gid=0)
