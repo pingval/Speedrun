@@ -404,7 +404,7 @@ AGDQ/SGDQに応募しようと考えている方には、寄付を促せるDonat
 
 ## おわりに
 
-お世話になった方々本当に本当にありがとうございました。……それにしても英語のリスニング力不足を感じた。この英語力で現地行くとかないっすね。新型コロナがなくてオフライン開催になってたらどうなっていたことか……。やりとりの少ないオンラインイベントということでなんとか乗り切れたけれど。そういえばAGDQ 2021もオンラインイベントになるようですねぇ。また誰か東方本家で応募してくれないか期待しております。
+お世話になった方々本当に本当にありがとうございました。……それにしても英語のリスニング力不足を感じた。この英語力で現地行くとかないっすね。新型コロナがなくてオフライン開催になってたらどうなっていたことか……。やりとりの少ないオンラインイベントということでなんとか乗り切れたけれど。そういえばAGDQ 2021もオンラインイベントになるようですねぇ。また誰か東方本家で応募してくれないかな～。
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">With COVID-19 being a continuing concern, for the community&#39;s safety we have decided to move <a href="https://twitter.com/hashtag/AGDQ2021?src=hash&amp;ref_src=twsrc%5Etfw">#AGDQ2021</a> to an online format with the same January 3rd-10th dates.<br><br>For more info: <a href="https://t.co/umiMSaefOZ">https://t.co/umiMSaefOZ</a><br><br>Game and select volunteer submissions will open September 24th!</p>&mdash; Games Done Quick (@GamesDoneQuick) <a href="https://twitter.com/GamesDoneQuick/status/1304589305080418304?ref_src=twsrc%5Etfw">September 12, 2020</a></blockquote>
 
 実は今年はじめのAGDQ 2020が終わった後にこんなやりとりがあった。この2人がSGDQ 2020 Onlineの東方文花帖の解説と走者になったと考えるとなかなかエモいですね。waiting foreverとか言いながら自分で応募してる奴がいるけど。
