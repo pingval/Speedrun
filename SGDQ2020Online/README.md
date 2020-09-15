@@ -47,7 +47,7 @@
 
 #### 2020/01/15~
 SGDQに応募しようと考える。
-RTA in JapanではRiJOで[東方文花帖](https://www.twitch.tv/videos/166255553)、RiJO2で[東方花映塚](https://www.twitch.tv/videos/295934347)、オフラインでもRiJ2019で[東方永夜抄](https://www.twitch.tv/videos/528371793)を披露できたが、AGDQ/SGDQではまだ披露されてないやん！　しかも同じ弾幕STGの[虫姫さまふたり]()がAGDQ 2020で盛り上がってたのに！　みたいな動機だった確か。
+[RTA in Japan](https://rtain.jp/)ではRiJOで[東方文花帖](https://www.twitch.tv/videos/166255553)、RiJO2で[東方花映塚](https://www.twitch.tv/videos/295934347)、オフラインでもRiJ2019で[東方永夜抄](https://www.twitch.tv/videos/528371793)を披露できたが、AGDQ/SGDQではまだ披露されてないやん！　しかも同じ弾幕STGの[虫姫さまふたり]()がAGDQ 2020で盛り上がってたのに！　みたいな動機だった確か。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今年はSGDQに出ることを目標にしよっかな<br>今のところ東方文花帖と四字熟語FlashとアニメティカDQ7を考えていますよろしくお願いします</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1217456551859904512?ref_src=twsrc%5Etfw">January 15, 2020</a></blockquote>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ダブルスポイラーも<br>東方本家が[AS]GDQに採用されたことが未だにないので</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1217458817685831680?ref_src=twsrc%5Etfw">January 15, 2020</a></blockquote>
 
@@ -349,7 +349,7 @@ CRDQで解説の立候補がなかったこともあり、英語解説の確保�
 
 <dl>
   <dt><a href="https://mutekijikan.stores.jp/items/5f0dd5324adba04000f502ea">RTA in Japan公式Tシャツ</a></dt>
-  <dd>一応事前に着るとGDQに伝えていたが特に何も言われなかったので着た。宣伝ヨシ！</dd>
+  <dd>GDQには事前に着ると伝えていたが特に何も言われなかったので着た。宣伝ヨシ！</dd>
   <dt>東方Project メガジャンボ寝そべりぬいぐるみ <a href="https://www.amazon.co.jp/gp/product/B01LZ4TY0P">博麗霊夢</a>・<a href="https://www.amazon.co.jp/gp/product/B071SDQH8T">霧雨魔理沙</a></dt>
   <dd>机の上、左端。<strong>東方Projectの主人公格なのに文花帖に登場しない霊夢と魔理沙を登場させるため</strong>っていうれっきとした理由があった。ちなみにもふもふのやつは異常に高額なのでやめました。</dd>
   <dt><a href="https://store.jp.square-enix.com/item/MW1152.html">スライムナイトぬいぐるみS</a></dt>
@@ -396,7 +396,7 @@ Donation Incentiveの内容は英語と日本語の解説担当にだけ知ら�
 
 $15,000(約160万円)という金額は恐らく運営によって決められたもので、前後のボーナスゲームほどではないがなかなか高く付けられたなーと思った。15時頃に余裕を持って寄付金額達成。ありがたいことです。
 
-AGDQ/SGDQに応募しようと考えている方には、寄付を促せるDonation Incentiveも応募するのをお勧めしたい。別に高難度の魅せプレイでなくとも、今回のSGDQ 2020 Onlineでもあったけようなポケモンにつける名前とか目隠しの絵柄とかみたいな感じで気軽に。
+AGDQ/SGDQに応募しようと考えている方には、寄付を促せるDonation Incentiveも応募するのをお勧めしたい。別に高難度の魅せプレイとかでなくとも、今回のSGDQ 2020 Onlineでもあったけような[ポケモンにつける名前](https://gamesdonequick.com/tracker/bid/11022)とか[目隠しの絵柄](https://gamesdonequick.com/tracker/bid/11114)とかみたいな感じで気軽に。
 
 ちなみに目隠しをやる場合は証明のためWebカメラ必須だったようだ。
 
@@ -404,7 +404,7 @@ AGDQ/SGDQに応募しようと考えている方には、寄付を促せるDonat
 
 ## おわりに
 
-お世話になった方々本当に本当にありがとうございました。……それにしても英語のリスニング力不足を感じた。この英語力で現地行くとかないっすね。新型コロナがなくてオフライン開催になってたらどうなっていたことか……。やりとりの少ないオンラインイベントということでなんとか乗り切れたけれど。ところで、AGDQ 2021もオンラインイベントになるようですねぇ。
+お世話になった方々本当に本当にありがとうございました。……それにしても英語のリスニング力不足を感じた。この英語力で現地行くとかないっすね。新型コロナがなくてオフライン開催になってたらどうなっていたことか……。やりとりの少ないオンラインイベントということでなんとか乗り切れたけれど。そういえばAGDQ 2021もオンラインイベントになるようですねぇ。また誰か東方本家で応募してくれないか期待しております。
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">With COVID-19 being a continuing concern, for the community&#39;s safety we have decided to move <a href="https://twitter.com/hashtag/AGDQ2021?src=hash&amp;ref_src=twsrc%5Etfw">#AGDQ2021</a> to an online format with the same January 3rd-10th dates.<br><br>For more info: <a href="https://t.co/umiMSaefOZ">https://t.co/umiMSaefOZ</a><br><br>Game and select volunteer submissions will open September 24th!</p>&mdash; Games Done Quick (@GamesDoneQuick) <a href="https://twitter.com/GamesDoneQuick/status/1304589305080418304?ref_src=twsrc%5Etfw">September 12, 2020</a></blockquote>
 
 実は今年はじめのAGDQ 2020が終わった後にこんなやりとりがあった。この2人がSGDQ 2020 Onlineの東方文花帖の解説と走者になったと考えるとなかなかエモいですね。waiting foreverとか言いながら自分で応募してる奴がいるけど。
