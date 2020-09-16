@@ -6,7 +6,7 @@
     - [受かってから](#受かってから)
   - [練習について](#練習について)
   - [解説について](#解説について)
-  - [Webカメラに映っていたものについて](#webカメラに映っていたものについて)
+  - [Webカメラについて](#webカメラについて)
   - [目隠しEX-6について](#目隠しex-6について)
   - [おわりに](#おわりに)
   - [おまけ: SGDQ 2020 Online応募内容](#おまけ-sgdq-2020-online応募内容)
@@ -58,7 +58,7 @@ SGDQに応募しようと考える。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ええっ、今年6月に開催される世界最大規模のオフラインRTAイベントSGDQに50打席中40ホーマーを打たれないと負けを認めないラスボスのクリストファー・ロビン(5)通称ロビカスで有名なWinnie the Pooh&#39;s Home Run Derbyことくまのプーさんのホームランダービーで応募する予定の日本人がいるんですか！？</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1227132288195891200?ref_src=twsrc%5Etfw">February 11, 2020</a></blockquote>
 
 #### 2020/03/05
-SGDQ 2020の応募が開始される(延期前)。最初の開催時期は06/21~28だった。
+SGDQ 2020の走者募集が開始される(延期前)。最初の開催時期は06/21-28だった。
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/SGDQ2020?src=hash&amp;ref_src=twsrc%5Etfw">#SGDQ2020</a> Game Submissions and Volunteer Applications are now open! <br><br>Be sure to read the Game Submission guide (there&#39;s been changes): <a href="https://t.co/hCdYlz3io8">https://t.co/hCdYlz3io8</a><br><br>and the Volunteering FAQ:<a href="https://t.co/ZxEggS88oo">https://t.co/ZxEggS88oo</a><br><br>before submitting. Thank you for your support!</p>&mdash; Games Done Quick (@GamesDoneQuick) <a href="https://twitter.com/GamesDoneQuick/status/1235385854920658944?ref_src=twsrc%5Etfw">March 5, 2020</a></blockquote>
 
 #### 2020/03/16
@@ -71,16 +71,16 @@ SGDQ 2020の応募が開始される(延期前)。最初の開催時期は06/21~
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">一人だけ名前がアルファベットじゃない奴がいるんだけど<a href="https://t.co/PnuYZqhXM4">https://t.co/PnuYZqhXM4</a> <a href="https://t.co/havB19zmcW">pic.twitter.com/havB19zmcW</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1241094003832938496?ref_src=twsrc%5Etfw">March 20, 2020</a></blockquote>
 
 #### 2020/03/28~
-SGDQの延期(06/21~28 → 08/16~23)と[CRDQ]()の開催が発表される。
+SGDQの延期(06/21-28 → 08/16-23)と[CRDQ]()の開催が発表される。
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We&#39;d like to share some updates regarding GDQ and COVID-19: <a href="https://t.co/xpGev7MnYP">https://t.co/xpGev7MnYP</a> <a href="https://twitter.com/hashtag/SGDQ2020?src=hash&amp;ref_src=twsrc%5Etfw">#SGDQ2020</a> <a href="https://twitter.com/hashtag/CRDQ?src=hash&amp;ref_src=twsrc%5Etfw">#CRDQ</a> <a href="https://t.co/WIO42HjU6k">pic.twitter.com/WIO42HjU6k</a></p>&mdash; Games Done Quick (@GamesDoneQuick) <a href="https://twitter.com/GamesDoneQuick/status/1243567589890154496?ref_src=twsrc%5Etfw">March 27, 2020</a></blockquote>
 
 新型コロナの跳梁跋扈によりアメリカへの渡航自体が怪しくなったのでSGDQへの応募はやめ。
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Since anxious factors are increased too much to my first overseas trip, I&#39;ll pass <a href="https://twitter.com/hashtag/SGDQ2020?src=hash&amp;ref_src=twsrc%5Etfw">#SGDQ2020</a> as long as it&#39;s an offline event.</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1244925517880373252?ref_src=twsrc%5Etfw">March 31, 2020</a></blockquote>
 
-また、CRDQへの参加も考えたが、開催まで時間があまりないため解説を確保してから応募しようとしたものの、それができなかったので応募せず。
+また、CRDQへの参加も考えたが、開催まで時間があまりないため解説を確保してから応募しようとしたものの確保できなかったため応募せず。
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m considering submitting to <a href="https://twitter.com/hashtag/CRDQ?src=hash&amp;ref_src=twsrc%5Etfw">#CRDQ</a> Shoot the Bullet All Scenes. But now I&#39;m lack of English commentator of the tech requirements.<br>If you can help me, please contact me! <a href="https://t.co/zh0bBnfz6Z">pic.twitter.com/zh0bBnfz6Z</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1244591229649616897?ref_src=twsrc%5Etfw">March 30, 2020</a></blockquote>
 
-その後は東方文花帖のことは一旦忘れPS版DQ7RTAの戦略を練ったり[イノゴンシミュレータ](https://github.com/pingval/psdq7_InoGon_simulator)を作ったりしていた。
+その後はSGDQのことは一旦忘れPS版DQ7RTAの戦略を練ったり[イノゴンシミュレータ](https://github.com/pingval/psdq7_InoGon_simulator)を作ったりしていた。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">PS版DQ7 イノゴン戦シミュレータ<a href="https://t.co/dmZsYRPsTe">https://t.co/dmZsYRPsTe</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1261962178543804416?ref_src=twsrc%5Etfw">May 17, 2020</a></blockquote>
 
 #### 2020/06/06
@@ -93,7 +93,7 @@ SGDQ 2020がオンラインイベントSGDQ 2020 Onlineとして開催される�
 
 ![SGDQ 2020 Online応募](https://pbs.twimg.com/media/EaKD8DIUEAMjXkG?format=png&name=large)
 
-応募する前、新しい動画の方が通り易いだろうと思って2周ほどしたのだが、1時間を切れなくてめんどくさくなったため3年前の自己ベの動画で提出する(本番1時間切れるか？　という不安も僅かによぎる)。
+応募前、新しい動画の方が通り易いだろうと思って2周ほどしたが、1時間切れなくてめんどくさくなったため3年前の自己ベの動画で提出する(本番1時間切れるか？　という不安も僅かによぎる)。
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I got a 1:05:38 in Touhou Bunkachou ~ Shoot the Bullet - All Scenes. <a href="https://t.co/gy1Mm560sC">pic.twitter.com/gy1Mm560sC</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1270009043763920899?ref_src=twsrc%5Etfw">June 8, 2020</a></blockquote>
 
 ![1:05:38 in Touhou Bunkachou ~ Shoot the Bullet - All Scenes](https://pbs.twimg.com/media/EZ_6ftSUwAErRSU?format=png&name=360x360)
@@ -115,7 +115,7 @@ SGDQ 2020がオンラインイベントSGDQ 2020 Onlineとして開催される�
 
 #### 2020/07/14
 昼休み中の13時頃、SGDQ 2020 Onlineの当落と[スケジュール](https://gamesdonequick.com/schedule/30)が発表され、自分の東方文花帖が採用されたことを知る。えらいこっちゃ！
-Donation Incentiveの考慮されていない当初のスケジュールでは18:30頃であった。「東方文花帖→ケツイ→怒首領蜂最大往生」と弾幕STGが3作品連続しているが、ハードルが低い一番手ということにほっとする。スケジュールの終盤に配置されたことに関しては練習時間が確保できてありがてえな～と思った。
+Donation Incentiveの考慮されていない当初のスケジュールでは18:30頃であった。「東方文花帖→ケツイ→怒首領蜂最大往生」と弾幕STGが3作品連続しているshmup blockの中でハードルの低い一番手ということにほっとする。スケジュールの終盤に配置されたことに関しては練習時間が確保できてありがてえな～と思った。
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our <a href="https://twitter.com/hashtag/SGDQ2020?src=hash&amp;ref_src=twsrc%5Etfw">#SGDQ2020</a> schedule is now live! <br><br>Runners: An email will come by end of July 14th. It will contain time sensitive info!<br><br>Please check the schedule often as times can shift. If you can&#39;t make your time, email us: committee at gamesdonequick dot com<a href="https://t.co/p3OBf2QSMx">https://t.co/p3OBf2QSMx</a> <a href="https://t.co/RTfOuWQ2LO">pic.twitter.com/RTfOuWQ2LO</a></p>&mdash; Games Done Quick (@GamesDoneQuick) <a href="https://twitter.com/GamesDoneQuick/status/1282885248863404032?ref_src=twsrc%5Etfw">July 14, 2020</a></blockquote>
 
 日本人でAcceptされたのは[とんこつ](https://twitter.com/tnkt_kong)さん、[poshi](https://twitter.com/potato_digger)さん、[自分](http://twitter.com/pingval)の3人。またケツイのBackup Runnerとして[PKE](https://twitter.com/peketsui)さんもいた。のちにこの日本勢で集まって情報を共有したりしていた。
@@ -209,7 +209,7 @@ Donation Incentiveの考慮されていない当初のスケジュールでは18
 
 ![粉骨砕身](https://pbs.twimg.com/media/EgBNdJ-UwAAB6gb?format=png&name=small)
 
-san, ni, ichiのカウントダウンを聞いたあと、画面が切り替わり出番が始まったがよく分かっておらず Should I start? とか言ったりしている。
+スタッフによるsan, ni, ichiのカウントダウンのあと画面が切り替わり出番が始まったが、よく分かっておらず Should I start? とかとんちんかんなことを言ったりしている。
 
 最初の挨拶ではこんなことを言った。
 ```
@@ -241,7 +241,7 @@ GDQ用の配信設定では、PCゲーのゲーム音とDiscord音を分離す�
 - 4-8: 6枚目が当たりそうでやばかった。めっちゃ焦った動きしてる。
 - 5-4: アジーンさんの解説はちょっと間違ってて、この動きは文花帖スコアタプロ[Ia](https://www.twitch.tv/asibtia)さんのRTAパターンをパクったやつ。終わりに Thank you Ia. と感謝の言葉を述べている。
   - なおIaさんは2020/07/14に57m07sの記録を出して1時間切りを達成してます(宣伝)。
-- 5-6: 後で測ったら2~5枚目で18sほど左手を離せるからバナナタイムできるかもね。実際は位置の微調整が必要になりそうだけど。
+- 5-6: 後で測ったら2-5枚目で18sほど左手を離せるからバナナタイムできるかもね。実際は位置の微調整が必要になりそうだけど。
 - 6-1: 橙の動きの運は割とよかった。
 - 6-2: [6-1のタイマー18:53辺り](https://youtu.be/NDsRHSoXNzI?t=1316)で一瞬処理落ちしたため Slowdown occured a bit. と呟いた。覚えている限りでは、Lv2のどこかと金閣寺でも処理落ちしていた。
   - このカクッとくる処理落ちはちょこちょこあった。多分、DiscordのGo Live!でも配信(解説や司会が見る用？)していたせいだと思う。これが原因の被弾は幸いなかったが。
@@ -335,18 +335,18 @@ ping値です。金閣寺の3被弾は残念だったけれど、この走りに
 
 ## 解説について
 
-CRDQで解説の立候補がなかったこともあり、英語解説の確保はSGDQで走るにあたっての最重要事項と考えていた。そのため当落発表されたその日に動いた結果無事確保できたのだが、その方は事情があって途中で辞退されてしまった。辞退される代わりに推薦してもらったのがbjwさんであり、自分も[JRTA3で東方文花帖を走ったとき](https://www.youtube.com/watch?v=x4pYfYE6i_4)に解説してくれたbjwさんは候補の一人に考えていたこともあり解説をお願いしたところ快く引き受けてくれて本当にありがたかった。あと前口上の添削もしてくれた。自分の英語リスニング力が足りなくて本番中円滑にコミュニケーションできなかったのが申し訳ない。bjwさんに限ったことではないけれど。
+CRDQに向けて解説を募ったときに立候補がなかったこともあり、英語解説の確保はSGDQで走るにあたっての最重要事項と考えていた。そのため当落発表されたその日に動いた結果無事確保できたのだが、その方は事情があって途中で辞退されてしまった。辞退される代わりに推薦してもらったのがbjwさんであり、自分も[JRTA3で東方文花帖を走ったとき](https://www.youtube.com/watch?v=x4pYfYE6i_4)に解説してくれたbjwさんは候補の一人に考えていたこともあって解説をお願いしたところ快く引き受けてくれて本当にありがたかった。あと前口上の添削もしてくれた。自分の英語リスニング力が足りなくて本番中円滑にコミュニケーションできなかったのが申し訳ない。bjwさんに限ったことではないけれど。
 
 日本語解説は立候補してくれたお馴染みのアジーンにお任せした。アジーンさんは名古屋RTAオフのときに一度解説してもらったことがあり、そのときそこそこの資料は作っていたが、基本システム的なところは不足していたためRTAGamersの記事でそこらへんを補強して参考にしてもらった。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">東方文花帖 〜 Shoot the Bullet.の日本語リストリーム解説やってもいいですか？</p>&mdash; アジーン＠RTA解説請負します (@discordjinro) <a href="https://twitter.com/discordjinro/status/1283065946739896321?ref_src=twsrc%5Etfw">July 14, 2020</a></blockquote>
 
 - [【SGDQ 2020 Online向け】走者自身の紹介する東方文花帖RTA | RTAGamers](https://rtagamers.com/stg/th095/): 基本的な情報はこっちで。
 - [東方文花帖 RTA情報 - Google スプレッドシート](https://docs.google.com/spreadsheets/d/1jIzIlX9QnDxGvFWEyxSBrkok5tIpkPk0Og6wJ5ln0Ws/edit#gid=0): 名古屋RTAオフで渡した資料に追記。ただし基本的な情報が欠けている。あと<del>くそぎつね</del>はマズい……
-- [文々。攻略新聞](https://www.suruga-ya.jp/product/detail/ZHORE13885): 駿河屋に在庫があるのをお伝えしたら速攻買ってくれた。配達が遅かったらしいが本番までには無事届き、解説の参考にしてくださった。
+- [文々。攻略新聞](https://www.suruga-ya.jp/product/detail/ZHORE13885): 異常に詳しい同人攻略本。駿河屋に在庫があるのをお伝えしたら速攻買ってくれた。配達が遅かったらしいが本番までには無事届き、解説の参考にしてくださった。
 
 ----
 
-## Webカメラに映っていたものについて
+## Webカメラについて
 
 使ったWebカメラは[Logicool C525](https://www.logicool.co.jp/ja-jp/product/hd-webcam-c525n)。
 
@@ -356,7 +356,7 @@ CRDQで解説の立候補がなかったこともあり、英語解説の確保�
   <dt>東方Project メガジャンボ寝そべりぬいぐるみ <a href="https://www.amazon.co.jp/gp/product/B01LZ4TY0P">博麗霊夢</a>・<a href="https://www.amazon.co.jp/gp/product/B071SDQH8T">霧雨魔理沙</a></dt>
   <dd>机の上、左端。<strong>東方Projectの主人公格なのに文花帖に登場しない霊夢と魔理沙を登場させるため</strong>っていうれっきとした理由があった。ちなみにもふもふのやつは異常に高額なのでやめました。</dd>
   <dt><a href="https://store.jp.square-enix.com/item/MW1152.html">スライムナイトぬいぐるみS</a></dt>
-  <dd>レイマリの右。DQのグッズを映すのにちょうどいいのでさりげなく置いておいた。誰か気付いてくれたかな？</dd>
+  <dd>レイマリの右。DQのグッズを映すのにちょうどいいスペースがあったのでさりげなく置いておいた。誰か気付いてくれたかな？</dd>
   <dt><a href="https://mutekijikan.stores.jp/items/5f0dd57d4adba04000f502f4">RTA in Japan公式エモートTシャツ</a></dt>
   <dd>右端。RTA changもメジャーデビューだ！　なお手前にある細い赤いヒモは蛍光灯のスイッチに括り付けてるアレ。</dd>
 </dl>
@@ -369,7 +369,7 @@ CRDQで解説の立候補がなかったこともあり、英語解説の確保�
 
 ## 目隠しEX-6について
 
-Bidというのは[こういうやつ](https://moon.ap.teacup.com/kuhaku/1690.html#GDQ)。目隠しをやろうと考えたきっかけはやはり[Luzbel](https://twitter.com/Luzbelheim)の[FF9](https://clips.twitch.tv/ConfidentTallPlumWholeWheat)と[FF8](https://youtu.be/sSF9-3KdauA?t=25867)の目隠しメニュー操作。非常に印象的だったので、自分も目隠しでなんかやりたいなーと考えていた。弾幕ごとに面が完全に分かれている文花帖ではひとつのシーンまるごと目隠ししやすいし、STGでの目隠しはあまり話を聞いたことがないから目を引くんじゃないかという狙いもあった。
+Bidというのは[こういうやつ](https://moon.ap.teacup.com/kuhaku/1690.html#bids)。目隠しをやろうと考えたきっかけはやはり[Luzbel](https://twitter.com/Luzbelheim)の[FF9](https://clips.twitch.tv/ConfidentTallPlumWholeWheat)と[FF8](https://youtu.be/sSF9-3KdauA?t=25867)の目隠しメニュー操作。非常に印象的だったので、自分も目隠しでなんかやりたいなーと考えていた。弾幕ごとに面が完全に分かれている文花帖ではひとつのシーンまるごと目隠ししやすいし、STGでの目隠しはあまり話を聞いたことがないから目を引くんじゃないかという狙いもあった。
 
 - 盛り上がりそうな終盤
 - 目隠しでも安定打開できる、ランダム要素の少ない弾幕
@@ -394,7 +394,7 @@ Bidというのは[こういうやつ](https://moon.ap.teacup.com/kuhaku/1690.ht
 Donation Incentiveの内容は英語と日本語の解説担当にだけ知らせ、[RTAGamersの記事](https://rtagamers.com/stg/th095/)でも隠していた。
 前日深夜に[Bidsのページ](https://gamesdonequick.com/tracker/bids/sgdq2020)で公開されたときは驚かせることができたようで何より。
 ただし練習配信では毎回EX-6で目をつぶっていたのがEye Trackingを見れば分かるので、そこから察していた人もいたかも知れない。
-成功率は1/3~1/2程度だったかな……。金閣寺だけじゃなくてこっちも練習不足だったかも。
+成功率は1/3-1/2程度だったかな……。金閣寺だけじゃなくてこっちも練習不足だったかも。
 
 $15,000(約160万円)という金額は恐らく運営によって決められたもので、前後のボーナスゲームほどではないがなかなか高く付けられたなーと思った。15時頃に余裕を持って寄付金額達成。ありがたいことです。
 
@@ -445,7 +445,7 @@ I'll take off from work to fit in the schedule.</pre>
   </dd>
   <dd>日本語訳(日本時間換算):
 <pre>8/16: 13:00-25:00
-8/17~20: 19:00-25:00
+8/17-20: 19:00-25:00
 8/21: 19:00-27:00
 8/22: 09:00-27:00
 8/23: 09:00-25:00
