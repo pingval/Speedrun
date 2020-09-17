@@ -340,9 +340,14 @@ CRDQに向けて解説を募ったときに立候補がなかったこともあ�
 日本語解説は立候補してくれたお馴染みのアジーンにお任せした。アジーンさんは名古屋RTAオフのときに一度解説してもらったことがあり、そのときそこそこの資料は作っていたが、基本システム的なところは不足していたためRTAGamersの記事でそこらへんを補強して参考にしてもらった。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">東方文花帖 〜 Shoot the Bullet.の日本語リストリーム解説やってもいいですか？</p>&mdash; アジーン＠RTA解説請負します (@discordjinro) <a href="https://twitter.com/discordjinro/status/1283065946739896321?ref_src=twsrc%5Etfw">July 14, 2020</a></blockquote>
 
-- [【SGDQ 2020 Online向け】走者自身の紹介する東方文花帖RTA | RTAGamers](https://rtagamers.com/stg/th095/): 基本的な情報はこっちで。
-- [東方文花帖 RTA情報 - Google スプレッドシート](https://docs.google.com/spreadsheets/d/1jIzIlX9QnDxGvFWEyxSBrkok5tIpkPk0Og6wJ5ln0Ws/edit#gid=0): 名古屋RTAオフで渡した資料に追記。ただし基本的な情報が欠けている。あと<del>くそぎつね</del>はマズい……
-- [文々。攻略新聞](https://www.suruga-ya.jp/product/detail/ZHORE13885): 異常に詳しい同人攻略本。駿河屋に在庫があるのをお伝えしたら速攻買ってくれた。配達が遅かったらしいが本番までには無事届き、解説の参考にしてくださった。
+<dl>
+  <dt><a href="https://rtagamers.com/stg/th095/">【SGDQ 2020 Online向け】走者自身の紹介する東方文花帖RTA | RTAGamers</a></dt>
+  <dd>基本的な情報はこっちで。</dd>
+  <dt><a href="https://docs.google.com/spreadsheets/d/1jIzIlX9QnDxGvFWEyxSBrkok5tIpkPk0Og6wJ5ln0Ws/edit#gid=0">東方文花帖 RTA情報 - Google スプレッドシート</a></dt>
+  <dd>名古屋RTAオフで渡した資料に追記。ただし基本的な情報が欠けている。あと<del>くそぎつね</del>はマズい……</dd>
+  <dt><a href="https://www.suruga-ya.jp/product/detail/ZHORE13885">文々。攻略新聞(リンク先は駿河屋)</a></dt>
+  <dd>異常に詳しい同人攻略本。駿河屋に在庫があるのをお伝えしたら速攻買ってくれた。配達が遅かったらしいが本番までには無事届き、解説の参考にしてくださった。</dd>
+</dl>
 
 ----
 
@@ -398,7 +403,7 @@ Donation Incentiveの内容は英語と日本語の解説担当にだけ知ら�
 
 $15,000(約160万円)という金額は恐らく運営によって決められたもので、前後のボーナスゲームほどではないがなかなか高く付けられたなーと思った。15時頃に余裕を持って寄付金額達成。ありがたいことです。
 
-AGDQ/SGDQに応募しようと考えている方には、寄付を促せるDonation Incentiveも応募するのをお勧めしたい。別に高難度の魅せプレイとかでなくとも、今回のSGDQ 2020 Onlineでもあったような[ポケモンにつける名前](https://gamesdonequick.com/tracker/bid/11022)とか[目隠しの絵柄](https://gamesdonequick.com/tracker/bid/11114)とかみたいな感じで気軽に。なお、目隠しをやる場合は証明のためWebカメラ必須だったようだ。
+AGDQ/SGDQに応募しようと考えている方には、寄付を促せるDonation Incentiveも応募するのをお勧めしたい。別に高難度の魅せプレイとかでなくとも、今回のSGDQ 2020 Onlineでもあったような[ポケモンにつける名前](https://gamesdonequick.com/tracker/bid/11022)とか[目隠しの絵柄](https://gamesdonequick.com/tracker/bid/11114)とかみたいな感じで気軽に。ただし、目隠しをやる場合は証明のためWebカメラ必須だったようだ。
 
 ----
 
@@ -518,7 +523,7 @@ EX-6の弾道は自機の位置(注: 正しくは、ボスと自機の位置関�
 
 <dl>
   <dt>Game Name</dt>
-  <dd>Yojijukkugo Flash</dd>
+  <dd>Yojijukugo Flash</dd>
   <dt>Submission Description</dt>
   <dd>
   <pre>Yojijukugo Flash is a free mini Flash game provided by GameDesign.jp. "Yojijukugo" is a Japanese idiom consisting of 4 kanji.
