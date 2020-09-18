@@ -203,7 +203,7 @@ Donation Incentiveの考慮されていない当初のスケジュールでは18
 一つ前のゲームは[FF7R](https://www.youtube.com/watch?v=K-jP9LXEM1M)。ちょこちょこ気になるところを練習したりひげを剃りながら適当に本番を待つ(この時間を終わりの挨拶を考えるのに充てていれば……)。
 16時頃は雨が降っており雷も鳴っていたため停電を心配したが杞憂に終わった。
 
-出番の40分ほど前、20:50頃GDQ運営に呼び出される。着忘れていたRTA in Japan Tシャツに着替えたり(ちゃんとWebカメラの外で)、カウントダウンをthree, two, oneとsan, ni, ichiのどっちにするか聞かれたり、英語のやりとりでいっぱいいっぱいでLiveSplitを起動し忘れたりする。司会のBaidolさんの[「Shoot the Bullet」の発音](https://youtu.be/NDsRHSoXNzI?t=70)がとてもかっこよくて「おっ！」となった。マジおすすめ。
+出番の40分ほど前、20:50頃GDQ運営に呼び出される。着忘れていたRTA in Japan Tシャツに着替えたり(ちゃんとWebカメラの外で)、カウントダウンをthree, two, oneとsan, ni, ichiのどっちにするか聞かれたり、英語のやりとりでいっぱいいっぱいでLiveSplitを起動し忘れたりする。司会のBaidolさんの[「Shoot the Bullet」の発音](https://youtu.be/NDsRHSoXNzI?t=75)がとてもかっこよくて「おっ！」となった。マジおすすめ。
 
 なお振り返り配信でも言ったが、緊張を紛らわすため、よく見る配信の録画を小さい音量で聞いてた。
 
