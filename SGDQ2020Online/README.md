@@ -20,9 +20,11 @@
 
 # SGDQ 2020 Onlineとかレポート
 
-- [【SGDQ 2020 Online向け】走者自身の紹介する東方文花帖RTA | RTAGamers](https://rtagamers.com/stg/th095/)
-- [東方文花帖 RTA情報 - Google スプレッドシート](https://docs.google.com/spreadsheets/d/1jIzIlX9QnDxGvFWEyxSBrkok5tIpkPk0Og6wJ5ln0Ws/edit#gid=0)
-- スケジュール
+- 東方文花帖RTAの解説(新規走者増えてくれないかな……ﾁﾗｯ)
+  - [【SGDQ 2020 Online向け】走者自身の紹介する東方文花帖RTA | RTAGamers](https://rtagamers.com/stg/th095/)
+  - [東方文花帖 RTA情報 - Google スプレッドシート](https://docs.google.com/spreadsheets/d/1jIzIlX9QnDxGvFWEyxSBrkok5tIpkPk0Og6wJ5ln0Ws/edit#gid=0)
+  - [文花帖RTAリプレイ置場](https://drive.google.com/drive/folders/0B20JDm6isEeOU2U1MUxXYWRjenc)
+- SGDQ 2020 Onlineスケジュール
   - [本家](https://gamesdonequick.com/schedule/30)
   - [日本語](https://docs.google.com/spreadsheets/d/e/2PACX-1vTVmldoOXRNlmjkOm_bx8N0IQ_mSHwf02AE0YKHOGQlk_3KRBlHMK9b9w89o95GdTCfATnS8FyeoiSm/pubhtml#)
 - [Bid Index — Summer Games Done Quick 2020](https://gamesdonequick.com/tracker/bids/sgdq2020)
@@ -34,12 +36,13 @@
   - 本家
     - [Twitch](https://twitch.tv/videos/718011418?t=00h10m38s)
     - [YouTube](https://www.youtube.com/watch?v=NDsRHSoXNzI)
-  - [日本](https://www.twitch.tv/videos/719049902)
-  - [フランス](https://www.twitch.tv/videos/719152472)
-  - [ロシア](https://www.twitch.tv/videos/718925267)
-  - [ドイツ](https://www.twitch.tv/videos/719897344)
-  - [スペイン#1](https://www.twitch.tv/videos/718094687), [#2](https://www.twitch.tv/videos/718096797)
-  - [ブラジル](https://www.twitch.tv/videos/717853642?t=6h28m28s)
+  - Restream
+    - [日本](https://www.twitch.tv/videos/719049902)
+    - [フランス](https://www.twitch.tv/videos/719152472)
+    - [ロシア](https://www.twitch.tv/videos/718925267)
+    - [ドイツ](https://www.twitch.tv/videos/719897344)
+    - [スペイン#1](https://www.twitch.tv/videos/718094687), [#2](https://www.twitch.tv/videos/718096797)
+    - [ブラジル](https://www.twitch.tv/videos/717853642?t=6h28m28s)
 - [SGDQ2020Online日本勢振り返り配信](https://www.twitch.tv/videos/726101007)
 
 ----
