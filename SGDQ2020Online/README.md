@@ -118,7 +118,7 @@ SGDQ 2020がオンラインイベントSGDQ 2020 Onlineとして開催される�
 
 #### 2020/07/14
 昼休み中の13時頃、SGDQ 2020 Onlineの当落と[スケジュール](https://gamesdonequick.com/schedule/30)が発表され、自分の東方文花帖が採用されたことを知る。えらいこっちゃ！
-Donation Incentiveの考慮されていない当初のスケジュールでは18:30頃であった。「東方文花帖→ケツイ→怒首領蜂最大往生」と弾幕STGが3作品連続しているshmup blockの中でハードルの低い一番手ということにほっとする。スケジュールの終盤に配置されたことに関しては練習時間が確保できてありがてえな～と思った。
+Incentiveの考慮されていない当初のスケジュールでは18:30頃であった。「東方文花帖→ケツイ→怒首領蜂最大往生」と弾幕STGが3作品連続しているshmup blockの中でハードルの低い一番手ということにほっとする。スケジュールの終盤に配置されたことに関しては練習時間が確保できてありがてえな～と思った。
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our <a href="https://twitter.com/hashtag/SGDQ2020?src=hash&amp;ref_src=twsrc%5Etfw">#SGDQ2020</a> schedule is now live! <br><br>Runners: An email will come by end of July 14th. It will contain time sensitive info!<br><br>Please check the schedule often as times can shift. If you can&#39;t make your time, email us: committee at gamesdonequick dot com<a href="https://t.co/p3OBf2QSMx">https://t.co/p3OBf2QSMx</a> <a href="https://t.co/RTfOuWQ2LO">pic.twitter.com/RTfOuWQ2LO</a></p>&mdash; Games Done Quick (@GamesDoneQuick) <a href="https://twitter.com/GamesDoneQuick/status/1282885248863404032?ref_src=twsrc%5Etfw">July 14, 2020</a></blockquote>
 
 日本人でAcceptされたのは[とんこつ](https://twitter.com/tnkt_kong)さん、[poshi](https://twitter.com/potato_digger)さん、[自分](http://twitter.com/pingval)の3人。またケツイのBackup Runnerとして[PKE](https://twitter.com/peketsui)さんもいた。のちにこの日本勢で集まって情報を共有したりしていた。
@@ -397,16 +397,16 @@ Bidというのは[こういうやつ](https://moon.ap.teacup.com/kuhaku/1690.ht
 で、10-4の目隠しは安定パターンを作るのに時間が掛かりそうかつパターンが完成しても難しそうなので、お手軽なEX-6を選択した。RTA in Japan 2019のTwitter投票で得たこんな学びもありましたゆえ。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">RTA in Japanの永夜抄Extraインペリ取得は、安定パターンを作らないといけないし道中のパターンも変える必要があったしTwitter投票でどっちになるかわかんなかったし本番で失敗したら努力が水泡だしで、この舞台だけのために用意する選択肢としてはコストがでかすぎましたね……</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1221309897146372097?ref_src=twsrc%5Etfw">January 26, 2020</a></blockquote>
 
-目隠しEX-6のDonation Incentiveの応募は東方文花帖の応募と同時に行った。採用が知らされたのはゲームの当落発表よりも後。なおDonation Incentiveの応募はだいぶ後からでも可能だった。
+目隠しEX-6のIncentiveの応募は東方文花帖の応募と同時に行った。採用が知らされたのはゲームの当落発表よりも後。なおIncentiveの応募はだいぶ後からでも可能だった。
 
-Donation Incentiveの内容は英語と日本語の解説担当にだけ知らせ、[RTAGamersの記事](https://rtagamers.com/stg/th095/)でも隠していた。
+ Incentiveの内容は英語と日本語の解説担当にだけ知らせ、[RTAGamersの記事](https://rtagamers.com/stg/th095/)でも隠していた。
 前日深夜に[Bidsのページ](https://gamesdonequick.com/tracker/bids/sgdq2020)で公開されたときは驚かせることができたようで何より。
 ただし練習配信では毎回EX-6で目をつぶっていたのがEye Trackingを見れば分かるので、そこから察していた人もいたかも知れない。
 成功率は1/3-1/2程度だったかな……。金閣寺だけじゃなくてこっちも練習不足だったかも。
 
 $15,000(約160万円)という金額は恐らく運営によって決められたもので、前後のボーナスゲームほどではないがなかなか高く付けられたなーと思った。15時頃に余裕を持って寄付金額達成。ありがたいことです。
 
-AGDQ/SGDQに応募しようと考えている方には、寄付を促せるDonation Incentiveも応募するのをお勧めしたい。別に高難度の魅せプレイとかでなくとも、今回のSGDQ 2020 Onlineでもあったような[ポケモンにつける名前](https://gamesdonequick.com/tracker/bid/11022)とか[目隠しの絵柄](https://gamesdonequick.com/tracker/bid/11114)とかみたいな感じで気軽に。ただし、目隠しをやる場合は証明のためWebカメラ必須だったようだ。
+AGDQ/SGDQに応募しようと考えている方には、寄付を促せるIncentiveも応募するのをお勧めしたい。別に高難度の魅せプレイとかでなくとも、今回のSGDQ 2020 Onlineでもあったような[ポケモンにつける名前](https://gamesdonequick.com/tracker/bid/11022)とか[目隠しの絵柄](https://gamesdonequick.com/tracker/bid/11114)とかみたいな感じで気軽に。ただし、目隠しをやる場合は証明のためWebカメラ必須だったようだ。
 
 ----
 
@@ -498,20 +498,21 @@ Even though I have been looking forward to any mainline Touhou game shown at AGD
       <dd>https://www.youtube.com/watch?v=Jv_7kN2-aVg</dd>
     </dl>
   </dd>
-  <dt>Donation Incentive #1 (Accepted!)</dt>
+  <dt>Incentive #1 (Accepted!)</dt>
   <dd>
     <dl>
-      <dt>Donation Incentive</dt>
-      <dd>Blindfolded EX-6: Pingval plays EX-6 blindfolded. It's the 3rd to the last scene.</dd>
-      <dd>日本語訳: 目隠しEX-6: 最後から3番目のシーンであるEX-6を目隠しでプレイする。</dd>
       <dt>Incentive Description</dt>
       <dd>
-      <pre>EX-6 is here: https://www.youtube.com/watch?v=Jv_7kN2-aVg&t=2895
+      <pre>Blindfolded EX-6: Pingval plays EX-6 blindfolded. It's the 3rd to the last scene.
+
+EX-6 is here: https://www.youtube.com/watch?v=Jv_7kN2-aVg&t=2895
 Bullets' path of the EX-6 is completely dependent on the player character's position, and as this video shows, you can capture it with a simple rhythm game. Even blindfolded, it's not too difficult as long as you're careful about the amount of movement.
 Even if I miss a couple of times, the time loss won't be more than one minute.
-(397/500文字)</pre>
+(480/500文字)</pre>
       <dd>日本語訳:
-      <pre>EX-6はこちら：https://www.youtube.com/watch?v=Jv_7kN2-aVg&t=2895
+      <pre>目隠しEX-6: 最後から3番目のシーンであるEX-6を目隠しでプレイする。
+
+EX-6はこちら：https://www.youtube.com/watch?v=Jv_7kN2-aVg&t=2895
 EX-6の弾道は自機の位置(注: 正しくは、ボスと自機の位置関係)に完全に依存しており、この動画のように簡単なリズムゲーで攻略できます。たとえ目隠しをしていても、移動量にさえ気をつければさほど難しくありません。
 何度か失敗してもタイムロスは1分もないでしょう。</pre>
       <dt>Incentive Options (Optional if not applicable)</dt>
