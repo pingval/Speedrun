@@ -89,12 +89,12 @@ PS版でデバッグルームへ行くには、チートコードを使ったり
 
 ## PC Any&#x025;のブレイクスルー
 
-[Any% (30 FPS)カテゴリのWR](https://www.speedrun.com/ff7/full_game#PC)の歴史で追う。
+[Any% (30 FPS)カテゴリWR](https://www.speedrun.com/ff7/full_game#PC)の変遷でみるブレイクスルー。
 
 - 2018/07/26: [PC - Any% (30 FPS) in 2h 37m 48s by camp4r](https://www.speedrun.com/ff7/run/z115pnwz)
     - [警備員スキップ(Guard Skip)](https://www.youtube.com/watch?v=SbzQ9JuxXQw)の発見。
-    - 7番街から5番街への道を塞ぐ警備員をすり抜けることにより、約15分の短縮！
-      - しかも全てのバージョンで使える
+    - 七番街から六番街公園への道を塞ぐ警備員をすり抜けることにより、約15分の短縮！
+      - しかも全てのバージョンで使える！
     - 壱番街魔晄炉撃破 → セブンスヘブン → 警備員スキップ → いろいろ → カーム回想 → マテリアキーパー撃破 → パルマー撃破 → モーターボール全滅 → ユフィ撃破 → モーターボール撃破 → 「スペンサー3/フラップビート1」遭遇 → ワールドマップエンカ撃破→ デバッグルーム(稼ぎ2戦) → ラスト3連戦 → セフィロス撃破
 - 2020/04/25: [PC - Any% (30 FPS) in 2h 21m 06s by EmeRgency_Murse](https://www.speedrun.com/ff7/run/y4ww89qm)
     - EBMWの方法を更新(new RJ skip)。モーターボール戦を経由せずにデバッグルームへ行く。
@@ -104,8 +104,8 @@ PS版でデバッグルームへ行くには、チートコードを使ったり
 - 2020/06/14: [PC - Any% (30 FPS) in 2h 03m 57s by RJTheDestroyer](https://www.speedrun.com/ff7/run/m7gxxrwm)
   - ロケットタウンスキップ(発見者: PetFriendAmy)
   - デバッグルームへ行く方法を大幅に短縮。
-  - 「マテリアキーパー撃破 → パルマー撃破 → ニブル山で全滅 → ワールドマップエンカ撃破」を「ニブル山で全滅 → ワールドマップエンカ撃破 → ワールドマップエンカ全滅 → 「ネロスフェロス2/フォーミュラ」遭遇 → ワールドマップエンカ撃破」と変更。
-    - マテリアキーパー・パルマーと戦わなくてもよくなったため、安全にもなった。
+    - 「マテリアキーパー撃破 → パルマー撃破 → ニブル山で全滅 → ワールドマップエンカ撃破」を「ニブル山で全滅 → ワールドマップエンカ撃破 → ワールドマップエンカ全滅 → 「ネロスフェロス2/フォーミュラ」遭遇 → ワールドマップエンカ撃破」と変更。
+    - **マテリアキーパー・パルマーと戦わなくてもよくなった**ため、安全にもなった。
   - 壱番街魔晄炉撃破 → セブンスヘブン → 警備員スキップ → いろいろ → カーム回想 → デバッグルーム(稼ぎ2戦) → ラスト3連戦 → セフィロス撃破
 - 2020/06/18: [PC - Any% (30 FPS) in 2h 01m 12s by RJTheDestroyer](https://www.speedrun.com/ff7/run/y4wxd8km)
   - セブンスヘブンスキップ
@@ -503,10 +503,10 @@ PS版でデバッグルームへ行くには、チートコードを使ったり
 ----
 
 ## 参考
-- [Final Fantasy VII/Debug Room - The Cutting Room Floor](https://tcrf.net/Final_Fantasy_VII/Debug_Room)
 - [Final Fantasy VII translations | Final Fantasy Wiki | Fandom](https://finalfantasy.fandom.com/wiki/Final_Fantasy_VII_translations) - 日英対訳表
 - [Guides - Final Fantasy VII - speedrun.com](https://www.speedrun.com/ff7/guides)
 - [Category:Bugs in Final Fantasy VII | Final Fantasy Wiki | Fandom](https://finalfantasy.fandom.com/wiki/Category:Bugs_in_Final_Fantasy_VII)
+- [Final Fantasy VII/Debug Room - The Cutting Room Floor](https://tcrf.net/Final_Fantasy_VII/Debug_Room)
 - [Final Fantasy VII - Enemy Mechanics FAQ - PlayStation - By TFergusson - GameFAQs](https://gamefaqs.gamespot.com/ps/197341-final-fantasy-vii/faqs/31903)
 - [ファイナルファンタジーVII アルティマニア オメガ](https://www.amazon.co.jp/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%83%BCVII-%E3%82%A2%E3%83%AB%E3%83%86%E3%82%A3%E3%83%9E%E3%83%8B%E3%82%A2-%E3%82%AA%E3%83%A1%E3%82%AC-SE-MOOK-%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA%E3%83%99%E3%83%B3%E3%83%88%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95/dp/4757515200/) - ウェポンスクェア5番勝負
 - [ファイナルファンタジー7 解体真書 ザ・コンプリート](https://www.amazon.co.jp/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%83%BC7-%E8%A7%A3%E4%BD%93%E7%9C%9F%E6%9B%B8-%E3%82%B6%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AA%E3%83%BC%E3%83%88-%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA%E3%83%99%E3%83%B3%E3%83%88%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95/dp/4893666789)
