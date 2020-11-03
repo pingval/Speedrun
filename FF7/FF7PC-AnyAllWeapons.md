@@ -58,11 +58,13 @@
   - [Twitter](https://twitter.com/Creative_Ely)
   - [YouTube](https://www.youtube.com/user/LetCreativityPlay)
   - [Discord](https://discord.gg/CreativeEly)
+  - [speedrun.com](https://www.speedrun.com/user/CreativeEly)
   - [自己記録一覧](https://pastebin.com/4x9jt6Rn)
 - 主にFFとDQシリーズを走っている。
 - 最近はDQ11をよく走っている。10/31(土)には、誕生日記念に真エンドRTAを走っていた。
 - SW版DQ11英語版のAny%と真エンドRTAの最速記録を持っている。
-- FF7では、All Bosses No Slots(スロット不使用全ボス撃破)を、PC版とPS版で走っている数少ない走者。
+- FF7では、PC Any% (30 FPS)で、1h59m09s、SRC上で8位の記録を持っている。
+  - All Bosses No Slots(スロット不使用全ボス撃破)を、PC版とPS版で走っている数少ない走者。
   - スロット技不使用とは、早い話がケットシーのオールオーバーの禁止が目的。
 
 ## PC Any&#x025; All Weaponsカテゴリのルール
@@ -566,13 +568,13 @@ PC版限定で使える**Battle Mode Warp**が非常に強力。[デバッグル
 
 - 2018/07/26: [2h 37m 48s by camp4r](https://www.speedrun.com/ff7/run/z115pnwz)
     - [警備員スキップ(Guard Skip)](https://www.youtube.com/watch?v=SbzQ9JuxXQw)の発見。
-    - 七番街から六番街公園への道を塞ぐ警備員をすり抜けることにより、約20分の短縮！
+    - 七番街から六番街公園への道を塞ぐ警備員をすり抜けることにより、約20分の更新！
       - しかも全てのバージョンで使える！
     - 壱番街魔晄炉撃破 → セブンスヘブン → 警備員スキップ → いろいろ → ジュノンエリアでセーブ → 過去ニブル山全滅 → ワールドマップエンカ撃破 → マテリアキーパー撃破 → パルマー撃破 → モーターボール全滅 → ユフィ撃破 → モーターボール撃破 → 「スペンサー*3/フラップビート」遭遇 → ワールドマップエンカ撃破→ デバッグルーム(稼ぎ2戦) → ラスト3連戦 → セフィロス撃破
 - 2020/04/25: [2h 21m 06s by EmeRgency_Murse](https://www.speedrun.com/ff7/run/y4ww89qm)
     - EBMWの方法を更新(new RJ skip)。モーターボール戦を経由せずにデバッグルームへ行く。
       - 「モーターボール全滅 → ユフィ撃破 → モーターボール撃破」の部分を「ニブル山で全滅 → ワールドマップエンカ撃破」と変更。
-    - 約9分の短縮！
+    - 約9分の更新！
     - 壱番街魔晄炉撃破 → セブンスヘブン → 警備員スキップ → いろいろ → ジュノンエリアでセーブ → 過去ニブル山全滅 → ワールドマップエンカ撃破 → マテリアキーパー撃破 → パルマー撃破 → 「スペンサー*3/フラップビート」遭遇 → デバッグルーム(稼ぎ2戦) → ラスト3連戦 → セフィロス撃破
 - 2020/06/14: [2h 03m 57s by RJTheDestroyer](https://www.speedrun.com/ff7/run/m7gxxrwm)
   - ロケットタウンスキップ(発見者: PetFriendAmy)
