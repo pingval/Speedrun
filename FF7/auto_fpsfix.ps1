@@ -2,7 +2,7 @@ $FF7_process = "ff7_en"
 $FF7_Launcher_process = "FF7_Launcher"
 $FPSFIX_process = "FPSFIX"
 
-$FPSFIX_path = 'C:\salon\game\research\ff7\FPSFIX\FPSFIX.exe'
+$FPSFIX_path = 'C:\FPSFIX\FPSFIX.exe'
 
 $sleep_seconds = 5
 
