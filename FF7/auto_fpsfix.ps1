@@ -10,7 +10,7 @@ $FPSFIX_process = "FPSFIX"
 while ($true) {
   $FF7_Launcher_alive = Get-Process $FF7_Launcher_process -ErrorAction SilentlyContinue
   if ($FF7_Launcher_alive) {
-    try{
+    try {
       $p = Get-Process $FF7_process -ErrorAction SilentlyContinue
       $p.WaitForExit()
     } catch {
