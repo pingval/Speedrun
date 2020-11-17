@@ -16,7 +16,7 @@ while ($true) {
     } catch {
       Write-Host "No $FF7_process Process"
       $FPSFIX_alive = Get-Process $FPSFIX_process -ErrorAction SilentlyContinue
-      If (!$FPSFIX_alive) {
+      if (!$FPSFIX_alive) {
         Write-Host "No $FPSFIX_process Process; Start $FPSFIX_path"
         Invoke-Item $FPSFIX_path
       }
