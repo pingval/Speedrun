@@ -1,10 +1,11 @@
-$FF7_process = "ff7_en"
-$FF7_Launcher_process = "FF7_Launcher"
-$FPSFIX_process = "FPSFIX"
-
+# Please change to your FPSFIX path.
 $FPSFIX_path = 'C:\FPSFIX\FPSFIX.exe'
 
 $sleep_seconds = 5
+
+$FF7_process = "ff7_en"
+$FF7_Launcher_process = "FF7_Launcher"
+$FPSFIX_process = "FPSFIX"
 
 while ($true) {
   $FF7_Launcher_alive = Get-Process $FF7_Launcher_process -ErrorAction SilentlyContinue
