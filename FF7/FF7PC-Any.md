@@ -1,6 +1,6 @@
 <!-- TOC depthFrom:1 depthTo:3 insertAnchor:false orderedList:false -->
 
-- [FF7 PC Any&#x025解説?](#ff7-pc-anyx025解説)
+- [FF7 PC Any&#x025;解説?](#ff7-pc-anyx025解説)
   - [FF7について](#ff7について)
   - [走者のDoumeis氏について](#走者のdoumeis氏について)
   - [PC Any&#x025;カテゴリのルール](#pc-anyx025カテゴリのルール)
@@ -35,7 +35,7 @@
 
 ----
 
-# FF7 PC Any&#x025解説?
+# FF7 PC Any&#x025;解説?
 
 ## FF7について
 
