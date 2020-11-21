@@ -62,11 +62,10 @@
   - [YouTube](https://www.youtube.com/channel/UCYywwvfJkyudzNAHDdt1Uhw)
   - [Twitch](https://www.twitch.tv/Doumeis)
   - [speedrun.com](https://www.speedrun.com/user/Doumeis)
+- [speedrun.com](https://www.speedrun.com/ff7/full_game#PC)上で、PC Any% (30 FPS)カテゴリにおいて7位。
 - [AGDQ2021](https://gamesdonequick.com/submission/games-list)において、日本時間の2021/01/09の午前6時半頃、同カテゴリで走る予定。  
 
 ## PC Any&#x025;カテゴリのルール
-
-全ての武器を集めるカテゴリでは**ない**。
 
 Any% (Free FPS)のルールは[Final Fantasy VII - speedrun.com](https://www.speedrun.com/ff7/full_game#PC)より
 > - Timing is from "New Game" until final damage on Sephiroth
