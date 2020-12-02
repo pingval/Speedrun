@@ -68,7 +68,6 @@
 基本的に、「マウスで熟語を揃えること」と「周辺視野で漢字を把握すること」を同時に行う。そのため、マウス操作はどちらかというと速度より精度が求められる。  
 もちろんマウスの設定も大事。参考までに、自分の使っているマウスは[Logicool M590 MULTI-DEVICE SILENT](https://www.logicool.co.jp/ja-jp/product/m590-silent-wireless-mouse)で、設定はこんな感じ。  
 ![Mouse Options](./img/4ji-setting.png)
-![Logicool Options](./img/4ji-setting-logicool.png)
 
 ### 画面が上下に別れるSTAGE 4辺りからは、端から熟語を揃える
 なるべく上下や左右から熟語を確定させることによって、終盤の視点移動やマウス移動を減らす。
