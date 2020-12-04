@@ -52,10 +52,9 @@
 ## RTAの歴史
 - PeerCastという配信コミュニティで2010~2012年に流行り、記録集では100人以上の記録が登録されている(参考: [Peercast Record/四字熟語 - Peca視聴者Wiki](https://peca.nemusg.com/index.php?cmd=read&page=Peercast%20Record%2F%BB%CD%BB%FA%BD%CF%B8%EC))。
 - SRCにも[Leaderboard](https://www.speedrun.com/Yojijukugo_Flash)がある。私がModeratorです。
-- 2019年11月現在の最速記録は[Arel.氏の3:40](https://www.youtube.com/watch?v=rgydJa7T6hU)。比較的最近のプレイヤーだが唯一の3分台記録保持者であり、2位に30秒以上もの大差を付けている。
+- 2020年12月現在の最速記録は[Arel.氏の3:38](https://www.speedrun.com/yojijukugo_flash/run/ylvn3r2m)。比較的最近のプレイヤーだが唯一の3分台記録保持者であり、2位に20秒以上もの大差を付けている。
 - Flash不使用の[スマホ対応版](https://www.gamedesign.jp/sp/yoji/)も存在する。Flash版とは操作性が異なり、4面までしかない。こちらの最速記録はらききch氏の1:45。
 - [くまのプーさんのホームランダービー](https://kids.yahoo.co.jp/games/sports/013.html)などのFlashゲー同様、2020年末のFlashサポート終了に伴う競技終了が危惧されていると専らの噂である。しかし[Adobe Flash Player projector](https://www.adobe.com/support/flashplayer/debug_downloads.html)を使えばスタンドアローンでyojijuku.swfを再生できるのでサポートが切れても安心！(たぶん)
-<!-- - 2019年11月現在、4分台はその中でも6人しかいない。そして、その中で一番遅い4:59という記録を持っているのが自分(ping値)。 -->
 
 ## 基本戦略
 
