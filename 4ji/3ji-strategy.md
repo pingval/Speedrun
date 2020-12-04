@@ -25,7 +25,7 @@
 | 3 | 8 |
 | 4 | 12 |
 | 5 | 16 |
-| 合計 | 100 |
+| 合計 | 46 |
 
 - RTAの計測区間は、右上のRESETを押してから5面クリア後のCONGULATULATIONS!が表示されるまで。
 - 2020年12月現在の最速記録は[らきき氏の2:06](https://peca.nemusg.com/index.php?Peercast%20Record%2F%BB%CD%BB%FA%BD%CF%B8%EC#sanmoji)。四字熟語より走者人数は少なく、極まっているとはお世辞にも言えない。
