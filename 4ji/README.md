@@ -8,7 +8,7 @@
   - [括弧つき](./4ji-bracket.txt)
 - [熟語の出現率一覧](./4ji-dist.txt)
   - [出現率で降順](./4ji-dist-sorted.txt)
-- [三/四字熟語Flash練習ツール](./jukugo-practice.zip) 元ネタは[あやせひろみ](https://twitter.com/hiromi_ayase)氏の[似非四字熟語](https://hiromi-ayase.github.io/MadaNiji/)
+- [三/四字熟語Flash練習ツール](./jukugo-practice.zip) 元ネタは[あやせひろみ](https://twitter.com/hiromi_ayase)氏の[似非四字熟語(404)](https://dl.dropboxusercontent.com/u/9407653/Applications/4jukugo/4jukugo.html)
 
 ----
 
@@ -28,6 +28,8 @@
   - [スマホ対応版](https://www.gamedesign.jp/sp/yoji/)
 - [三字熟語](https://www.gamedesign.jp/flash/sanjuku/sanjuku.html)
 - [Yojijukugo Flash - speedrun.com](https://www.speedrun.com/Yojijukugo_Flash)
-  - [Resources - Yojijukugo Flash - speedrun.com](https://www.speedrun.com/yojijukugo_flash/resources) AutoSplitあり
+  - [Resources - Yojijukugo Flash - speedrun.com](https://www.speedrun.com/yojijukugo_flash/resources) AutoSplit用設定やVideo Auto Splitterあり
 - [Peercast Record/四字熟語 - Peca視聴者Wiki](https://peca.nemusg.com/index.php?cmd=read&page=Peercast%20Record%2F%BB%CD%BB%FA%BD%CF%B8%EC)
 - [Adobe Flash Player - Debug Downloads](https://www.adobe.com/support/flashplayer/debug_downloads.html) 四字熟語Flashとともに2021年を迎えるために
+- [四字熟語Flash | RTA in Japan](https://rtain.jp/game-title/yojijukugo_flash/)
+- [【RTA in Japan 2020向け】四字熟語Flash RTAの紹介 | RTAGamers](https://rtagamers.com/puzzle/4ji/) RiJ2020向けに書いた紹介記事
