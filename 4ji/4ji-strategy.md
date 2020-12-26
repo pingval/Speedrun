@@ -125,7 +125,7 @@ STAGE 1~7で消費される熟語は70個、STAGE 1では4個なので、「STAG
 
 ![四字熟語の出現率](./img/4ji-dist.png)
 - [四字熟語の出現率一覧](./4ji-dist.txt)
-  - [出現率で降順](./4ji-dist-sorted.txt)
+  - [出現率で降順](./4ji-dist-sorted.txt) やはり二重登録されている「一攫千金」が飛び抜けている。
 
 ```
 // flareで抽出した当該コード
