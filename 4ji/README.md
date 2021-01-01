@@ -14,6 +14,7 @@
 
 ## [三字熟語Flash](https://www.gamedesign.jp/flash/sanjuku/sanjuku.html)
 
+- [RTA攻略](./3ji-strategy.md)
 - [熟語一覧(html)](./3ji.html)
 - [使用漢字別の熟語一覧](./3ji.txt)
   - [括弧つき](./3ji-bracket.txt)
