@@ -15,11 +15,11 @@
 録画開始！
 
 - 配信: https://obs.ninja/?push=mdyPcwj&denoise=1
-  0. OBSで仮想カメラカメラ開始(録画も)
-  1. Share your Screen
-  2. Other Audio Sources→マイク (4-Planetronis .Audio 628 USB)
-  2. SELECT SCREEN TO SHARE、画面2、音声を共有する、共有
-  3. 歯車ボタン、Video Source→OBS Virtual Camera
+  1. OBSで仮想カメラカメラ開始(録画も)
+  2. Share your Screen
+  3. Other Audio Sources→マイク (4-Planetronis .Audio 628 USB)
+  4. SELECT SCREEN TO SHARE、画面2、音声を共有する、共有
+  5. 歯車ボタン、Video Source→OBS Virtual Camera
     - Autio Source(s)
       - マイク (4-Planetronis .Audio 628 USB)
       - System Audio
