@@ -19,6 +19,7 @@
     - [受かるまで](#受かるまで)
     - [Flashお別れRTA会まで](#flashお別れrta会まで)
     - [RiJ2020まで](#rij2020まで)
+  - [おまけ](#おまけ)
 
 <!-- /TOC -->
 
@@ -205,7 +206,7 @@ RiJに四字熟語Flashで最後に出るチャンスだろうということで
 
 #### 2020/11/23
 
-感謝感激！四字熟語TAに向けて猛者たちが準備を進める中、なぜか主催はPC版FF7を走る。のちにRTAイベントに応募するとき動画を撮るのに苦労しないよう今のうちに撮っておこうという考えだったが。
+感謝感激！四字熟語TAに向けて猛者たちが準備を進める中、なぜか主催はPC版FF7を走る。のちにRTAイベントに応募するとき動画を撮るのに苦労しないよう今のうちに撮っておこうという考えだったが……。
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I got a 1:56:30 in Final Fantasy VII - PC Any%. <a href="https://t.co/7zVOjb8d9w">pic.twitter.com/7zVOjb8d9w</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1330372356947185664?ref_src=twsrc%5Etfw">November 22, 2020</a></blockquote>
 
@@ -441,3 +442,18 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 <blockquote class="twitter-tweet"><p lang="in" dir="ltr">me looking at yojijukugo</p>&mdash; Flippin’ Fun Video Games (@FFVDGames) <a href="https://twitter.com/FFVDGames/status/1343209359447216131?ref_src=twsrc%5Etfw">December 27, 2020</a></blockquote>
 
 ![Michael looks yojijukugo](https://pbs.twimg.com/media/EqQJVXAXIAAFGX2?format=jpg&name=900x900)
+
+## おまけ
+
+[speedrun.com](https://www.speedrun.com/yojijukugo_flash)は指定した日付のリーダーボードを表示できちまうんだ。
+
+<dl>
+  <dt>RiJ2020に受かった日(2020/11/04)</dt>
+  <dd><img src="img/20201104.png" alt="2020/11/04のリーダーボード" /></dd>
+  <dt>RiJ2020当日(2020/12/27)</dt>
+  <dd><img src="img/20201227.png" alt="2020/12/27のリーダーボード" /></dd>
+  <dt>現時点(2021/01/17)</dt>
+  <dd><img src="img/20210117.png" alt="2021/01/17のリーダーボード" /></dd>
+</dl>
+
+採用当時よりだいぶ増えた申した……。採用→RiJ当日で+6人、RiJ当日→現在で+2人だから、RiJ2020採用よりは[公式サポート終了](https://www.adobe.com/products/flashplayer/end-of-life.html)や[Flashお別れRTA会](https://oengus.io/marathon/endofflash)の影響が大きい気がする。
