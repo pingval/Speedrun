@@ -219,7 +219,7 @@ RiJに四字熟語Flashで最後に出るチャンスだろうということで
 
 #### 2020/11/28
 
-おらが集落ことPeerCastで、1時間以内で最速タイムを競う[感謝感激！四字熟語TA](https://www.twitch.tv/videos/818467572)を開催。この日は気合が入ってたのか大会本番含めて自己ベを3回更新した。全部1秒ずつだけど！
+おらが集落ことPeerCastで、1時間以内で最速タイムを競う[感謝感激！四字熟語TA](https://www.twitch.tv/videos/818467572)を開催。この日は気合が入ってたのか大会本番含めて自己ベを3回更新した。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I got a 4:49 in 四字熟語Flash - Any%. <a href="https://t.co/3jmWMKCyZU">pic.twitter.com/3jmWMKCyZU</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1332603095713345536?ref_src=twsrc%5Etfw">November 28, 2020</a></blockquote>
 
@@ -232,7 +232,7 @@ RiJ面子は[わいなぎ](https://twitter.com/Ynagi_akz)2位4:14、[らきき](
 
 #### 2020/11/29
 
-[Flashお別れRTA会](https://oengus.io/marathon/endofflash)の募集が締め切られた直後、コンタクトが取れた[Arel](https://www.speedrun.com/user/Arel.)さんを誘えたことに気付く。年末の四字熟語Flash関連***1番のやらかし***は間違いなくこれ。集落用語ではこれを***ダボ***と言います。
+[Flashお別れRTA会](https://oengus.io/marathon/endofflash)の募集が締め切られた直後、コンタクトが取れた[Arel](https://www.speedrun.com/user/Arel.)さんを誘えたことに気付く。年末の四字熟語Flash関連***1番のやらかし***は間違いなくこれ。集落の方言では***ダボ***って言います。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あっ！<br>タイミング的にRiJは無理だったけど<br>Flashお別れRTA会のほうはArelさん誘えたやん！</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1333067112470831110?ref_src=twsrc%5Etfw">November 29, 2020</a></blockquote>
 
@@ -285,7 +285,7 @@ Discordサーバ[RTA store](https://discord.com/invite/PEr4mJG)でTwitchのカ�
 
 #### 2020/12/07
 
-三字熟語Flashの後に四字熟語Flashを走ったら結果がグロ注意になる。三字熟語Flash関係の雑務が増えるわ三字熟語Flashと四字熟語Flashの両立ができないわほんま……。
+三字熟語Flashの後に四字熟語Flashを走ったら結果がグロ注意になる。三字熟語Flash関係の雑務が増えるわ四字熟語Flashとの両立ができないわほんま……。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ひとつの熟語にしか含まれない漢字をもつ熟語(つまりその漢字があれば熟語が一つ確定する)の種類数は、<br>四字熟語Flashでは271/405 ≒ 2/3なのに対し、<br>三字熟語Flashでは395/1190 ≒ 1/3<br>つまり三字熟語Flashは四字熟語Flashより熟語の絞り込みにくさ2倍！<br>なにが絞り込みにくさ2倍！じゃ<a href="https://twitter.com/hashtag/%E4%B8%89%E5%AD%97%E7%86%9F%E8%AA%9ETA?src=hash&amp;ref_src=twsrc%5Etfw">#三字熟語TA</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1335900517482913795?ref_src=twsrc%5Etfw">December 7, 2020</a></blockquote>
 
@@ -328,7 +328,7 @@ Discordサーバ[RTA store](https://discord.com/invite/PEr4mJG)でTwitchのカ�
 
 #### 2020/12/15
 
-RiJのTwitter投票で単なるクイズを出題するのが運営に拒否されたため個人でわいなぎさんが出題し続けていた四字熟語クイズ。四人並走首謀者かつ攻略サイト製作者でありながら第2問を間違える。死にたい。
+RiJのTwitter投票で単なるクイズを出題するのが運営にお断りされたため[わいなぎ](https://twitter.com/Ynagi_akz)さんが個人的に出題し続けていた四字熟語クイズ。四人並走首謀者かつ攻略サイト製作者でありながら第2問を間違える。死にたい。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">【四字熟語クイズ・承】第二問題「次のうちゲーム内に登場する漢字のみを使用して成立する四字熟語はどれでしょう？」<br>正解は明日の22時10分発表予定です</p>&mdash; わいなぎ (@Ynagi_akz) <a href="https://twitter.com/Ynagi_akz/status/1338833719663026178?ref_src=twsrc%5Etfw">December 15, 2020</a></blockquote>
 
@@ -360,14 +360,14 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 
 #### 2020/12/21
 
-[RTAGamers](https://rtagamers.com/)で[一般向けの四字熟語Flash RTA紹介記事](https://rtagamers.com/puzzle/4ji/)を公開。文末を全て四字熟語で〆られなかったのと、見どころを2個しかひねり出せなかった辺りが自分の限界。  
+[RTAGamers](https://rtagamers.com/)で[一般向けの四字熟語Flash RTA紹介記事](https://rtagamers.com/puzzle/4ji/)を公開。文末を全て四字熟語で〆られなかったり、見どころを2個しかひねり出せない辺りが自分の限界。  
 今年から手を出した記事執筆、文章書くのが苦手な割に記事8本は頑張った。遅筆が改善される様子はないけど……。記事に使う「好きな四字熟語・嫌いな四字熟語・意気込み」を収集したのが12/08なのに公開がこの日というのはちょっとね。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">【RTA in Japan 2020向け】四字熟語Flash RTAの紹介 <a href="https://twitter.com/hashtag/RTAGamers?src=hash&amp;ref_src=twsrc%5Etfw">#RTAGamers</a> <a href="https://t.co/ggnYjmcr5K">https://t.co/ggnYjmcr5K</a> <a href="https://t.co/54pu15KCk1">pic.twitter.com/54pu15KCk1</a></p>&mdash; RTAGamers (@RTAGamers) <a href="https://twitter.com/RTAGamers/status/1340960733316575239?ref_src=twsrc%5Etfw">December 21, 2020</a></blockquote>
 
 #### 2020/12/24
 
-[ノリアキ](https://twitter.com/knowrealkey)の[聖夜復活クリスマスライブ](https://www.youtube.com/watch?v=1VOXKjzsrJM)の直前に430を切り木下回避。ありがとう、ノリアキ。
+伝説のMC(Music Comedian)[ノリアキ](https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AA%E3%82%A2%E3%82%AD)の[聖夜復活クリスマスライブ](https://www.youtube.com/watch?v=1VOXKjzsrJM)の直前に430を切り木下回避。ありがとう、ノリアキ。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I got a 4:21 in 四字熟語Flash - Any%.<br>木下回避！！！！！ <a href="https://t.co/8S2teSvDTf">pic.twitter.com/8S2teSvDTf</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1342073726636969984?ref_src=twsrc%5Etfw">December 24, 2020</a></blockquote>
 
@@ -382,7 +382,7 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 
 #### 2020/12/25
 
-[わいなぎ](https://twitter.com/Ynagi_akz)の最終問題こと四字熟語クイズ・結が出題される。最初にRiJのTwitter投票でやろうとしていたクイズはこれでした。
+[わいなぎ](https://twitter.com/Ynagi_akz)の最終問題こと四字熟語クイズ・結が出題される。最初RiJのTwitter投票でやろうとしていたクイズはこれでした。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">【四字熟語クイズ・結】第四問題「次のうちゲーム内に出現しない漢字はどれでしょう？」<a href="https://twitter.com/hashtag/RTAinJapan?src=hash&amp;ref_src=twsrc%5Etfw">#RTAinJapan</a> <a href="https://twitter.com/hashtag/%E5%9B%9B%E5%AD%97%E7%86%9F%E8%AA%9EFlash?src=hash&amp;ref_src=twsrc%5Etfw">#四字熟語Flash</a> <a href="https://twitter.com/hashtag/%E7%84%A1%E6%95%B5%E6%99%82%E9%96%93?src=hash&amp;ref_src=twsrc%5Etfw">#無敵時間</a></p>&mdash; わいなぎ (@Ynagi_akz) <a href="https://twitter.com/Ynagi_akz/status/1342424977333579776?ref_src=twsrc%5Etfw">December 25, 2020</a></blockquote>
 
@@ -446,7 +446,7 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 
 ## おまけ
 
-[speedrun.com](https://www.speedrun.com/yojijukugo_flash)は指定した日付のリーダーボードを表示できちまうんだ。
+[speedrun.com](https://www.speedrun.com/yojijukugo_flash)では指定した日付のリーダーボードを表示できちまうんだ。
 
 <dl>
   <dt>RiJ2020に採用された日(2020/11/04)</dt>
@@ -460,4 +460,4 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 採用当時よりだいぶ増えた申した……。  
 採用→RiJ当日で+6人、RiJ当日→現在で+2人だから、RiJ2020採用よりは[公式サポート終了](https://www.adobe.com/products/flashplayer/end-of-life.html)や[Flashお別れRTA会](https://oengus.io/marathon/endofflash)の影響が大きい気がする。
 
-今は[公式サイト](https://www.gamedesign.jp/flash/yojifla/yojifla.html)上で手軽に遊べなくなってしまったが、swfファイルを[Adobe Flash Player Projector](https://www.adobe.com/support/flashplayer/debug_downloads.html)や[Ruffle](https://ruffle.rs/)で再生すれば問題なく遊べるので何卒。4面で終わる超お手軽な[スマホ対応版](https://www.gamedesign.jp/sp/yoji/)もあるよっ。
+今は[公式サイト](https://www.gamedesign.jp/flash/yojifla/yojifla.html)上で手軽に遊べなくなってしまったが、swfファイルを[Adobe Flash Player Projector](https://www.adobe.com/support/flashplayer/debug_downloads.html)や[Ruffle](https://ruffle.rs/)で再生すれば問題なく遊べるので何卒。4面で終わる、Flashを使わない超お手軽な[スマホ対応版](https://www.gamedesign.jp/sp/yoji/)もあるよっ。
