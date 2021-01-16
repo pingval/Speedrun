@@ -7,7 +7,7 @@
   <img src="https://pbs.twimg.com/media/Eqdoz1XVoAUW4YT?format=jpg&name=large" width="48%" alt="大願成就" />
 </p>
 
-題字 by [茶王](https://twitter.com/chao_ch2)
+題字 by [茶王](https://twitter.com/chao_ch2/status/1344158349462388736)
 
 ----
 
