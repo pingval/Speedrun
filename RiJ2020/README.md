@@ -94,7 +94,7 @@ RiJに四字熟語Flashで最後に出るチャンスだろうということで
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今まさに四字熟語の参加申請書いてたので危なかったっすわｗｗｗｗｗｗｗｗｗ<br>というわけで参加希望です、13時から日付変わるまでならいつでも大丈夫です！</p>&mdash; わいなぎ (@Ynagi_akz) <a href="https://twitter.com/Ynagi_akz/status/1310575210815389696?ref_src=twsrc%5Etfw">September 28, 2020</a></blockquote>
 
-ほぼ間を置かずにMr. 子供と子ムーこと[tsk](https://twitter.com/tsk_3322)さんの応募も来て残り1人に。大人気RTA四字熟語Flash!!!  
+ほぼ間を置かずにMr. 子供と子ムーこと[tsk](https://twitter.com/tsk_3322)さんの応募も来て残り1人に。大人気RTA四字熟語Flash!  
 予定時間は当初10分としていたものの、それではやっぱり足りないと考えて12分に増やした(なお本番は16分……)。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">というわけで、<br>Flash公式サポート終了直前に打ち上げる四字熟語Flash最後の花火として<br>今年12/27-31に開催されるRTA in Japan 2020に四字熟語Flashの4人並走を応募したいと考えているので、走者を募集します。<br>走者は今のところ、わいなぎさん(自己ベ4:42)と自分(自己ベ4:59)の2人です。<a href="https://twitter.com/hashtag/RTAinJapan?src=hash&amp;ref_src=twsrc%5Etfw">#RTAinJapan</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1310582399680442368?ref_src=twsrc%5Etfw">September 28, 2020</a></blockquote>
@@ -103,7 +103,7 @@ RiJに四字熟語Flashで最後に出るチャンスだろうということで
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">3人目はtskさんです。あと一人！</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1310601305530929152?ref_src=twsrc%5Etfw">September 28, 2020</a></blockquote>
 
-断トツの最速記録保持者[Arel](https://www.speedrun.com/user/Arel.)さんはTwitter上では観測されないためDiscordのDMで知らせようとしたものの、送ることができなかった(Discordの名前を変更した影響だったらしい)ためspeedrun.comのメッセージ機能を使った。しかし彼が最後にspeedrun.comを訪れたのは一月前らしく、募集期間内にコンタクトを取るのは絶望的かなあといったところ(実際、その通りになった)。  
+断トツの最速記録保持者[Arel](https://www.speedrun.com/user/Arel.)さんはTwitter上に居ないようなのでDiscordのDMで知らせようとしたものの送ることができなかった(Discordの名前を変更した影響だったらしい)ため、speedrun.comのメッセージ機能を使った。しかし彼が最後にspeedrun.comを訪れたのは一月前らしく、募集期間内にコンタクトを取るのは絶望的かなあといったところ(実際、その通りになった)。  
 ちなみにこの時は1位Arel3:40、2位らきき4:14。2020/01/16現在は1位Arel3:38、2位わいなぎ4:00。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Last online: 1 month ago<br>こりゃ連絡つかなそうだなあ<br>不可抗力ってやつだ(四字熟語だけに)<br><br>というわけであと一人引き続き募集しております</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1310885516317872128?ref_src=twsrc%5Etfw">September 29, 2020</a></blockquote>
@@ -112,7 +112,7 @@ RiJに四字熟語Flashで最後に出るチャンスだろうということで
 
 #### 2020/09/30
 
-長らく四字熟語Flashペカレコ一位の座に君臨していた[らきき](https://twitter.com/rakikiki)さんが反応を見せたため好機を逃すまいと喰らいつく(マイク使えないという意味と思われる)。  
+長らく四字熟語Flashペカレコ一位の座に君臨していた[らきき](https://twitter.com/rakikiki)さんが反応を見せたため好機を逃すまいと喰らいつく(声帯がないとはマイク使えないという意味と思われる)。  
 声なしでも問題ないよ！　つーか本番全員走ってる間ノーマイクだったし。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ぼくには声帯がないので四字はできない…</p>&mdash; raki (@rakikiki) <a href="https://twitter.com/rakikiki/status/1311243412650172416?ref_src=twsrc%5Etfw">September 30, 2020</a></blockquote>
@@ -132,6 +132,8 @@ RiJに四字熟語Flashで最後に出るチャンスだろうということで
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">というわけで、ありがたいことにRiJ2020に応募する四字熟語Flash四人並走の走者が揃いました。<br>わいなぎさん(自己ベ4:42)、たすけさん(4:36)、らききさん(4:14)、自分(4:59)です。<br>自己記録最遅野郎自分自身万一採用頑張必至……。<a href="https://twitter.com/hashtag/RTAinJapan?src=hash&amp;ref_src=twsrc%5Etfw">#RTAinJapan</a> <a href="https://t.co/nVpokVEHY6">pic.twitter.com/nVpokVEHY6</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1312618108910137345?ref_src=twsrc%5Etfw">October 4, 2020</a></blockquote>
 
+![RiJ2020応募](https://pbs.twimg.com/media/EjdbNrEVkAAc8W7?format=png&name=4096x4096)
+
 #### 2020/10/09
 
 四字熟語FlashのVAS(Video Auto Splitter)を作る。のちに[AutoSplit](https://github.com/Toufool/Auto-Split)がバージョンアップで便利になったことにより、これは使わなくなった。
@@ -140,7 +142,7 @@ RiJに四字熟語Flashで最後に出るチャンスだろうということで
 
 #### 2020/10/18
 
-[Road to the Record](https://oengus.io/marathon/RttR)は[わいなぎ](https://twitter.com/Ynagi_akz)さんと自分の二人が四字熟語Flashで応募していて、片方は落ちそうだなあ落ちるなら自分かなあと思ってたら二人仲良く落選！  
+[Road to the Record](https://oengus.io/marathon/RttR)は[わいなぎ](https://twitter.com/Ynagi_akz)さんと自分の二人が四字熟語Flashで応募していて、片方は落ちそうだなあ落ちるなら遅い自分の方かなあと思ってたら二人仲良く落選！  
 本番では東方花映塚の解説をやらせてもらったけど準備が足りてなかったね……。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">RttRはわいなぎさんと自分で四字熟語が被ってるからどちらかは落ちそうな予感はしている</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1315310399638568960?ref_src=twsrc%5Etfw">October 11, 2020</a></blockquote>
@@ -159,11 +161,13 @@ RiJに四字熟語Flashで最後に出るチャンスだろうということで
 #### 2020/11/04
 
 [RiJ2020](https://oengus.io/marathon/rtaij2020)採用ゲーム公開。四字熟語Flash当選・大航海時代IV落選。  
-[RiJ2019](https://oengus.io/marathon/rtaij2019)のアニメティカDQ7は十中八九受かる自信があったが、今回は倍率が上がりすぎて自信を全く持てなかった。よかったよかった。採用されたFlashゲーも3本だけだったし。
+[RiJ2019](https://oengus.io/marathon/rtaij2019)のアニメティカDQ7は十中八九受かる自信があったが、今回は倍率が上がりすぎて自信を全く持てなかった。採用されたたった3本のFlashゲーの中に選ばれてよかったよかった。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">『RTA in Japan 2020』のゲームリストを本日公開しました！<br><br>『RTA in Japan 2020』は12/27 - 31の日程で開催いたします。実際のゲームスケジュールについては各走者の参加可能時刻や意見を考慮しつつこれから作成してまいりますので続報をお待ちください。<a href="https://t.co/d7eBHfoAHf">https://t.co/d7eBHfoAHf</a> <a href="https://twitter.com/hashtag/RTAinJapan?src=hash&amp;ref_src=twsrc%5Etfw">#RTAinJapan</a></p>&mdash; RTA in Japan (@rtainjapan) <a href="https://twitter.com/rtainjapan/status/1323958173322104834?ref_src=twsrc%5Etfw">November 4, 2020</a></blockquote>
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">四字当選 <a href="https://t.co/wtnfaT5mA0">pic.twitter.com/wtnfaT5mA0</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1323961896827936775?ref_src=twsrc%5Etfw">November 4, 2020</a></blockquote>
+
+![RiJ2020当選](https://pbs.twimg.com/media/El-oVCsU0AACeip?format=png&name=medium)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">RTAinJapan2020 四字熟語Flash受かっちゃいました！ウオオオオ！最終決戦！<a href="https://twitter.com/hashtag/RTAinJapan?src=hash&amp;ref_src=twsrc%5Etfw">#RTAinJapan</a> <a href="https://t.co/OGlFoUK5EZ">pic.twitter.com/OGlFoUK5EZ</a></p>&mdash; わいなぎ (@Ynagi_akz) <a href="https://twitter.com/Ynagi_akz/status/1323964668956692485?ref_src=twsrc%5Etfw">November 4, 2020</a></blockquote>
 
@@ -171,9 +175,11 @@ RiJに四字熟語Flashで最後に出るチャンスだろうということで
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">がんばらネバー</p>&mdash; raki (@rakikiki) <a href="https://twitter.com/rakikiki/status/1323965769642733568?ref_src=twsrc%5Etfw">November 4, 2020</a></blockquote>
 
-大航海時代IVはまあHDバージョンが出てからということでね。KOEIさん続報は？？
+大航海時代IVはまあHDバージョンが出てからということでね。KOEIさん？　続報は？？
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">航海落選🥺 <a href="https://t.co/GImLfgZaMb">pic.twitter.com/GImLfgZaMb</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1323962075920543744?ref_src=twsrc%5Etfw">November 4, 2020</a></blockquote>
+
+![RiJ2020落選](https://pbs.twimg.com/media/El-ofdXVoAI0PEc?format=png&name=medium)
 
 当選直後のタスクはこんな認識だったようだが、"練"の重要性、本当に理解してたか？
 
@@ -224,13 +230,15 @@ RiJ面子は[わいなぎ](https://twitter.com/Ynagi_akz)2位4:14、[らきき](
 
 #### 2020/11/29
 
-[Flashお別れRTA会](https://oengus.io/marathon/endofflash)の募集が締め切られた直後、コンタクトが取れた[Arel](https://www.speedrun.com/user/Arel.)さんを誘えたことに気付く。年末の四字熟語Flash関連***1番のやらかし***は間違いなくこれ。集落用語ではこれを***ダボ***って言います。
+[Flashお別れRTA会](https://oengus.io/marathon/endofflash)の募集が締め切られた直後、コンタクトが取れた[Arel](https://www.speedrun.com/user/Arel.)さんを誘えたことに気付く。年末の四字熟語Flash関連***1番のやらかし***は間違いなくこれ。集落用語ではこれを***ダボ***と言います。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あっ！<br>タイミング的にRiJは無理だったけど<br>Flashお別れRTA会のほうはArelさん誘えたやん！</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1333067112470831110?ref_src=twsrc%5Etfw">November 29, 2020</a></blockquote>
 
 RiJ2020の解説は紆余曲折あったが、結局安定の[アジーン](https://twitter.com/discordjinro)さんにお願いする。名古屋RTAオフお楽しみの最中であった。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">閑話休題<br>早解日本<br>二○二○<br>四字熟語<br>四人並走<br>大願成就<br>走者四名<br>ぴんぐち<br>わいなぎ(<a href="https://twitter.com/Ynagi_akz?ref_src=twsrc%5Etfw">@Ynagi_akz</a>)<br>ｔｓｋ氏(<a href="https://twitter.com/tsk_3322?ref_src=twsrc%5Etfw">@tsk_3322</a>)<br>らきき氏(<a href="https://twitter.com/rakikiki?ref_src=twsrc%5Etfw">@rakikiki</a>)<br>解説担当<br>アジーン(<a href="https://twitter.com/discordjinro?ref_src=twsrc%5Etfw">@discordjinro</a>)<br>予定日時<br>一二二七<br>二三時頃<br>夜露死苦！<a href="https://twitter.com/hashtag/RTAinJapan?src=hash&amp;ref_src=twsrc%5Etfw">#RTAinJapan</a><a href="https://t.co/zp4aSfEOsn">https://t.co/zp4aSfEOsn</a> <a href="https://t.co/bOyrfonuOY">pic.twitter.com/bOyrfonuOY</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1333417055328956416?ref_src=twsrc%5Etfw">November 30, 2020</a></blockquote>
+
+![RiJ2020スケジュール](https://pbs.twimg.com/media/EoE_vs_VQAAEtzm?format=png&name=large)
 
 #### 2020/11/30
 
@@ -254,11 +262,16 @@ Discordサーバ[RTA store](https://discord.com/invite/PEr4mJG)でTwitchのカ�
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">IGDBに四字熟語Flashと三字熟語Flashを追加しTwitchでカテゴリ選択できるようにした<a href="https://t.co/zimtgVFS9M">https://t.co/zimtgVFS9M</a><a href="https://t.co/kE3IGd3hdL">https://t.co/kE3IGd3hdL</a> <a href="https://t.co/o5k98BQqcN">pic.twitter.com/o5k98BQqcN</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1334104361815797763?ref_src=twsrc%5Etfw">December 2, 2020</a></blockquote>
 
+![Twitch四字熟語](https://pbs.twimg.com/media/EoOw2GYVgAA4wdD?format=png&name=360x360)
+![Twitch三字熟語](https://pbs.twimg.com/media/EoOw2NUVgAEYnM2?format=png&name=360x360)
+
 #### 2020/12/05
 
 [Flashお別れRTA会](https://oengus.io/marathon/endofflash)スケジュール発表。マラソンイベントで鳳寿司を担当するとか初めてなんだけど。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">さんのじは一匹狼で、よんのじはわいなぎさん(<a href="https://twitter.com/Ynagi_akz?ref_src=twsrc%5Etfw">@Ynagi_akz</a> )との二人三脚でがんばりまーす<br>なんか2日目の変なとこで走りまーす <a href="https://t.co/5ZrYtTTugo">https://t.co/5ZrYtTTugo</a> <a href="https://t.co/9ANydqg6Cs">pic.twitter.com/9ANydqg6Cs</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1335072660951199745?ref_src=twsrc%5Etfw">December 5, 2020</a></blockquote>
+
+![Flashお別れRTA会スケジュール](https://pbs.twimg.com/media/EocgFIrVQAAskyL?format=png&name=900x900)
 
 #### 2020/12/06
 
@@ -282,6 +295,8 @@ Discordサーバ[RTA store](https://discord.com/invite/PEr4mJG)でTwitchのカ�
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I got a 4:00 in Yojijukugo Flash - Any%. 4分は3分台ってことじゃだめですかね <a href="https://t.co/6vWtrqVH7Q">pic.twitter.com/6vWtrqVH7Q</a></p>&mdash; わいなぎ (@Ynagi_akz) <a href="https://twitter.com/Ynagi_akz/status/1336957444547694592?ref_src=twsrc%5Etfw">December 10, 2020</a></blockquote>
 
+![わいなぎ4:00](https://pbs.twimg.com/media/Eo3TtfRUcAEJJgi?format=jpg&name=medium)
+
 #### 2020/12/13
 
 ダメ元でRiJ2020の英語リストリーム解説を募ると、海外のサガ勢である[マイケル](https://twitter.com/FFVDGames)氏が立候補してくれる。NANI!?
@@ -292,11 +307,15 @@ Discordサーバ[RTA store](https://discord.com/invite/PEr4mJG)でTwitchのカ�
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">ayy i get to commentate <a href="https://twitter.com/susuru_3?ref_src=twsrc%5Etfw">@susuru_3</a>&#39;s romancing saga 3 remaster run and the yojijukugo flash race w/ <a href="https://twitter.com/Ynagi_akz?ref_src=twsrc%5Etfw">@Ynagi_akz</a>, <a href="https://twitter.com/pingval?ref_src=twsrc%5Etfw">@pingval</a>, <a href="https://twitter.com/tsk_3322?ref_src=twsrc%5Etfw">@tsk_3322</a>, and <a href="https://twitter.com/rakikiki?ref_src=twsrc%5Etfw">@rakikiki</a> for <a href="https://twitter.com/SpeedGamingShow?ref_src=twsrc%5Etfw">@SpeedGamingShow</a>&#39;s rebroadcast of <a href="https://twitter.com/rtainjapan?ref_src=twsrc%5Etfw">@rtainjapan</a> on Dec 27! <a href="https://t.co/xU73gnWHM4">pic.twitter.com/xU73gnWHM4</a></p>&mdash; Flippin’ Fun Video Games (@FFVDGames) <a href="https://twitter.com/FFVDGames/status/1339450917444153344?ref_src=twsrc%5Etfw">December 17, 2020</a></blockquote>
 
+![英語リストリーム解説埋まる](https://pbs.twimg.com/media/Epat828UUAM-tYT?format=png&name=900x900)
+
 [Flashお別れRTA会](https://oengus.io/marathon/endofflash)で三字熟語Flashと四字熟語Flash([わいなぎ](https://twitter.com/Ynagi_akz)さんとの並走。負け！ｗ)を走る。用意した[台本](EndoFFlash.md)ガン見でなんとか乗り切る。参加した感想はこれ！
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">三字熟語を並行練習して四字熟語が仕上がるわけないだろいい加減にしろ！</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1338061516218613763?ref_src=twsrc%5Etfw">December 13, 2020</a></blockquote>
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">伝達不良のため拾えてなかったわいなぎさんの四六辞句＝ヨロシクがちゃーんとチャットで拾われていて泣いてます<a href="https://twitter.com/hashtag/Flash%E3%81%8A%E5%88%A5%E3%82%8CRTA%E4%BC%9A?src=hash&amp;ref_src=twsrc%5Etfw">#Flashお別れRTA会</a> <a href="https://t.co/wCz0CI7yUD">pic.twitter.com/wCz0CI7yUD</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1338097224249569281?ref_src=twsrc%5Etfw">December 13, 2020</a></blockquote>
+
+![四六辞句](https://pbs.twimg.com/media/EpHgVVnUcAEdu-9?format=png&name=small)
 
 [RiJ2020](https://oengus.io/marathon/rtaij2020)に先立って[OBS.Ninja](http://obs.ninja/)が使用されており、走者も運営も四苦八苦していた。自分の映像が一瞬荒ぶっていたのをしっかり反省していれば[RiJ2020](https://oengus.io/marathon/rtaij2020)映像が固まることはなかったかもなあ……。
 
@@ -314,7 +333,7 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 
 #### 2020/12/17
 
-張り切った[らきき](https://twitter.com/rakikiki)さんが[OBS.Ninja](http://obs.ninja/)を使おうとして断らるトラブルがありつつも、[RTARacing](https://www.twitch.tv/rtaracing)で[RiJ2020のリハーサル的な四人並走](https://www.twitch.tv/videos/840406146)を合計4走する。自分は四位四回。当然の結果か……。
+張り切った[らきき](https://twitter.com/rakikiki)さんが[OBS.Ninja](http://obs.ninja/)を使おうとして断られるトラブルがありつつも、[RTARacing](https://www.twitch.tv/rtaracing)で[RiJ2020のリハーサル的な四人並走](https://www.twitch.tv/videos/840406146)を合計4走する。自分は四位四回。当然の結果か……。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">結果発表<br>わいなぎ: 二位 一位 一位 一位<br>ｔｓｋ氏: 一位 三位 三位 三位<br>らきき氏: 三位 一位 二位 二位<br>ぴんぐち: 四位 四位 四位 四位<br>四字熟語の四人並走で四位四回とは縁起がいいね！<br>じゃねーんじゃ</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1339583960658014211?ref_src=twsrc%5Etfw">December 17, 2020</a></blockquote>
 
@@ -369,13 +388,17 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 
 #### 2020/12/28
 
-そして待機中に当日更新。当日更新は熱いが、ピークを本番に持ってこないクソ采配とも言える(ピークを本番に持ってくる方法とは？？)
+当日練習中に自己ベ更新。当日更新は熱いが、ピークを本番に持ってこないクソ采配とも言える(ピークを本番に持ってくる方法とは？？)
 
 <blockquote class="twitter-tweet"><p lang="zh" dir="ltr">I got a 4:18 in 四字熟語Flash - Any%.<br>当日更新！！！！１１１１１１１１１ <a href="https://t.co/PvvPpfK2Eh">pic.twitter.com/PvvPpfK2Eh</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1343154454795747328?ref_src=twsrc%5Etfw">December 27, 2020</a></blockquote>
+
+![当日更新4:18](https://pbs.twimg.com/media/EqPX28pUYAEtEyW?format=png&name=360x360)
 
 はわわわわ。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">映ってしまった <a href="https://t.co/0C1JKGcGeP">pic.twitter.com/0C1JKGcGeP</a></p>&mdash; わいなぎ (@Ynagi_akz) <a href="https://twitter.com/Ynagi_akz/status/1343171173710843905?ref_src=twsrc%5Etfw">December 27, 2020</a></blockquote>
+
+![配信に映る四字熟語Flashの文字](https://pbs.twimg.com/media/EqPnCkAVEAIaeYh?format=jpg&name=large)
 
 本来のスケジュールは「テラリア→テンミリオン→四字熟語Flash」だったが、テラリアの配信準備に手間取ったため「テンミリオン→テラリア→四字熟語Flash」に入れ替わる。運営陣は大変だ。
 
@@ -392,7 +415,7 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 - 手元ワイプは完全にアドリブ。
 - 6面で一世風靡を作りかけながら不眠不休に作り変えたのと、その直後に15sほど固まったのは本当にクソ。
 - 自分自身では平常心に近いつもりだったが最後まで緊張が解けなくて、大変な集中を要する(マジ)四字熟語Flashでは後半面への影響を免れなかったようだ。平均タイムが1番遅いのにこの調子ではそりゃ4位だよ。
-  - 見事1位に輝いた[わいなぎ](https://twitter.com/Ynagi_akz)さんはこれまでの感謝感激！四字熟語TA・Flashお別れRTA会・RTARacingでの経験を踏まえて手の震えのリアル対策を講じていたとのこと。しゅごｗ
+  - 見事1位に輝いた[わいなぎ](https://twitter.com/Ynagi_akz)さんはこれまでの感謝感激！四字熟語TA・Flashお別れRTA会・RTARacingでの経験を踏まえて手の震えのリアル対策を講じていたとのこと。えらいっ
 - 完走感想の残念無念は事前に考えていたわけではないっす。
 
 というわけで皆様乙彼！　大舞台での四人並走を無事やり遂げることができたためか、自分自身は残念な結果だった割に満足度は高い！
@@ -400,6 +423,8 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">『四字熟語Flash』のカテゴリー「Any%」RTA<br>タイムはping値さん(<a href="https://twitter.com/pingval?ref_src=twsrc%5Etfw">@pingval</a>)5:10、わいなぎさん(<a href="https://twitter.com/Ynagi_akz?ref_src=twsrc%5Etfw">@Ynagi_akz</a>)4:34、tskさん(<a href="https://twitter.com/tsk_3322?ref_src=twsrc%5Etfw">@tsk_3322</a>)5:07、rakikikiさん(<a href="https://twitter.com/rakikiki?ref_src=twsrc%5Etfw">@rakikiki</a>)4:53でした<br>走者の皆様解説のアジーンさん(<a href="https://twitter.com/discordjinro?ref_src=twsrc%5Etfw">@discordjinro</a>)お疲れさまでした！<br><br>配信はこちらから⇒<a href="https://t.co/iSbmGQ22Zj">https://t.co/iSbmGQ22Zj</a><a href="https://twitter.com/hashtag/RTAinJapan?src=hash&amp;ref_src=twsrc%5Etfw">#RTAinJapan</a> <a href="https://t.co/z9TvLHjlkL">pic.twitter.com/z9TvLHjlkL</a></p>&mdash; RTA in Japan (@rtainjapan) <a href="https://twitter.com/rtainjapan/status/1343209323615248385?ref_src=twsrc%5Etfw">December 27, 2020</a></blockquote>
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I got a 5:09 in 四字熟語Flash - Any%.<br>4:52 4:37 4:28 5:09←本番記録<br>大願成就で感謝感激だが汚名返上ならず残念無念！！１１１１１１１<a href="https://twitter.com/hashtag/RTAinJapan?src=hash&amp;ref_src=twsrc%5Etfw">#RTAinJapan</a> <a href="https://t.co/v0DJ8DFwnQ">pic.twitter.com/v0DJ8DFwnQ</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1343210910920310785?ref_src=twsrc%5Etfw">December 27, 2020</a></blockquote>
+
+![本番5:09](https://pbs.twimg.com/media/EqQLNLHUcAIK9Qg?format=png&name=360x360)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">というわけで皆さん祝福ありがとうございました！四字熟語Flashの冒険はこれでおしまい(ジュディ並感)<br>人生オワタの大冒険でFlashの長い歴史も幕となります、引き続きお楽しみください<br>RTA in Japan 2020: 人生オワタの大冒険2 <a href="https://t.co/K75AhtOrRq">https://t.co/K75AhtOrRq</a> <a href="https://twitter.com/hashtag/RTAinJapan?src=hash&amp;ref_src=twsrc%5Etfw">#RTAinJapan</a> <a href="https://t.co/GM8Xosj7fA">pic.twitter.com/GM8Xosj7fA</a></p>&mdash; わいなぎ (@Ynagi_akz) <a href="https://twitter.com/Ynagi_akz/status/1343210024030490624?ref_src=twsrc%5Etfw">December 27, 2020</a></blockquote>
 
