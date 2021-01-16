@@ -104,7 +104,7 @@ RiJに四字熟語Flashで最後に出るチャンスだろうということで
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">3人目はtskさんです。あと一人！</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1310601305530929152?ref_src=twsrc%5Etfw">September 28, 2020</a></blockquote>
 
 断トツの最速記録保持者[Arel](https://www.speedrun.com/user/Arel.)さんはTwitter上に居ないようなのでDiscordのDMで知らせようとしたものの送ることができなかった(Discordの名前を変更した影響だったらしい)ため、speedrun.comのメッセージ機能を使った。しかし彼が最後にspeedrun.comを訪れたのは一月前らしく、募集期間内にコンタクトを取るのは絶望的かなあといったところ(実際、その通りになった)。  
-ちなみにこの時は1位Arel3:40、2位らきき4:14。2020/01/16現在は1位Arel3:38、2位わいなぎ4:00。
+ちなみにこの時は1位Arel3:40、2位らきき4:14。2020/01/17現在は1位Arel3:38、2位わいなぎ4:00。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Last online: 1 month ago<br>こりゃ連絡つかなそうだなあ<br>不可抗力ってやつだ(四字熟語だけに)<br><br>というわけであと一人引き続き募集しております</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1310885516317872128?ref_src=twsrc%5Etfw">September 29, 2020</a></blockquote>
 
@@ -258,7 +258,7 @@ RiJ2020の解説は紆余曲折あったが、結局安定の[アジーン](http
 
 #### 2020/12/02
 
-Discordサーバ[RTA store](https://discord.com/invite/PEr4mJG)でTwitchのカテゴリの追加の仕方の質問に答えたついでに[四字熟語Flash](https://igdb.com/games/yojijukugo-flash)と[三字熟語Flash](https://www.igdb.com/games/sanjijukugo-flash)を[IGDB](https://igdb.com/)に追加しTwitchでカテゴリ選択可能にする。[ゲーム画像](https://imgur.com/a/n2qR5OA)もTwitchへ送信したのだが、一月以上経過した2021/01/16現在もまだTwitchからの反応はない。どぼじで。
+Discordサーバ[RTA store](https://discord.com/invite/PEr4mJG)でTwitchのカテゴリの追加の仕方の質問に答えたついでに[四字熟語Flash](https://igdb.com/games/yojijukugo-flash)と[三字熟語Flash](https://www.igdb.com/games/sanjijukugo-flash)を[IGDB](https://igdb.com/)に追加しTwitchでカテゴリ選択可能にする。[ゲーム画像](https://imgur.com/a/n2qR5OA)もTwitchへ送信したのだが、一月以上経過した2021/01/17現在もまだTwitchからの反応はない。どぼじで。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">IGDBに四字熟語Flashと三字熟語Flashを追加しTwitchでカテゴリ選択できるようにした<a href="https://t.co/zimtgVFS9M">https://t.co/zimtgVFS9M</a><a href="https://t.co/kE3IGd3hdL">https://t.co/kE3IGd3hdL</a> <a href="https://t.co/o5k98BQqcN">pic.twitter.com/o5k98BQqcN</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1334104361815797763?ref_src=twsrc%5Etfw">December 2, 2020</a></blockquote>
 
@@ -295,7 +295,7 @@ Discordサーバ[RTA store](https://discord.com/invite/PEr4mJG)でTwitchのカ�
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I got a 4:00 in Yojijukugo Flash - Any%. 4分は3分台ってことじゃだめですかね <a href="https://t.co/6vWtrqVH7Q">pic.twitter.com/6vWtrqVH7Q</a></p>&mdash; わいなぎ (@Ynagi_akz) <a href="https://twitter.com/Ynagi_akz/status/1336957444547694592?ref_src=twsrc%5Etfw">December 10, 2020</a></blockquote>
 
-![わいなぎ4:00](https://pbs.twimg.com/media/Eo3TtfRUcAEJJgi?format=jpg&name=medium)
+<!-- ![わいなぎ4:00](https://pbs.twimg.com/media/Eo3TtfRUcAEJJgi?format=jpg&name=medium) -->
 
 #### 2020/12/13
 
@@ -315,7 +315,8 @@ Discordサーバ[RTA store](https://discord.com/invite/PEr4mJG)でTwitchのカ�
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">伝達不良のため拾えてなかったわいなぎさんの四六辞句＝ヨロシクがちゃーんとチャットで拾われていて泣いてます<a href="https://twitter.com/hashtag/Flash%E3%81%8A%E5%88%A5%E3%82%8CRTA%E4%BC%9A?src=hash&amp;ref_src=twsrc%5Etfw">#Flashお別れRTA会</a> <a href="https://t.co/wCz0CI7yUD">pic.twitter.com/wCz0CI7yUD</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1338097224249569281?ref_src=twsrc%5Etfw">December 13, 2020</a></blockquote>
 
-![四六辞句](https://pbs.twimg.com/media/EpHgVVnUcAEdu-9?format=png&name=small)
+<!-- ![四六辞句](https://pbs.twimg.com/media/EpHgVVnUcAEdu-9?format=png&name=small) -->
+<img src="https://pbs.twimg.com/media/EpHgVVnUcAEdu-9?format=png&name=small" width="50%" alt="四六辞句" />
 
 [RiJ2020](https://oengus.io/marathon/rtaij2020)に先立って[OBS.Ninja](http://obs.ninja/)が使用されており、走者も運営も四苦八苦していた。自分の映像が一瞬荒ぶっていたのをしっかり反省していれば[RiJ2020](https://oengus.io/marathon/rtaij2020)映像が固まることはなかったかもなあ……。
 
@@ -366,6 +367,8 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I got a 4:21 in 四字熟語Flash - Any%.<br>木下回避！！！！！ <a href="https://t.co/8S2teSvDTf">pic.twitter.com/8S2teSvDTf</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1342073726636969984?ref_src=twsrc%5Etfw">December 24, 2020</a></blockquote>
 
+![木下回避4:21](https://pbs.twimg.com/media/EqAA8VSVoAARVkp?format=png&name=360x360)
+
 とはいえ[わいなぎ](https://twitter.com/Ynagi_akz)さんとは絶望的な差があることには変わりない。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">自分の16走アベレージが4:57<br>わいなぎさんの20走アベレージが4:30<br>その差27s<br>🤔🤔🤔</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1342461859979358208?ref_src=twsrc%5Etfw">December 25, 2020</a></blockquote>
 
@@ -398,7 +401,7 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">映ってしまった <a href="https://t.co/0C1JKGcGeP">pic.twitter.com/0C1JKGcGeP</a></p>&mdash; わいなぎ (@Ynagi_akz) <a href="https://twitter.com/Ynagi_akz/status/1343171173710843905?ref_src=twsrc%5Etfw">December 27, 2020</a></blockquote>
 
-![配信に映る四字熟語Flashの文字](https://pbs.twimg.com/media/EqPnCkAVEAIaeYh?format=jpg&name=large)
+<img src="https://pbs.twimg.com/media/EqPnCkAVEAIaeYh?format=jpg&name=large" width="50%" alt="配信に映る四字熟語Flashの文字" />
 
 本来のスケジュールは「テラリア→テンミリオン→四字熟語Flash」だったが、テラリアの配信準備に手間取ったため「テンミリオン→テラリア→四字熟語Flash」に入れ替わる。運営陣は大変だ。
 
@@ -427,6 +430,8 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 ![本番5:09](https://pbs.twimg.com/media/EqQLNLHUcAIK9Qg?format=png&name=360x360)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">というわけで皆さん祝福ありがとうございました！四字熟語Flashの冒険はこれでおしまい(ジュディ並感)<br>人生オワタの大冒険でFlashの長い歴史も幕となります、引き続きお楽しみください<br>RTA in Japan 2020: 人生オワタの大冒険2 <a href="https://t.co/K75AhtOrRq">https://t.co/K75AhtOrRq</a> <a href="https://twitter.com/hashtag/RTAinJapan?src=hash&amp;ref_src=twsrc%5Etfw">#RTAinJapan</a> <a href="https://t.co/GM8Xosj7fA">pic.twitter.com/GM8Xosj7fA</a></p>&mdash; わいなぎ (@Ynagi_akz) <a href="https://twitter.com/Ynagi_akz/status/1343210024030490624?ref_src=twsrc%5Etfw">December 27, 2020</a></blockquote>
+
+<img src="https://pbs.twimg.com/media/EqQKXNvUwAQAp9F?format=jpg&name=large" width="50%" />
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">直前に思い出して本家駅伝宣伝する民<br>その前まで子供と子ムーを宣伝しようとしてたｗ</p>&mdash; tsk (@tsk_3322) <a href="https://twitter.com/tsk_3322/status/1343209142119321601?ref_src=twsrc%5Etfw">December 27, 2020</a></blockquote>
 
