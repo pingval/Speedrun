@@ -30,6 +30,7 @@
 ## 関連リンク
 
 - [**四字熟語Flash**](https://www.gamedesign.jp/flash/yojifla/yojifla.html)
+  - [スマホ対応版](https://www.gamedesign.jp/sp/yoji/)
 - [**Adobe Flash Player - Debug Downloads**](https://www.adobe.com/support/flashplayer/debug_downloads.html)
 - [**Ruffle | Flash Player emulator written in the Rust programming language**](https://ruffle.rs/)
 - N字熟語Flash紹介記事
@@ -448,12 +449,15 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 [speedrun.com](https://www.speedrun.com/yojijukugo_flash)は指定した日付のリーダーボードを表示できちまうんだ。
 
 <dl>
-  <dt>RiJ2020に受かった日(2020/11/04)</dt>
+  <dt>RiJ2020に採用された日(2020/11/04)</dt>
   <dd><img src="img/20201104.png" alt="2020/11/04のリーダーボード" /></dd>
   <dt>RiJ2020当日(2020/12/27)</dt>
   <dd><img src="img/20201227.png" alt="2020/12/27のリーダーボード" /></dd>
-  <dt>現時点(2021/01/17)</dt>
+  <dt>現在(2021/01/17)</dt>
   <dd><img src="img/20210117.png" alt="2021/01/17のリーダーボード" /></dd>
 </dl>
 
-採用当時よりだいぶ増えた申した……。採用→RiJ当日で+6人、RiJ当日→現在で+2人だから、RiJ2020採用よりは[公式サポート終了](https://www.adobe.com/products/flashplayer/end-of-life.html)や[Flashお別れRTA会](https://oengus.io/marathon/endofflash)の影響が大きい気がする。
+採用当時よりだいぶ増えた申した……。  
+採用→RiJ当日で+6人、RiJ当日→現在で+2人だから、RiJ2020採用よりは[公式サポート終了](https://www.adobe.com/products/flashplayer/end-of-life.html)や[Flashお別れRTA会](https://oengus.io/marathon/endofflash)の影響が大きい気がする。
+
+今は[公式サイト](https://www.gamedesign.jp/flash/yojifla/yojifla.html)上で手軽に遊べなくなってしまったが、swfファイルを[**Adobe Flash Player - Debug Downloads**](https://www.adobe.com/support/flashplayer/debug_downloads.html)や[**Ruffle | Flash Player emulator written in the Rust programming language**](https://ruffle.rs/)で再生すれば問題なく遊べるので何卒。4面で終わる超お手軽な[スマホ対応版](https://www.gamedesign.jp/sp/yoji/)もあるよっ。
