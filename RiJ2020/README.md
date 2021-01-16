@@ -289,6 +289,8 @@ Discordサーバ[RTA store](https://discord.com/invite/PEr4mJG)でTwitchのカ�
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I got a 5:40 in 四字熟語Flash - Any%.<br>グロ画像 <a href="https://t.co/hzEuyBDHRG">pic.twitter.com/hzEuyBDHRG</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1335958151535886338?ref_src=twsrc%5Etfw">December 7, 2020</a></blockquote>
 
+![グロ注意5:40](https://pbs.twimg.com/media/EopG3BaU0AM_YTt?format=png&name=360x360)
+
 #### 2020/12/10
 
 [わいなぎ](https://twitter.com/Ynagi_akz)さんが4分ジャストを叩き出し、[speedrun.com](https://www.speedrun.com/yojijukugo_flash)モデレータの自分は震える指で承認する。3分台お待ちしております。
@@ -299,7 +301,7 @@ Discordサーバ[RTA store](https://discord.com/invite/PEr4mJG)でTwitchのカ�
 
 #### 2020/12/13
 
-ダメ元でRiJ2020の英語リストリーム解説を募ると、海外のサガ勢である[マイケル](https://twitter.com/FFVDGames)氏が立候補してくれる。NANI!?
+ダメ元でRiJ2020の英語リストリーム解説を募ってみたところ、海外のサガ勢である[マイケル](https://twitter.com/FFVDGames)氏が立候補してくれる。NANI!?
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Is there anyone who will do commentate on Yojijukugo Flash!? <a href="https://t.co/ugY7S9df2w">https://t.co/ugY7S9df2w</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1337946931956346882?ref_src=twsrc%5Etfw">December 13, 2020</a></blockquote>
 
@@ -378,7 +380,7 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 
 #### 2020/12/25
 
-[わいなぎ](https://twitter.com/Ynagi_akz)の最終問題こと四字熟語クイズ・結が出題される。RiJのTwitter投票でやろうとしていたクイズはこれでした。
+[わいなぎ](https://twitter.com/Ynagi_akz)の最終問題こと四字熟語クイズ・結が出題される。最初にRiJのTwitter投票でやろうとしていたクイズはこれでした。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">【四字熟語クイズ・結】第四問題「次のうちゲーム内に出現しない漢字はどれでしょう？」<a href="https://twitter.com/hashtag/RTAinJapan?src=hash&amp;ref_src=twsrc%5Etfw">#RTAinJapan</a> <a href="https://twitter.com/hashtag/%E5%9B%9B%E5%AD%97%E7%86%9F%E8%AA%9EFlash?src=hash&amp;ref_src=twsrc%5Etfw">#四字熟語Flash</a> <a href="https://twitter.com/hashtag/%E7%84%A1%E6%95%B5%E6%99%82%E9%96%93?src=hash&amp;ref_src=twsrc%5Etfw">#無敵時間</a></p>&mdash; わいなぎ (@Ynagi_akz) <a href="https://twitter.com/Ynagi_akz/status/1342424977333579776?ref_src=twsrc%5Etfw">December 25, 2020</a></blockquote>
 
@@ -387,9 +389,6 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 [RiJ2020](https://oengus.io/marathon/rtaij2020)開幕。年明けに自分も参加する[STGリレー2こと STG Lovers Relay 2nd](https://horaro.org/stgrelay2/schedule-jp)宣伝の絶好の機会と気付いて出番の数時間前に宣伝の許可を取る。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/tozitoziru?ref_src=twsrc%5Etfw">@tozitoziru</a> 突然失礼します！<br>RTA in Japan 2020で今夜23時頃四字熟語Flashで走るときSTGリレー2の宣伝をしようと思んですが、構いませんか？</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1343118703961886722?ref_src=twsrc%5Etfw">December 27, 2020</a></blockquote>
-
-
-#### 2020/12/28
 
 当日練習中に自己ベ更新。当日更新は熱いが、ピークを本番に持ってこないクソ采配とも言える(ピークを本番に持ってくる方法とは？？)
 
@@ -417,7 +416,7 @@ RiJのTwitter投票で単なるクイズを出題するのが運営に拒否さ�
 
 - 手元ワイプは完全にアドリブ。
 - 6面で一世風靡を作りかけながら不眠不休に作り変えたのと、その直後に15sほど固まったのは本当にクソ。
-- 自分自身では平常心に近いつもりだったが最後まで緊張が解けなくて、大変な集中を要する(マジ)四字熟語Flashでは後半面への影響を免れなかったようだ。平均タイムが1番遅いのにこの調子ではそりゃ4位だよ。
+- 自分自身では平常心に近いつもりだったが最後まで緊張が解けなくて、大変な集中を要する(マジ)四字熟語Flashでは後半面への影響を免れなかったようだ。自己ベが1番遅いのにこの調子ではそりゃ4位だよ。
   - 見事1位に輝いた[わいなぎ](https://twitter.com/Ynagi_akz)さんはこれまでの感謝感激！四字熟語TA・Flashお別れRTA会・RTARacingでの経験を踏まえて手の震えのリアル対策を講じていたとのこと。えらいっ
 - 完走感想の残念無念は事前に考えていたわけではないっす。
 
