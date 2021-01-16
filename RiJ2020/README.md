@@ -59,11 +59,11 @@
   - [YouTube](https://www.youtube.com/watch?v=gsumYJ_fWGY)
   - [英語Restream](https://www.twitch.tv/videos/851476384?t=2h13m9s)
 - 振り返り
+  - [わいなぎ](https://twitter.com/Ynagi_akz)
+    - [四字熟語Flash RTA](https://live2.nicovideo.jp/watch/lv329731028)
   - [アジーン](https://twitter.com/discordjinro)
     - [RTA in Japan 2020 参加レポート#2（解説）｜アジーン＠RTA解説｜note](https://note.com/discordjinro/n/n78c62a951b67)
     - [RTA in Japan 2020 反省会](https://www.twitch.tv/videos/863279383)
-  - [わいなぎ](https://twitter.com/Ynagi_akz)
-    - [四字熟語Flash RTA](https://live2.nicovideo.jp/watch/lv329731028)
 
 ----
 
@@ -443,6 +443,8 @@ RiJのTwitter投票で単なるクイズを出題するのが運営にお断り�
 <blockquote class="twitter-tweet"><p lang="in" dir="ltr">me looking at yojijukugo</p>&mdash; Flippin’ Fun Video Games (@FFVDGames) <a href="https://twitter.com/FFVDGames/status/1343209359447216131?ref_src=twsrc%5Etfw">December 27, 2020</a></blockquote>
 
 ![Michael looks yojijukugo](https://pbs.twimg.com/media/EqQJVXAXIAAFGX2?format=jpg&name=900x900)
+
+----
 
 ## おまけ
 
