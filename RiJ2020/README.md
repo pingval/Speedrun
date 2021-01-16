@@ -10,6 +10,8 @@
 
 # RiJ2020とかレポート
 
+<img src="https://pbs.twimg.com/media/EqdozdvVEAI2taV?format=jpg&name=large" width="50%" alt="四字熟語" />
+
 - [**四字熟語Flash**](https://www.gamedesign.jp/flash/yojifla/yojifla.html)
 - [**Adobe Flash Player - Debug Downloads**](https://www.adobe.com/support/flashplayer/debug_downloads.html)
 - [**Ruffle | Flash Player emulator written in the Rust programming language**](https://ruffle.rs/)
@@ -386,13 +388,8 @@ RiJ2020開幕。年明けに自分も参加するSTGリレー2こと STG Lovers 
 
 ----
 
+<img src="https://pbs.twimg.com/media/Eqdoz1XVoAUW4YT?format=jpg&name=large" width="50%" alt="大願成就" />
+
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">四字熟語<br>と<br>大願成就<br>をお願いしていいですか<br>1人1個限定なら大願成就で！</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1344150309497495552?ref_src=twsrc%5Etfw">December 30, 2020</a></blockquote>
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">四字熟語<br>と<br>大願成就 <a href="https://t.co/05oOdGpneS">pic.twitter.com/05oOdGpneS</a></p>&mdash; 茶王 (@chao_ch2) <a href="https://twitter.com/chao_ch2/status/1344158349462388736?ref_src=twsrc%5Etfw">December 30, 2020</a></blockquote>
-
-<img src="https://pbs.twimg.com/media/EqdozdvVEAI2taV?format=jpg&name=large" width="50%" alt="四字熟語" style="display: inline;" />
-<img src="https://pbs.twimg.com/media/Eqdoz1XVoAUW4YT?format=jpg&name=large" width="50%" alt="大願成就" style="display: inline;" />
-![四字熟語]()
-
-![大願成就](https://pbs.twimg.com/media/Eqdoz1XVoAUW4YT?format=jpg&name=large)
-
