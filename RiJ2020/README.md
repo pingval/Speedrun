@@ -133,7 +133,7 @@ Road to the Recordはわいなぎさんと自分の二人が四字熟語Flashで
 #### 2020/10/26
 
 ありがとうくまのプーさんのホームランダービー！を参考に、感謝感激！四字熟語TAを告知。  
-家の回線がしたらばから弾かれているのをいいことに、イベント告知スレッドへ解説の鬼アジーンさんとプニキの鬼lastさんに代理書き込みさせるテク。
+家の回線がしたらばから弾かれているのをいいことに、イベント告知スレッドへのを解説の鬼アジーンさんとプニキの鬼lastさんにさせるテク。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">感謝感激！四字熟語TAの開催日時は、主催の都合により11/29(日)から11/28(土) 21:00-22:00に変更させていただきます。くれぐれもご注意を……。 <a href="https://t.co/SISlCCFRbG">https://t.co/SISlCCFRbG</a> <a href="https://t.co/Evb4I8iUTc">pic.twitter.com/Evb4I8iUTc</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1320653867206410240?ref_src=twsrc%5Etfw">October 26, 2020</a></blockquote>
 
@@ -192,19 +192,19 @@ Flashお別れRTA会が告知される。最後だし四字熟語Flashのつい�
 その用事は新型コロナの跳梁跋扈の影響でなくなったんだけど。
 
 
-おらが集落ことPeerCastで、1時間以内で最速タイムを競う感謝感激！四字熟語TAを主催。この日は気合が入ってたのか大会本番含めて自己ベを3回更新した。全部1秒ずつだけど！
+おらが集落ことPeerCastで、1時間以内で最速タイムを競う感謝感激！四字熟語TAを開催。この日は気合が入ってたのか大会本番含めて自己ベを3回更新した。全部1秒ずつだけど！
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I got a 4:49 in 四字熟語Flash - Any%. <a href="https://t.co/3jmWMKCyZU">pic.twitter.com/3jmWMKCyZU</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1332603095713345536?ref_src=twsrc%5Etfw">November 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I got a 4:49 in 四字熟語Flash - Any%. <a href="https://t.co/3jmWMKCyZU">pic.twitter.com/3jmWMKCyZU</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1332603095713345536?ref_src=twsrc%5Etfw">November 28, 2020</a></blockquote>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I got a 4:49 in 四字熟語Flash - Any%. <a href="https://t.co/3jmWMKCyZU">pic.twitter.com/3jmWMKCyZU</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1332603095713345536?ref_src=twsrc%5Etfw">November 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I got a 4:49 in 四字熟語Flash - Any%. <a href="https://t.co/3jmWMKCyZU">pic.twitter.com/3jmWMKCyZU</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1332603095713345536?ref_src=twsrc%5Etfw">November 28, 2020</a></blockquote>
 
-1位のArel氏の3:44。RiJ面子は、2位わいなぎ2位4:14、らきき3位4:26、ping値4位4:47、tsk5位4:53。自己ベで大きく負けていたtskさんに勝ててびっくり。
+1位はArelさんの3:44。RiJ面子は、2位わいなぎ2位4:14、らきき3位4:26、ping値4位4:47、tsk5位4:53。自己ベで大きく負けていたtskさんに勝ててびっくり。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">感謝感激！四字熟語TAおわりました<br>ありがとうございました！！<br>結果: <a href="https://t.co/9fppPp8pqN">https://t.co/9fppPp8pqN</a></p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1332677082938130433?ref_src=twsrc%5Etfw">November 28, 2020</a></blockquote>
 
 #### 2020/11/29
 
-Flashお別れRTA会募集締め切り直後に、Arelさんを誘えたことに気付く。年末の四字熟語Flash関連***1番のやらかし***は間違いなくこれ。これを専門用語ではダボと言います。
+Flashお別れRTA会募集締め切り直後に、Arelさんを誘えたことに気付く。年末の四字熟語Flash関連***1番のやらかし***は間違いなくこれ。専門用語ではダボって言います。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あっ！<br>タイミング的にRiJは無理だったけど<br>Flashお別れRTA会のほうはArelさん誘えたやん！</p>&mdash; ping値 (@pingval) <a href="https://twitter.com/pingval/status/1333067112470831110?ref_src=twsrc%5Etfw">November 29, 2020</a></blockquote>
 
@@ -390,7 +390,9 @@ RiJ2020開幕。年明けに自分も参加するSTGリレー2こと STG Lovers 
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">四字熟語<br>と<br>大願成就 <a href="https://t.co/05oOdGpneS">pic.twitter.com/05oOdGpneS</a></p>&mdash; 茶王 (@chao_ch2) <a href="https://twitter.com/chao_ch2/status/1344158349462388736?ref_src=twsrc%5Etfw">December 30, 2020</a></blockquote>
 
-![四字熟語](https://pbs.twimg.com/media/EqdozdvVEAI2taV?format=jpg&name=large)
+<img src="https://pbs.twimg.com/media/EqdozdvVEAI2taV?format=jpg&name=large" width="50%" alt="四字熟語" style="display: inline;" />
+<img src="https://pbs.twimg.com/media/Eqdoz1XVoAUW4YT?format=jpg&name=large" width="50%" alt="大願成就" style="display: inline;" />
+![四字熟語]()
 
 ![大願成就](https://pbs.twimg.com/media/Eqdoz1XVoAUW4YT?format=jpg&name=large)
 
