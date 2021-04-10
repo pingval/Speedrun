@@ -41,6 +41,6 @@ https://docs.google.com/spreadsheets/d/1XMAfTkl0RqTohn09S2ppcZZ6abk_7Ryct9tvjMpe
 
 - デフォルト残機でない8つのrunのカテゴリを"No Restrictions"に変更します(ただし、bob_senseiの Easy 11:33はデフォルト残機でもクリアできるのでそのままでもいいかも知れません)。
 - 2ccのrun (PatronusPL's Easy 18:13)も同様です。
-- また、リプレイの再生時間がそのままreal timeになっているrunを修正します。ついでに再計測しました(1秒程度のブレはそのままでもいいかもしれませんが……)。
+- また、リプレイの再生時間がそのままreal timeになっているrunを修正します。ついでに再計測しました・
 - ビデオを確認できないDeleted UserのEasy 17:40とseriのLunatic 10:57は、特に大きな影響もないのでそのままにします。
 ```
