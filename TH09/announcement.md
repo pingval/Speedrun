@@ -21,7 +21,7 @@ https://docs.google.com/spreadsheets/d/1XMAfTkl0RqTohn09S2ppcZZ6abk_7Ryct9tvjMpe
 - Change the category of 8 runs with non-default lives to "No Restrictions" (although bob_sensei's Easy 11:33 can be completed with default lives, it might be fine as it is).
 - 2cc run (PatronusPL's Easy 18:13) is also so.
 - Fix runs where replay time is set to real time. In addition, I retimed all runs.
-- Easy 17:40 and seri's Lunatic 10:57, which I can't check the video, are left as they are, since they don't have any significant impact.
+- Deleted User's Easy 17:40 and seri's Lunatic 10:57, which I can't check the video, are left as they are, since they don't have any significant impact.
 ```
 
 ## 日本語Text
@@ -42,5 +42,5 @@ https://docs.google.com/spreadsheets/d/1XMAfTkl0RqTohn09S2ppcZZ6abk_7Ryct9tvjMpe
 - デフォルト残機でない8つのrunのカテゴリを"No Restrictions"に変更します(ただし、bob_senseiの Easy 11:33はデフォルト残機でもクリアできるのでそのままでもいいかも知れません)。
 - 2ccのrun (PatronusPL's Easy 18:13)も同様です。
 - また、リプレイの再生時間がそのままreal timeになっているrunを修正します。ついでに再計測しました(1秒程度のブレはそのままでもいいかもしれませんが……)。
-- ビデオを確認できないEasy 17:40とseriのLunatic 10:57は、特に大きな影響もないのでそのままにします。
+- ビデオを確認できないDeleted UserのEasy 17:40とseriのLunatic 10:57は、特に大きな影響もないのでそのままにします。
 ```
