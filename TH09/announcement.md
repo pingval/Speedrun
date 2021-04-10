@@ -5,14 +5,13 @@ Important Announcement: invalid runs
 
 ## Text
 
-In the description of currently pending DrStupid's run, I learded that Ghostly's Easy 8:58 has 5 lives.
-However, common category rules from Easy to Lunatic are here:
+In the description of currently pending DrStupid's run, I learded that Ghostly's Easy 8:58 has 5 lives. However, common category rules from Easy to Lunatic are here:
 > Timing starts at shot type select and ends when Eiki/Reimu take their last hit. Replays allowed, 1cc only, default lives. "In-game time" is a placeholder for replay time
+
 So runs with non-default lives should be categorized as "No Restrictions"!
 
 CrystalChaos said that "it doesn't affect the runs in any way" for a run with 5 lives in this thread: https://www.speedrun.com/touhou_kaeitzuka_phantasmagoria_of_flower_view/thread/5p9rj/1#7avr4
-but that's not the case.
-Ghostly's 8:58 losts 4 lives. However, in case we start PoFV with default 3 lives and even gain 1 more life at 10 million points, if we lose 4 lives, the game will be over. just like these videos: 
+but that's not the case. Ghostly's 8:58 losts 4 lives. However, in case we start PoFV with default 3 lives and even gain 1 more life at 10 million points, if we lose 4 lives, the game will be over. just like these videos: 
 https://www.youtube.com/watch?v=LLonpEPJtEw
 https://www.youtube.com/watch?v=FcwDeu-BfQI
 
@@ -26,9 +25,9 @@ https://docs.google.com/spreadsheets/d/1XMAfTkl0RqTohn09S2ppcZZ6abk_7Ryct9tvjMpe
 
 ## 日本語Text
 
-現在保留中のDrStupidのrunのdescriptionで、自分はGhostlyのEasy 8:58の初期残機が5機と知りました。
-しかし、EasyからLunaticまで共通のカテゴリルールはこのようになっています:
+現在保留中のDrStupidのrunのdescriptionで、自分はGhostlyのEasy 8:58の初期残機が5機と知りました。しかし、EasyからLunaticまで共通のカテゴリルールはこのようになっています:
 > Timing starts at shot type select and ends when Eiki/Reimu take their last hit. Replays allowed, 1cc only, default lives. "In-game time" is a placeholder for replay time
+
 だから、デフォルトでない残機のrunは"No Restrictionsにカテゴライズされるべきです！
 
 CrystalChaosさんは「runには特に影響を与えない」と初期残機5のrunについてこのスレッドで語っています: https://www.speedrun.com/touhou_kaeitzuka_phantasmagoria_of_flower_view/thread/5p9rj/1#7avr4
