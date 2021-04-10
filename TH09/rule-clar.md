@@ -10,7 +10,7 @@ No Restrictions: "Timing starts at shot type select and ends when Eiki/Reimu tak
 I think "lives" should be left, because the other Touhou Series rules describe "Player" as "lives". (e.g. PCB: "Timing starts at shot type select and ends when Resurrection Butterfly times out. Replays allowed, 1cc only, default lives")
 
 Also, although not related to the default "Player", I think the following text should be added, to reflect the contents of this thread: https://www.speedrun.com/touhou_kaeitzuka_phantasmagoria_of_flower_view/thread/7u0mo
-"For adjustment, Real time is replay time + 20s." (grammer might be weird)
+"For adjustment, Real time is replay time + 20s." (grammar might be weird)
 
 How about my proposal for improving the rules?
 ```
