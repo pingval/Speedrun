@@ -70,7 +70,6 @@ https://docs.google.com/spreadsheets/d/1XMAfTkl0RqTohn09S2ppcZZ6abk_7Ryct9tvjMpe
 - 2cc run (PatronusPL's Easy 18:13) is also so.
 - Fix runs where replay time is set to real time. In addition, I retimed all runs.
 - Deleted User's Easy 17:40 and seri's Lunatic 10:57, which I can't check the video, are left as they are, since they don't have any significant impact.
-```
 
 And to clarify meaning of "lives" (not health but Player) , I'll fix rules as below:
 
@@ -83,7 +82,7 @@ No Restrictions:
 Furthermore, to clarify the treatment of replay time, the following text will be added to all of category rules:
 
  When adjusting times, real time is generally 20 seconds slower than the in-game time (real time = in-game time + 20s). Your in-game time is the time of your run's replay.
-
+```
 
 ## 日本語Text
 
@@ -113,6 +112,4 @@ No Restrictions:
 
 更に、リプレイタイムの扱いを明確にするため、全てのカテゴリのルールに以下の文面を追加します:
  When adjusting times, real time is generally 20 seconds slower than the in-game time (real time = in-game time + 20s). Your in-game time is the time of your run's replay.
-
-
 ```
