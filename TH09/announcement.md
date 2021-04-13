@@ -1,6 +1,6 @@
-# Announcement Draft
+# Announcement
 
-## 1st
+## 1st Draft
 
 ### Title
 Important Announcement: invalid runs
@@ -51,7 +51,7 @@ https://docs.google.com/spreadsheets/d/1XMAfTkl0RqTohn09S2ppcZZ6abk_7Ryct9tvjMpe
 
 ----
 
-## 2nd (following [DrStupid's suggestions](https://twitter.com/Doc_Stupid/status/1380808421688160256))
+## 2nd Draft (following [DrStupid's suggestions](https://twitter.com/Doc_Stupid/status/1380808421688160256))
 
 ### Text
 
