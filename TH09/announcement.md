@@ -72,15 +72,12 @@ https://docs.google.com/spreadsheets/d/1XMAfTkl0RqTohn09S2ppcZZ6abk_7Ryct9tvjMpe
 - Deleted User's Easy 17:40 and seri's Lunatic 10:57, which I can't check the video, are left as they are, since they don't have any significant impact.
 
 And to clarify meaning of "lives" (not health but Player) , I'll fix rules as below:
-
-Easy~Lunatic:
+- Easy~Lunatic:
  Timing starts at shot type select and ends when Eiki/Reimu take their last hit. Replays allowed, 1cc only, default lives (Player), default health.
-
-No Restrictions:
+- No Restrictions:
  Timing starts at shot type select and ends when Eiki/Reimu take their last hit. Video required, multiple credits allowed, nondefault lives (Player), nondefault health allowed"
 
 Furthermore, to clarify the treatment of replay time, the following text will be added to all of category rules:
-
  When adjusting times, real time is generally 20 seconds slower than the in-game time (real time = in-game time + 20s). Your in-game time is the time of your run's replay.
 ```
 
