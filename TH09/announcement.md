@@ -1,11 +1,13 @@
-# 1st Drast
+# Announcement Draft
 
-## Title
+## 1st
+
+### Title
 Important Announcement: invalid runs
 
 ----
 
-## Text
+### Text
 
 ```
 In the description of currently pending DrStupid's run, I learded that Ghostly's Easy 8:58 has 5 lives. However, default lives is 3 and common category rules from Easy to Lunatic are here:
@@ -26,7 +28,7 @@ https://docs.google.com/spreadsheets/d/1XMAfTkl0RqTohn09S2ppcZZ6abk_7Ryct9tvjMpe
 - Deleted User's Easy 17:40 and seri's Lunatic 10:57, which I can't check the video, are left as they are, since they don't have any significant impact.
 ```
 
-## 日本語Text
+### 日本語Text
 
 ```
 現在保留中のDrStupidのrunのdescriptionで、自分はGhostlyのEasy 8:58の初期残機が5機と知りました。しかし、デフォルト残機は3であり、EasyからLunaticまで共通のカテゴリルールはこのようになっています:
@@ -49,9 +51,9 @@ https://docs.google.com/spreadsheets/d/1XMAfTkl0RqTohn09S2ppcZZ6abk_7Ryct9tvjMpe
 
 ----
 
-## 2nd Draft (following [DrStupid's suggestions](https://twitter.com/Doc_Stupid/status/1380808421688160256))
+## 2nd (following [DrStupid's suggestions](https://twitter.com/Doc_Stupid/status/1380808421688160256))
 
-## Text
+### Text
 
 ```
 In the description of currently pending DrStupid's run, I learded that Ghostly's Easy 8:58 has 5 lives. However, default lives is 3 and common category rules from Easy to Lunatic are here:
@@ -81,7 +83,7 @@ Furthermore, to clarify the treatment of replay time, the following text will be
  When adjusting times, real time is generally 20 seconds slower than the in-game time (real time = in-game time + 20s). Your in-game time is the time of your run's replay.
 ```
 
-## 日本語Text
+### 日本語Text
 
 ```
 現在保留中のDrStupidのrunのdescriptionで、自分はGhostlyのEasy 8:58の初期残機が5機と知りました。しかし、デフォルト残機は3であり、EasyからLunaticまで共通のカテゴリルールはこのようになっています:
