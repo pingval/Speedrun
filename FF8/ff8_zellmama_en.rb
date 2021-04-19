@@ -78,6 +78,9 @@ $option = {
   # レアカードタイマーのfps
   console_fps: 60,
   
+  # 基本60、Windows7なら61
+  game_fps: 60,
+  
   # ※これより下は変更不要※
   
   # 対象プレイヤー
@@ -1212,10 +1215,10 @@ end
 # ローカル変数が多すぎてきもちわるい
 def rare_timer1(state: 1, rare_limit: 10, width: 60, fps: 60)
   start = Time.now.to_f
-  delay = $option[:delay_frame].quo(60)
+  delay = $option[:delay_frame].quo($option[:game_fps])
   # 状態の加算の開始タイミング
   incr = 0
-  incr_start = delay - $option[:forced_incr].quo(60)
+  incr_start = delay - $option[:forced_incr].quo($option[:game_fps])
   timer_width = 8
   width = [IO.console_size[1] - 1 - timer_width, width].min
   
@@ -1227,7 +1230,7 @@ def rare_timer1(state: 1, rare_limit: 10, width: 60, fps: 60)
   f = lambda {
     duration = Time.now.to_f - start
     # 状態の加算回数
-    incr = [((duration - incr_start) * 60).round,
+    incr = [((duration - incr_start) * $option[:game_fps]).round,
             $option[:forced_incr] + $option[:accept_delay_frame]].max
     # ○連打で安全ならそれとわかるように
     if incr <= $option[:forced_incr] + $option[:accept_delay_frame]
