@@ -78,7 +78,7 @@ def main(cond)
   puts args_for_cl
   puts ["HP", "HP rate", "CL 1", "CL 2", "CL 3", "CL 4", "CL 1..4"].join("\t")
   hp_arr.each{|hp|
-    cl_arr = crisis_level(args_for_cl.merge({ hp: hp }))
+    cl_arr = crisis_level(**args_for_cl.merge({ hp: hp }))
     r = cl_arr2result(cl_arr)
     
     puts "%d\t%f\t%f\t%f\t%f\t%f\t%f" % [
