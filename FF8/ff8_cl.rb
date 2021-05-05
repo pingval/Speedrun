@@ -1,4 +1,7 @@
 # -*- encoding: utf-8 -*-
+# 2021/05/5
+# ・ヘッダを変更
+# ・全体に対し CL 2..4, 3..4, 4 となる確率を追加
 # 2016/06/19
 # ・CL1..4以外はCL1..4を分母とする(できる)よう、denominator_256_pオプションを追加
 
@@ -31,6 +34,9 @@ CL_Result_Table = {
   cl3:   3,
   cl4:   4,
   cl1_4: 1..4,
+  cl2_4: 2..4,
+  cl3_4: 3..4,
+  cl4_4: 4..4,
 }
 
 def crisis_level(hp: 1, mhp: 9999, dead: 0, st: [], seiferp: false)
@@ -76,16 +82,18 @@ def main(cond)
   }
   
   puts args_for_cl
-  puts ["HP", "HP rate", "CL 1", "CL 2", "CL 3", "CL 4", "CL 1..4"].join("\t")
+  puts ["HP", "HP rate", "CL 1/1..4", "CL 2/1..4", "CL 3/1..4", "CL 4/1..4", "CL 1..4/All", "CL 2..4/All", "CL 3..4/All", "CL 4/All"].join("\t")
   hp_arr.each{|hp|
     cl_arr = crisis_level(**args_for_cl.merge({ hp: hp }))
     r = cl_arr2result(cl_arr)
     
-    puts "%d\t%f\t%f\t%f\t%f\t%f\t%f" % [
+    puts "%d\t%f\t%f\t%f\t%f\t%f\t%f\t%f\t%f\t%f" % [
       hp, hp.fdiv(args_for_cl[:mhp]),
     *(CL_Result_Table.keys.map{|k|
       denominator = \
       if k == :cl1_4 || $option[:denominator_256_p]
+        cl_arr.size
+      elsif k.to_s['_']
         cl_arr.size
       else
         r[:cl1_4]
