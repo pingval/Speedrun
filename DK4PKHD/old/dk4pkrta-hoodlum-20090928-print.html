@@ -1,0 +1,874 @@
+<html>
+<head>
+  <meta http-equiv="content-type"
+    content="application/xhtml+xml; charset=Shift_JIS" />
+  <title>抜かれたら第三回花大会を主催します！！！！</title>
+  <style type="text/css" media="all">
+body
+{
+  margin: .5em;
+  color: black;
+  background: white;
+  font-family: "MS UI Gothic";
+  line-height: 1.5em;
+}
+
+p
+{
+  text-indent: 1em;
+}
+
+td, th
+{
+  text-align: center;
+}
+
+td
+{
+  color: inherit;
+  background: #f4f4f4;
+  border-color: #333;
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+}
+
+th
+{
+  width: 5em;
+  color: white;
+  background: black;
+}
+
+hr
+{
+  height: 1px;
+}
+
+.memo
+{
+  color: blue;
+  font-size: 80%;
+}
+
+.save
+{
+  border-color: red;
+  border-style: solid;
+  border-width: 1px 0.3em;
+  margin: 0 0.5em;
+  padding: 0 0.3em;
+  color: red;
+  font-size: 80%;
+  font-weight: bold;
+}
+
+.mate
+{
+  font-weight: bold;
+  text-decoration: underline overline;
+}
+
+.item
+{
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.emblem
+{
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.input
+{
+  color: red;
+  font-size: 80%;
+}
+</style>
+</head>
+<body>
+
+<h1>大航海時代IV with PK RTA ホドラム編 2009/09/28</h1>
+
+<dl>
+  <dt>ルール</dt>
+  <dd>
+    <ul>
+      <li>計測範囲はニューゲームでキャラを選択した瞬間から、エンディングの「Fin」が完全に消えるまで</li>
+      <li>セーブロードいくらでもおｋ</li>
+    </ul>
+  </dd>
+</dl>
+
+
+<hr />
+
+<ul>
+  <li><a href="#luck">運の絡むタイムロス要素</a></li>
+  <li>攻略チャート
+    <ul>
+      <li><a href="#chart-1">瀬戸内海まで</a></li>
+      <li><a href="#chart-2">瀬戸内海強化合宿</a></li>
+      <li><a href="#chart-3">覇者の証集め</a></li>
+    </ul>
+  </li>
+  <li><a href="#refference">参考にさせていただいたもの</a></li>
+</ul>
+
+<hr />
+
+<h2 id="luck">運の絡むタイムロス要素</h2>
+
+<p>並び順は時間の掛かる順。時間が「?」なやつの位置はフィーリングで</p>
+
+<table>
+  <thead>
+    <tr><th>要素</th><th>発生する段階</th><th>1回あたりの時間</th><th>備考</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>哨戒中のフリーズ</th><td>瀬戸内海後</td><td>1～3分</td><td>CD-DAのBGMが終わるまでゲームの再起動ができない　BGMの残りが長いと最悪</td></tr>
+    <tr><th>覇者の証の位置</th><td>瀬戸内海後</td><td>?</td><td>東南アジアは自動航路から大きく外れているパターンが多い</td></tr>
+    <tr><th>鼠発生</th><td>瀬戸内海中</td><td>平均25秒</td><td>瀬戸内海での最大のタイムロス要因　退治に失敗すると更に+40秒のロス　まれに瀬戸内海以外の長期航海でも発生</td></tr>
+    <tr><th>船室での白兵戦</th><td>瀬戸内海後</td><td>20秒</td><td>パーフェクト勝ちすれば一騎討ちに移行するのでむしろありがたい・・・なわけあるかい！</td></tr>
+    <tr><th>一騎討ち</th><td>瀬戸内海後</td><td>平均18秒</td><td>一騎討ちが起きればその戦闘はまず間違いなく終了するので、早めに発生してくれればむしろありがたい</td></tr>
+    <tr><th>コインゲームの負け</th><td>フェルナンド勧誘</td><td>平均18秒</td><td>一発打開率1/4　低層ループいけます</td></tr>
+    <tr><th>戦闘突入による自動移動解除</th><td>瀬戸内海後</td><td>?</td><td>再エンカウントすることなく自動移動を再開する方法を考える必要も</td></tr>
+    <tr><th>古びた羊皮紙入手時の月</th><td>北海攻略</td><td>0～30秒</td><td>イベントの発生する1月まで泊まり続けるので、入手時に2月だと最悪</td></tr>
+    <tr><th>停戦失敗</th><td>瀬戸内海前の対エスピノサ・クルシマ</td><td>15秒</td><td>マウス操作ミス誘発</td></tr>
+    <tr><th>シェア消失による自動航路切れ</th><td>瀬戸内海中・後</td><td>?</td><td>原因は、敵勢力による流行品売却・地方艦隊の敗北・敵艦隊に直接奪われる、の3つ</td></tr>
+    <tr><th>甲板での白兵戦</th><td>瀬戸内海後</td><td>7秒</td><td>船室での白兵戦よりはずっとマシ</td></tr>
+    <tr><th>アイテムが依頼に出される</th><td>瀬戸内海前</td><td>4秒</td><td>運が悪くてもトータル20秒程度　しかしマウス操作ミス誘発</td></tr>
+    <tr><th>化け魚退治の出入港</th><td>東南アジア攻略</td><td>3秒</td><td>最悪50秒　17回目の出港にしてようやっと化け魚発見</td></tr>
+    <tr><th>甲板のサボりアニメ</th><td>瀬戸内海中</td><td>3秒</td><td>ちょっと一息</td></tr>
+  </tbody>
+</table>
+
+<p>早い話がフリーズと海賊ども爆発しろ</p>
+
+<hr />
+
+<h2 id="chart-1">攻略チャート(瀬戸内海まで)</h2>
+
+<p>スピードを求める場合、</p>
+<ul>
+  <li>フェルナンドを仲間にするのに時間が掛かりすぎた</li>
+  <li>ヴェルデで敵艦隊と接触しがめおべら</li>
+  <li>ウッディーン第1艦隊とエンカウントした</li>
+</ul>
+<p>場合ははじめからやり直す</p>
+
+<h3>北海</h3>
+
+<ul>
+  <li>スタート時はマウスをキャラ選択後の決定ボタンに合わせ、クリック連打、左下へ。14秒あたりからスペース連打</li>
+  <li>ストックホルム->コペンハーゲン->オスロ->アムステルダム->ブルージュ->ロンドン->ナント<span class="memo">ハンブルクには寄らなくてよい</span></li>
+  <li>シュパイヤーと遭遇したら逃げる<span class="memo">将来的には遭遇できなければやり直し、もあるかもね</span></li>
+</ul>
+
+<dl>
+  <dt>ストックホルム</dt>
+  <dd>艦長室:ホドラム -> マスト1</dd>
+  <dd>副官室:ゲルハルト -> マスト2</dd>
+  <dd>武装砲台:シャルル -> 見張台</dd>
+  <dd>酒場(選択肢: おまえに任せる)</dd>
+  <dd><!-- span class="save">セーブ</span -->ギルドで細雪のローブ、至高のルーペを購入</dd>
+  <dd>出港所(選択肢: いいだろう)<span class="input">スペース連打、マウスを右下へ</span></dd>
+  <dd>出港<span class="input">右下のアイコン付近でクリック連打</span>、帆を全開に</dd>
+
+  <dt>アムステルダム</dt>
+  <dd>リルと会うイベント<span class="input">クリック連打、王宮に重ねる</span></dd>
+  <dd><!-- span class="save">セーブ</span -->ギルドで<span class="item">環状石柱遺跡への地図</span>を購入</dd>
+  <dd>出港所でカミルが追ってくるイベント<span class="input">クリック連打</span></dd>
+
+  <dt>ブルージュ</dt>
+  <dd>掃滅のカッツバルゲルの情報<span class="input">クリック連打、総督府に重ねる</span><span class="memo">カッツバルゲルは回収しに行かない</span></dd>
+
+  <dt>ロンドン</dt>
+  <dd><!-- span class="save">セーブ</span -->ギルドで<span class="item">ガリア戦記</span>を購入</dd>
+</dl>
+
+<h3>地中海</h3>
+
+<ul>
+  <li>リスボン->セビリア->バレンシア->マルセイユ->シラクサ->アテネ->クレタ->イスタンブール->キプロス->ベイルート->アレキサンドリア->ラグーサ->ジェノヴァ->セビリア->マディラ->ラスパルマス</li>
+
+  <li>ハイレディンの縄張りに入るまでは、ハイレディン艦隊と遭遇してもイベントが発生しない。縄張りに入る前にヘスティアの釜を見つけ、ヴェザスの天秤(こいつも売る)を購入する資金にする。</li>
+</ul>
+
+<dl>
+  <dt>リスボン</dt>
+  <dd><span class="mate">ジェナス</span>を仲間に(選択肢: いいだろう)<span class="input">スペース連打、総督府に重ね、選択肢を過ぎたらクリック連打</span></dd>
+  <dd>宿屋で<span class="item">ロッコの操船指南書</span>入手(毎月15-30日)<span class="input">クリック連打、ギルドに重ねる</span></dd>
+  <dd><!-- span class="save">セーブ</span -->ギルドでロッコの操船指南書を売却、<span class="item">東方見聞録</span>を購入</dd>
+  <dd>軽ガレオン<span class="memo">5段目</span>を購入、□△△、船倉を全て物資倉庫に<span class="memo">2段目</span></dd>
+  <dd>船の入れ替えから、水夫を軽ガレオンに必要最小分移し<span class="memo">このときヴェスタロスの水夫数を0にすること</span>、ヴェスタロスをドックに移し、ヴェスタロス<span class="memo">1段目</span>を売る</dd>
+  <dd>艦長室:ホドラム -> マスト2</dd>
+  <dd>未:ジェナス -> マスト3</dd>
+
+  <dt>セビリア</dt>
+  <dd><span class="mate">エミリオ</span>を仲間に<span class="input">スペース連打、王宮に重ねる</span></dd>
+  <dd>ドナから欲しいものを聞いておく<span class="input">スペース連打、出港所に重ねる</span></dd>
+
+  <dt>ジェノヴァ</dt>
+  <dd>酒場で<span class="mate">フリオ</span>を仲間に(選択肢: ありますが… -> 自分の知らないことを素直に聞く)<span class="input">スペース連打、ギルドに重ねる</span></dd>
+  <dd><!-- span class="save">セーブ</span -->ギルドで<span class="item">ステンドグラスの小花</span>を購入</dd>
+
+  <dt>アテネ</dt>
+  <dd><!-- span class="save">セーブ</span -->ギルドで<span class="item">岩窟集落への地図</span>を購入</dd>
+
+<!--
+  <dt>クレタ</dt>
+  <dd>酒場でミノタウロスの斧の情報</dd>
+
+  <dt>北35東26、クレタ付近</dt>
+  <dd>探索、<span class="item">ミノタウロスの斧</span>入手</dd>
+-->
+
+  <dt>イスタンブール</dt>
+  <dd>ファシティアから欲しいものを聞いておく<span class="input">スペース連打、出港所に重ねる</span></dd>
+  <dd>出港所で<span class="mate">アンジェロ</span>を仲間に<span class="input">スペース連打、マウスを左下へ</span></dd>
+  <dd>未:フリオ -> 見張台:シャルル -> 測量</dd>
+  <dd>未:アンジェロ -> マスト1:ゲルハルト -> 副官室</dd>
+  <dd>未:エミリオ -> マスト2:ホドラム -> 艦長室<span class="memo">自動移動が可能になる　ここから瀬戸内海まで、新たに仲間が加わってもずっとこのままでゆく</span></dd>
+  <dd>
+    <table>
+      <thead>
+        <tr><th>担当</th><th>航海士</th></tr>
+      </thead>
+      <tbody>
+        <tr><th>艦長室</th><td>ホドラム</td></tr>
+        <tr><th>副官室</th><td>ゲルハルト</td></tr>
+        <tr><th>蛇輪</th><td>マヌエル</td></tr>
+        <tr><th>測量</th><td>シャルル</td></tr>
+        <tr><th>見張台</th><td>フリオ</td></tr>
+        <tr><th>マスト1</th><td>アンジェロ</td></tr>
+        <tr><th>マスト2</th><td>エミリオ</td></tr>
+        <tr><th>マスト3</th><td>ジェナス</td></tr>
+      </tbody>
+    </table>
+  </dd>
+
+  <dt>キプロス</dt>
+  <dd>ヘスティアの釜の情報<span class="input">クリック連打、総督府に重ねる</span></dd>
+
+  <dt>北35東35、ベイルートの北<span class="memo">キプロス北東の島の上を通って東へ</span></dt>
+  <dd>探索、<span class="item">天女のターバン</span>入手</dd>
+
+  <dt>北33東22、アレキサンドリア-トリポリ間<span class="memo">北33->32になったらすぐ西へ</span></dt>
+  <dd>探索、<span class="item">ヘスティアの釜</span>入手</dd>
+
+  <dt>アレキサンドリア<span class="memo">やること多し</span></dt>
+  <dd><!-- span class="save">セーブ</span -->ギルドでヘスティアの釜を売却</dd>
+  <dd>総督府で20%契約、広場で<span class="item">ヴェザスの天秤</span>入手<span class="input">マウスを「買わない」に合わせて5回選択してから「買う」、ギルドに重ねる</span></dd>
+  <dd>ギルドでヴェザスの天秤を売却、<span class="item">アレクサンダー遠征記</span>を購入</dd>
+  <dd>ネリーに<span class="item">ステンドグラスの小花</span>をプレゼント<span class="input">プレゼント#1</span></dd>
+  <dd>酒場に入りなおすと遺跡(ピラミッド＆スフィンクス)出現</dd>
+  <dd>遺跡に入り、<span class="item">残月のショテル</span>入手(選択肢: 知っている -> 自分たち(人間) -> 4人)<span class="input">選択肢2つ選ぶまでスペース連打、3つ目はマウスで、出港所に重ねる</span></dd>
+  <dd>出港所で<span class="mate">チェザーレ</span>を仲間に(選択肢: 聞かない)<span class="input">スペース連打、仲間になったらクリック連打</span></dd>
+
+  <dt>クレタ</dt>
+  <dd>40%軍事投資</dd>
+
+  <dt>アレキサンドリア-ラグーサ間</dt>
+  <!-- dd>主計室:ゲルハルト -> 副官室</dd -->
+  <dd>副官室:ゲルハルトが残月のショテル、ガリア戦記、アレクサンダー遠征記、東方見聞録を装備<span class="memo">自動移動中にやれば若干時間を短縮できる</span></dd>
+
+  <dt>アレキサンドリア出港後</dt>
+  <dd>ハイレディン艦隊に遭遇(選択肢: ここは退こう)<span class="input">Bボタン連打</span></dd>
+
+  <dt>北43東12、ヴェネツィアの南</dt>
+  <dd>探索、<span class="item">ミロのヴィーナス</span>入手<span class="memo">高く売れる上現時点では必要ないので売る？</span></dd>
+
+  <dt>ジェノヴァ</dt>
+  <dd><!-- span class="save">セーブ</span -->ギルドで<span class="item">ダヴィンチの人体解剖図</span>を購入<span class="memo">復路だが買う</span></dd>
+
+  <dt>セビリア</dt>
+  <dd>ドナに天女のターバンをプレゼント<span class="input">プレゼント#2</span></dd>
+  <dd>酒場から出ると遺跡(サンチャゴ大聖堂)出現</dd>
+  <dd>遺跡に入り、<span class="item">いにしえの十字架</span>入手<span class="input">クリック連打、出港所に重ねる</span></dd>
+</dl>
+
+<h3>新大陸</h3>
+
+<ul>
+  <li>ハバナ->メリダ->ヴェラクルス->ジャマイカ->サント＝ドミンゴ->サン＝ファン</li>
+  <li>後にエスカンテから宣戦布告され、エスカンテの縄張りのシェアは奪われてしまう</li>
+  <li>新大陸攻略をスムーズに行えるよう、主にマルドナードの縄張りやどちらにも属さない街のシェアをとっとく</li>
+</ul>
+
+<dl>
+  <dt>ハバナ<span class="memo">北25->24になる前に西へ</span></dt>
+  <dd><!-- span class="save">セーブ</span -->ギルドで<span class="item">アステカ王国の絵地図</span>を購入</dd>
+
+  <dt>メリダ</dt>
+  <dd>20%契約</dd>
+
+  <dt>ヴェラクルス<span class="memo">決してギルドに入らないこと！</span></dt>
+  <dd>10%契約<span class="memo">終盤の哨戒中に負けてもシェアがなくならないように</span></dd>
+  <dd>酒場で<span class="mate">フェルナンド</span>を仲間に(選択肢: 受ける)<span class="input">始まる前と勝った後はスペース連打、負けた後とコイントス後はクリック連打</span>。必ず金貨を4n+1枚残すように<span class="memo">4 - 直前に相手が取った枚数</span>金貨を取る<span class="memo">最初の自分のターンで4n+1枚なら1枚ずつ取って捨てゲー。後手でも一応1/4の確率で勝てる。最後のコイントスで断られたらもう一度。あれ、これってクソゲー？　あまりに負けが続けるようならやり直しも考える</span></dd>
+  <dd>シルビアに至高のルーペをプレゼント<span class="input">プレゼント#1</span></dd>
+  <dd>遺跡に入り(選択肢: 左に行く -> 左の繁み)、<span class="item">翡翠の大珠</span>入手<span class="input">スペース連打、出港所に重ね、遺跡発見後はクリック連打</span></dd>
+
+  <dt>ヴェラクルス-サン＝ファン間</dt>
+  <dd>海賊退治依頼を見越し、ジャマイカ(20%契約<span class="memo">なくなり易いので</span>)、サント＝ドミンゴ、サン＝ファンのシェアを取りながら移動</dd>
+</dl>
+
+<h3>アフリカ</h3>
+
+<ul>
+  <li>ヴェルデ->シエラ＝レオネ->サン＝ジョルジェ->ルアンダ->ケープタウン->ソファラ->マダガスカル->モガディシオ<span class="memo">サン＝トメ、カリビブには寄らない</span></li>
+  <li>ジャックス＝ブルームと遭遇したらガン逃げ</li>
+</ul>
+
+<dl>
+  <dt>ヴェルデ<span class="memo">北15->14になったら(西の諸島のすぐ下)東へ</span></dt>
+  <dd><span class="save">セーブ？</span>ヴェルデの南側から入港、戦闘(選択肢: 攻撃準備だ)<span class="input">Bボタン連打、選択肢がきたらCボタン</span></dd>
+  <dd>南に向かってガン逃げ<span class="input">画面上の方でクリック連打</span></dd>
+  <dd>入港<span class="input">クリック連打、総督府に重ねる</span>、出港で<span class="mate">セラ</span>が仲間に<span class="input">クリック連打、出港所に重ねる</span></dd>
+
+  <dt>ヴェルデ-サン＝ジョルジェ間</dt>
+  <dd>エスカンテに対するシルヴェイラとの協定・・・はどうでもいい</dd>
+
+  <dt>サン＝ジョルジェ</dt>
+  <dd>ヴェリーサに欲しいものを聞いておく<span class="input">スペース連打、ギルドに重ねる</span></dd>
+  <dd><!-- span class="save">セーブ</span -->ギルドで<span class="item">サハラ砂漠の地図</span>を購入、エスピノサと停戦<span class="memo">5通</span></dd>
+  <dd>宿屋で10日間泊まり続ける</dd>
+
+  <dt>ケープタウン</dt>
+  <dd>20%契約</dd>
+
+  <dt>ソファラ</dt>
+  <dd>10%契約</dd>
+  <dd>広場で<span class="mate">ミハイル</span>を仲間に<span class="input">スペース連打、酒場に重ねる</span><span class="memo">東アフリカならどこでもいい</span></dd>
+  <dd>酒場で<span class="mate">イアン</span>を仲間に<span class="input">スペース連打</span></dd>
+  <dd>酒場に入りなおし、ハトラに翡翠の大珠をプレゼント<span class="input">プレゼント#1</span></dd>
+  <dd>また酒場に入りなおすと、遺跡(ジンバブウェ神殿)出現</dd>
+  <dd>遺跡に入り、再度入る(選択肢: その通り)と<span class="item">聖母の像</span>入手<span class="input">スペース連打、出港所に重ね、選択肢を過ぎたらクリック連打</span></dd>
+
+  <dt>モガディシオ</dt>
+  <dd>20%契約</dd>
+</dl>
+
+<h3>インド洋</h3>
+
+<ul>
+  <li>ソコトラ->カリカット->セイロン</li>
+  <li>バスラへは行かない。<strong>ウッディーン第1艦隊と遭遇したらやり直し！</strong></li>
+</ul>
+
+<dl>
+  <dt>ソコトラ</dt>
+  <dd>自動移動で大事な拠点なので20%契約</dd>
+  <dd>出港所で覇者の証についての情報<span class="input">クリック連打</span></dd>
+
+  <dt>カリカット</dt>
+  <dd>ナガルプルと会うイベント<span class="input">スペース連打、王宮に重ねて暗転後クリック連打</span></dd>
+  <dd>広場で<span class="mate">サムウェル</span>を仲間に<span class="input">スペース連打、ギルドに重ねる</span></dd>
+  <dd><!-- span class="save">セーブ</span -->ギルドで<span class="item">黄金の寺への地図</span>を購入</dd>
+</dl>
+
+<h3>東南アジア</h3>
+
+<ul>
+  <li>マラッカ->バタヴィア->パレンバン->ギアデイン</li>
+  <li>通常アチン->マラッカ->バタヴィアと移動するところ、アチンに寄らなくてもクーンと交戦状態になるイベントを回避できる</li>
+</ul>
+
+<dl>
+  <dt>ソコトラ-マラッカ間</dt>
+  <dd>後に買収するためアチンを発見しておく。誤って入港してしまった場合は従来のパターンでいく</dd>
+
+  <dt>マラッカ</dt>
+  <dd>マリアと同盟を結ぶイベント<span class="input">クリック連打、交易所に重ねる</span></dd>
+  <dd>交易所で<span class="mate">カルロ</span>を仲間に、<span class="item">小粋な長靴</span>入手<span class="input">スペース連打、ギルドに重ねる</span></dd>
+  <dd>ギルドで小粋な長靴を売る</dd>
+
+  <dt>バタヴィア</dt>
+  <dd>カミルと再会するイベント<span class="input">クリック連打、総督府に重ねる</span></dd>
+  <dd>10%契約</dd>
+  <dd><!-- span class="save">セーブ</span -->ギルドで<span class="item">古代寺院への地図</span>を購入</dd>
+  <dd>宿屋に入り、酒場へ行き、<span class="mate">ジャム</span>を仲間に<span class="input">酒場に重ねてクリック連打、船が出てきたらスペース連打、最後は減速</span></dd>
+
+  <dt>パレンバン</dt>
+  <dd>10%契約</dd>
+</dl>
+
+<h3>東アジア</h3>
+
+<ul>
+  <li>マカオ->泉州->杭州->京城->杭州->大坂</li>
+</ul>
+
+<dl>
+  <dt>杭州<span class="memo">ここまでの移動に相当無駄がなければ契約できる可能性はある</span></dt>
+  <dd>酒場でユリアンが飛び出す<span class="input">クリック連打、ギルドに重ねる</span></dd>
+  <dd><!-- span class="save">セーブ</span -->ギルドで<span class="item">王の墓への地図</span>を購入</dd>
+
+  <dt>北35東126、京城付近</dt>
+  <dd>京城に入港する前に探索、<span class="item">高麗青磁の香炉</span>入手</dd>
+
+  <dt>京城</dt>
+  <dd>広場で<span class="mate">イファ</span>を仲間に<span class="input">クリック連打、酒場に重ねる</span></dd>
+  <dd>酒場に入ると遺跡(武寧王陵)出現<span class="input">クリック連打、遺跡に重ねる</span></dd>
+  <dd>遺跡に入り(選択肢: とにかく進む -> それでも進む)、<span class="item">新羅の金冠</span>入手<span class="input">スペース連打、ギルドに重ね、遺跡発見後はクリック連打</span></dd>
+  <dd><!-- span class="save">セーブ</span -->ギルドで<span class="item">黒瑠璃の碗</span>を購入</dd>
+
+  <dt>杭州</dt>
+  <dd>酒場で<span class="mate">ユリアン</span>を仲間に<span class="input">クリック連打、出港所に重ねる</span></dd>
+
+  <dt>杭州-大坂間</dt>
+  <dd>長崎には入港しないこと！</dd>
+
+  <dt>大坂</dt>
+  <dd><span class="mate">ユキヒサ</span>を仲間に<span class="input">スペース連打、ギルドに重ねる</span></dd>
+  <dd>クルシマと停戦<span class="memo">5通</span></dd>
+  <dd>宿屋で<span class="item">鯱の像</span>を入手<span class="input">クリック連打</span>、10日間泊まり続ける</dd>
+  <dd>10%ほど契約<span class="memo">大坂が完全に奪われるのを防ぐ</span></dd>
+  <dd>さくらに細雪のローブをプレゼント<span class="input">プレゼント#1</span></dd>
+  <dd>酒場に入りなおすと遺跡(金閣寺)が出現</dd>
+  <dd>遺跡に入る(選択肢: 沼に入る)<span class="input">スペース連打、造船所に重ね、遺跡発見後はクリック連打</span></dd>
+</dl>
+
+<hr />
+
+<h2 id="chart-2">瀬戸内海強化合宿</h2>
+
+<dl>
+  <dt>準備</dt>
+  <dd>大型ジャンク<span class="memo">3段目　旗艦の目印に名前の最後に「き」でもつける</span>、ジャンク<span class="memo">2段目</span>を購入</dd>
+  <dd>大型ジャンクを、スプリットセイル、□△△、ジガースパンカー、追加装甲1、船倉を海兵詰所*4、残りを物資倉庫に、担当室は主計室->礼拝室、飼育室->参謀室に改造、聖母の像装備<span class="memo">2段目</span></dd>
+  <dd>ジャンクに鯱の像装備、船倉を全て物資倉庫に<span class="memo">3段目</span></dd>
+  <dd>↑<span class="memo">2段目</span>を特別注文で2隻増やす</dd>
+  <dd>ドックで船の入れ替え、1番艦(軽ガレオン)と2番艦(大型ジャンク)を交換</dd>
+  <dd>艦長任命で、アンジェロ、フェルナンド、イファ、ユリアンを2-5番艦艦長に</dd>
+  <dd>酒をふるまい1度だけ水夫を集め、必要最小で配分する<span class="memo">探索で水夫が減る可能性を考慮すれば旗艦重視にすべきか？</span></dd>
+  <dd>航海経験と技能経験の配分を考慮して、効率よくレベルを上げられる配置にする(下表参照)。サボり癖のあるキャラは2-5番艦の艦長にする</dd>
+
+  <dd>
+    <dl>
+      <dt>初期配置</dt>
+      <dd>未:カルロ -> 甲板1、モード切り替え、ダヴィンチの人体解剖図装備</dd>
+      <dd>見張台:フリオがいにしえの十字架装備</dd>
+      <dd>モードを戻し、甲板1:カルロ -> 診察室</dd>
+      <dd>未:イアン -> 見張台:フリオ -> 礼拝室<span class="memo">技能値(説得力)不足で配置できない場合は一旦甲板2に置き、レベルアップしたら礼拝室へ</span></dd>
+      <dd>未:サムウェル -> マスト1</dd>
+      <dd>未:ユキヒサ -> マスト2:エミリオ -> 娯楽室</dd>
+      <dd>未:チェザーレ -> 測量:シャルル -> マスト3:ジェナス -> 甲板1</dd>
+      <dd>未:ジャム -> 調理室<span class="memo">このとき未配置にジャム、セラのみなのを確認</span></dd>
+    </dl>
+  </dd>
+
+  <dt>諸注意</dt>
+  <dd>艦長以外のサボりキャラのエフェクトがうざいので甲板を見るのは配置を変更するときだけにする</dd>
+  <dd>帆は半開にし、瀬戸内海を2年ほど寄航せずにぐるぐる回る<span class="memo">出港時の日付を覚えておくこと</span></dd>
+  <dd>戦闘に入ってしまったら、戦闘を離脱すればその相手とは再び戦闘にならない。海賊はこれでやりすごせる。</dd>
+  <dd>テンキーの"-"キーで探索ボタンにフォーカスを合わせておく</dd>
+  <dd>食糧と水が尽きそうになったり疲労が高まったら、スペースキー連打で探索して物資を発見したり温泉を見つけたり原住民に歓迎されたりする。</dd>
+  <dd>鼠発生時は食糧が底を尽きかけるまで食糧探索はしない。鼠取りは全力でがんばる</dd>
+  <dd>2年回ったら大坂に入港。強制戦闘イベントが発生する<strong>長崎には絶対に入らない</strong></dd>
+  <dd>予定通りにいけば、ホドラム、ジェナス、チェザーレはレベル180超、最も低いエミリオでも115以上。</dd>
+
+  <dt>配置変更</dt>
+  <dd>
+    <dl>
+      <dt>1年半後 の約15日前</dt>
+      <dd>甲板1:ジェナス -> 個室<span class="memo">肉体状態を回復させる</span></dd>
+
+      <dt>1年半後</dt>
+      <dd>艦長室:ホドラム -> 甲板1</dd>
+      <dd>個室:ジェナス -> 測量:チェザーレ -> 甲板2</dd>
+      <dd>娯楽室:エミリオ -> マスト3:シャルル -> 礼拝室:フリオ -> 甲板3</dd>
+      <dd>マスト1:サムウェル <-> 副官室:ゲルハルト</dd>
+      <dd>マスト2:ユキヒサ <-> 診察室:カルロ</dd>
+    </dl>
+  </dd>
+</dl>
+
+<table>
+  <thead>
+    <tr><th>担当</th><th>半年</th><th>1年</th><th>1年半</th><th>2年</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>艦長室</th><td colspan="3">ホドラム</td><td></td></tr>
+    <tr><th>副官室</th><td colspan="3">ゲルハルト</td><td>サムウェル</td></tr>
+    <tr><th>舵輪</th><td colspan="4">マヌエル</td></tr>
+    <tr><th>測量</th><td colspan="3">チェザーレ</td><td>ジェナス</td></tr>
+    <tr><th>見張台</th><td colspan="4">イアン</td></tr>
+    <tr><th>マスト1</th><td colspan="3">サムウェル</td><td>ゲルハルト</td></tr>
+    <tr><th>マスト2</th><td colspan="3">ユキヒサ</td><td>カルロ</td></tr>
+    <tr><th>マスト3</th><td colspan="3">シャルル</td><td>エミリオ</td></tr>
+    <tr><th>甲板1</th><td colspan="3">ジェナス</td><td>ホドラム</td></tr>
+    <tr><th>甲板2</th><td colspan="3"></td><td>チェザーレ</td></tr>
+    <tr><th>甲板3</th><td colspan="3"></td><td>フリオ</td></tr>
+    <tr><th>個室</th><td colspan="2"></td><td>(ジェナス)</td><td></td></tr>
+    <tr><th>材木室</th><td colspan="4">耐久度がやばくなったときに</td></tr>
+    <tr><th>診察室</th><td colspan="3">カルロ</td><td>ユキヒサ</td></tr>
+    <tr><th>調理室</th><td colspan="4">ジャム</td></tr>
+    <tr><th>娯楽室</th><td colspan="3">エミリオ</td><td></td></tr>
+    <tr><th>参謀室</th><td colspan="4"></td></tr>
+    <tr><th>礼拝室</th><td colspan="3">フリオ</td><td>シャルル</td></tr>
+    <tr><th>2番艦艦長</th><td colspan="4">アンジェロ</td></tr>
+    <tr><th>3番艦艦長</th><td colspan="4">フェルナンド</td></tr>
+    <tr><th>4番艦艦長</th><td colspan="4">イファ</td></tr>
+    <tr><th>5番艦艦長</th><td colspan="4">ユリアン</td></tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="chart-3">攻略チャート(覇者の証集め)</h2>
+
+<h3>東アジア攻略</h3>
+
+<dl>
+  <dt>大坂に入港直前</dt>
+  <dd>帆を全開に戻す</dd>
+
+  <dt>大坂</dt>
+  <dd>宿屋で10日泊まってHP回復</dd>
+  <dd>2番艦以降を売却<span class="memo">艦長の解任、船首像外しが目的</span></dd>
+  <dd>
+    <dl>
+      <dt>最後の大きな航海士配置変更<span class="memo">高レベルキャラはマスト(と地方艦隊提督)に割り当てている</span></dt>
+      <dd>調理室:ジャム -> 甲板1:ホドラム -> 艦長室</dd>
+      <dd>甲板2:チェザーレ <-> マスト2:カルロ</dd>
+      <dd>未:アンジェロ -> マスト3:エミリオ -> 甲板3:フリオ -> 未配置</dd>
+      <dd>礼拝室:シャルル -> 測量:ジェナス -> マスト1:ゲルハルト -> 海兵詰所1</dd>
+      <dd>診察室:ユキヒサ -> 海兵詰所2</dd>
+      <dd>未:フェルナンド -> 参謀室<span class="memo">このとき未配置にフェルナンド、イファ、ユリアン、フリオ、セラのみなのを確認</span></dd>
+      <dd>登録 -> カスタム</dd>
+    </dl>
+    <table>
+      <thead>
+        <tr><th>担当</th><th>航海士</th><th>予想レベル</th></tr>
+      </thead>
+      <tbody>
+        <tr><th>艦長室</th><td>ホドラム</td><td>183</td></tr>
+        <tr><th>副官室</th><td>サムウェル</td><td>165</td></tr>
+        <tr><th>蛇輪</th><td>マヌエル</td><td>172</td></tr>
+        <tr><th>測量</th><td>シャルル</td><td>165</td></tr>
+        <tr><th>見張台</th><td>イアン</td><td>156</td></tr>
+        <tr><th>マスト1</th><td>ジェナス</td><td>180</td></tr>
+        <tr><th>マスト2</th><td>チェザーレ</td><td>187</td></tr>
+        <tr><th>マスト3</th><td>アンジェロ</td><td>178</td></tr>
+        <tr><th>甲板1</th><td>ジャム</td><td>172</td></tr>
+        <tr><th>甲板2</th><td>カルロ</td><td>163</td></tr>
+        <tr><th>甲板3</th><td>エミリオ</td><td>117</td></tr>
+        <tr><th>海兵詰所1</th><td>ゲルハルト</td><td>165</td></tr>
+        <tr><th>海兵詰所2</th><td>ユキヒサ</td><td>165</td></tr>
+        <tr><th>参謀室</th><td>フェルナンド</td><td>177</td></tr>
+        <tr><th rowspan="3">地方艦隊提督にする予定</th><td>イファ</td><td>177</td></tr>
+        <tr><td>ユリアン</td><td>177</td></tr>
+        <tr><td>フリオ</td><td>172</td></tr>
+      </tbody>
+    </table>
+  </dd>
+  <dd>クルシマとの戦闘に向けて水夫を集める</dd>
+  <dd>杭州を買収</dd>
+
+  <dt>クルシマを解散させる</dt>
+  <dd>長崎に入港しようとするとクルシマと交戦状態に<span class="input">適当にCボタン連打</span></dd>
+  <dd>一気に投資して強引に解散させる<span class="memo">資金が60万を超えるまで搾り取ってから(60万に満たなければミロのヴィーナス(+金64000)を大坂で売却、もちろん後で買い戻す)　長崎、長崎-大坂間、止めの3回で済ませたい。海賊化したクルシマ・ナガヨシがうざいが破産を待つよりは速い</span></dd>
+
+<!--
+  <dt>長崎</dt>
+  <dd>大坂から長崎へ移動すると出港所で教経の胴丸具足の情報</dd>
+
+  <dt>北33東130、長崎の北東</dt>
+  <dd>探索、<span class="item">教経の胴丸具足</span>入手、イアンが装備</dd>
+-->
+
+  <dt>長崎<span class="memo">めっちゃややこしい</span></dt>
+  <dd>造船所で追加装甲2が装備可能に</dd>
+  <dd>旗艦に追加装甲2を装備</dd>
+  <dd>旗艦を特別注文、□□□、積荷倉庫*5に<span class="memo">2段目</span></dd>
+  <dd>↑<span class="memo">2段目</span>を特別注文で5隻増やし、2-5番艦をドックに移す</dd>
+  <dd>イファの地方艦隊(大型ジャンク*5)を作り<span class="memo">8万*5+10万=50万必要</span>、長崎で海域委任させる</dd>
+  <dd>150万程度<span class="memo">130～140万で充分のようだが</span>貯まるまで泊まり続ける<span class="input">なまはげはクリック連打</span><span class="memo">造船資金稼ぎ</span></dd>
+  <dd>軍事投資で武装度を5000以上まで上げ、重カノン砲を出す<span class="memo">海賊に攻撃されて減らされる可能性はある</span></dd>
+  <dd>↑<span class="memo">2段目</span>を特別注文で更に9隻増やし、2-5番艦をドックに移す<span class="memo">特別注文で地方艦隊用の船をすぐ作れるように、ドックに1隻は必ず残しておく・・・必要はなさそう</span></dd>
+  <dd>ユリアンとフリオの地方艦隊(大型ジャンク*5)を作り、バタヴィアで哨戒</li>
+</dd>
+  <dd>旗艦を武装砲台*2<span class="memo">海兵詰所の左下</span>に、娯楽室->主計室に、重カノン砲を装備、</dd>
+  <dd>旗艦を特別注文、鯱の像を装備、全ての海兵詰所を物資倉庫に<span class="memo">2段目</span></dd>
+  <dd>↑<span class="memo">2段目</span>を特別注文で3隻増やす</dd>
+  <dd>水夫を集める<span class="memo">必要最少人数を少し超える程度</span></dd>
+  <dd>自動移動先指定時、ついでにイファの地方艦隊をバタヴィアで哨戒<span class="memo">地方艦隊の哨戒先の変更は、直接航路図を開かず自動移動のついでに行いたい</span></dd>
+
+  <dt>杭州</dt>
+  <dd><span class="item">竹細工の組立絵図</span>入手<span class="input">クリック連打、出港所に重ねる</span></dd>
+</dl>
+
+<h3>東南アジア攻略</h3>
+
+<ul>
+  <li>クルシマ解散後からは捕縛船の売却を行わなくても資金は足りる？</li>
+</ul>
+
+<dl>
+  <dt>クーンを解散させ、勢力値2000以上に<span class="memo">結構投資が必要</span></dt>
+  <dd>バタヴィアに入港するとクーンと交戦状態に<span class="input">クリック連打</span></dd>
+  <dd><span class="save">セーブ</span>クーンが解散するまで泊まり続ける</dd>
+
+  <dt>バタヴィア</dt>
+  <dd><span class="item">乳液の入った壺</span>入手</dd>
+  <dd>マラッカ、アチンを買収</dd>
+
+  <dt>バタヴィア-マラッカ間</dt>
+  <dd>バタヴィア、パレンバンへの投資で勢力値2000以上に</dd>
+
+  <dt>マラッカ</dt>
+  <dd>ギルドで化け魚依頼<span class="input">クリック連打、出港所に重ねる</span></dd>
+
+  <dt>バタヴィア</dt>
+  <dd>砲撃の頻度を上げるため、武装砲台(ゲルハルト、ユキヒサ)、2-5番艦艦長(フェルナンド、ジャム、カルロ、エミリオ)に航海士を配置</dd>
+  <dd>入出港を繰り返し怪魚を退治<span class="memo">近くの地方艦隊が手を貸してくれる</span>、<span class="item">怪魚の像</span>入手</dd>
+  <dd>船の入れ替えから、一旦2番艦以降をドックに入れて戻す</dd>
+  <dd>全ての武装砲台を物資倉庫に、3番艦に怪魚の像装備</dd>
+  <dd>甲板でカスタムに変更<span class="memo">航海士配置を元に戻す</span>、水夫編成を旗艦重視に</dd>
+
+  <dt>マラッカ</dt>
+  <dd>ギルドに報告すると遺跡(アンコールワット)出現<span class="input">クリック連打、遺跡に重ねる</span></dd>
+  <dd>遺跡に入り(選択肢: 逃げろ！)、<span class="item">古代王国の貨幣</span>入手<span class="input">クリック連打、遺跡発見後酒場に重ねる</span></dd>
+  <dd>酒場で乳液の入った壺の使用方法を聞く<span class="input">クリック連打、出港所に重ねる</span></dd>
+  <dd>出港所で<span class="item">ビアスの貨幣地図</span>入手<span class="input">クリック連打</span><span class="memo">証の回収は後回し</span></dd>
+</dl>
+
+<h3>インド洋攻略</h3>
+
+<dl>
+  <dt>カリカット</dt>
+  <dd>酒を4回ふるまってウッディーン艦隊の動向を知る</dd>
+
+  <dt>カリカット-バスラ間</dt>
+  <dd>ソコトラに行くor直接マスカット方面へ向かう<span class="memo">ウッディーン艦隊の動きを見て決める</span></dd>
+  <dd>洋上でウッディーンに宣戦布告されるorする</dd>
+  <dd>入った街のシェアは全て100%とる</dd>
+
+  <dt>バスラ</dt>
+  <dd>20%投資</dd>
+  <dd>ギルドで<span class="item">ムガル帝国の地図</span>を購入</dd>
+  <dd><span class="save">セーブ</span><span class="memo">地方艦隊に命令を下す段階で過去2回エラー落ちしているので</span>全ての地方艦隊をバスラで哨戒</dd>
+
+  <dt>勢力値トップに<span class="memo">割と投資が必要</span></dt>
+  <dd><span class="save">セーブ</span>ウッディーンが解散するまで泊まり続ける<span class="memo">哨戒中に勢力値が1500を超えるので、アズィーザが出現する可能性がある</span></dd>
+  <dd>全ての地方艦隊をソファラで哨戒</dd>
+  <dd>バスラに行く過程で入港しなかった街のシェアを100%に<span class="memo">水夫を補充したければホルムズで</span></dd>
+
+  <dt>カリカット</dt>
+  <dd><span class="item">枯れないハスの葉</span>入手<span class="input">クリック連打、酒場に重ねる</span></dd>
+  <dd>ベナジールに黒瑠璃の碗をプレゼント<span class="input">プレゼント#2</span></dd>
+  <dd>酒場から出ると遺跡(タージマハル廟)出現</dd>
+  <dd>遺跡に入り(選択肢: 手探りで進む)、<span class="item">大鷲の像</span>入手<span class="input">スペース連打、出港所に重ね、遺跡発見後クリック連打</span>、4番艦に装備<span class="memo">航路図画面で</span></dd>
+</dl>
+
+<h3>アフリカ攻略</h3>
+
+<ul>
+  <li>総合勢力値10000以上のために投資する</li>
+</ul>
+
+<dl>
+  <dt>エスピノサを解散させ、勢力値トップに<span class="memo">この条件自体は投資不要</span></dt>
+  <dd>ソファラに入港し、エスピノサに宣戦布告、10日間宿泊</dd>
+  <dd><span class="save">セーブ</span>エスピノサが解散するまで泊まり続ける</dd>
+  <dd>宿屋から出るとヴェパルハルバード探索依頼<span class="input">スペース連打、総督府に重ね、適当にクリック連打に切り替え</span><span class="memo">セラが配置可能になるがとくになにもしない</span></dd>
+  <dd>全ての地方艦隊をヴェラクルスで哨戒</dd>
+  <dd>ソファラ、ケープタウンを100%に</dd>
+
+  <dt>サン＝ジョルジェ</dt>
+  <dd>ヴェリーサに高麗青磁の香炉をプレゼント、遺跡(泥のモスク)出現<span class="input">クリック連打+プレゼント#1</span></dd>
+  <dd>遺跡に入り(選択肢: 退治する)、<span class="item">謎の石版上部</span>入手<span class="input">スペース連打、出港所に重ね、遺跡発見後クリック連打</span></dd>
+</dl>
+
+<h3>北海攻略</h3>
+
+<ul>
+  <li>ストックホルムまでの道すがら、勢力値1000以上＆トップ＆総合勢力値10000以上になるまで投資する</li>
+</ul>
+
+<dl>
+
+  <dt>北64西15</dt>
+  <dd>探索、<span class="item">ヴェパルハルバード</span>入手<span class="memo">水夫を400人程度に抑える　リスボンから出港、ブルージュに入港　往路:西15から北へ　復路:南南東に進んで北50から東へ</span></dd>
+
+  <dt>ブルージュ-ストックホルム間</dt>
+  <dd>オスロのシェアがない場合買収しておく</dd>
+  <dd>オスロ、コペンハーゲン、リガ、ストックホルムを100%に<span class="memo">パシャに負けまくっても勢力値トップから転落せぬよう2,3回余計に投資</span>
+
+  <dt>ストックホルム</dt>
+  <dd>王宮でイスカル・ヤサール討伐依頼<span class="input">総督府に重ねたままクリック連打</span><span class="memo">総合勢力値10000以上が条件</span></dd>
+
+  <dt>ロンドン</dt>
+  <dd>ギルドでユリス捜索依頼<span class="input">クリック連打、出港所に重ねる</span></dd>
+</dl>
+
+<h3>アフリカの覇者の証入手</h3>
+
+<dl>
+  <dt>ソファラ</dt>
+  <dd>依頼報告、<span class="item">謎の石版下部</span>入手<span class="input">クリック連打、出港所に重ねる</span></dd>
+  <dd>出港所で<span class="item">ペリアンドロスの石地図</span>を入手<span class="input">クリック連打</span></dd>
+
+  <dt>ペリアンドロスの石地図に印された位置</dt>
+  <dd>探索、<span class="emblem">アクスム王の金印</span>入手<span class="memo">証の地図を見るのは1度だけにしたい</span></dd>
+</dl>
+
+<h3>東南アジアの覇者の証入手</h3>
+
+<dl>
+  <dt>アチン</dt>
+  <dd>ビアスの貨幣地図を見る</dd>
+
+  <dt>ビアスの貨幣地図に印された位置</dt>
+  <dd>探索、<span class="emblem">クディリの永久なる護符</span>入手</dd>
+</dl>
+
+<h3>東アジアの覇者の証入手</h3>
+
+<ul>
+  <li>インド洋でパシャと交戦状態になるイベントを発生させたくないので、<strong>杭州には入港しない</strong></li>
+</ul>
+
+<dl>
+  <dt>泉州</dt>
+  <dd>広場でフビライの大剣の情報<span class="input">スペース連打、出港所に重ねる</span></dd>
+
+  <dt>北34東120、沂州の東</dt>
+  <dd>探索、<span class="item">フビライの大剣</span>入手<span class="memo">大坂へは京城経由で</span></dd>
+
+  <dt>大坂</dt>
+  <dd>遺跡に入ると、北東の村(コルフ)へ行けといわれる<span class="input">クリック連打、出港所に重ねる</span></dd>
+
+  <dt>コルフ(北60東165)<span class="memo">往路:東165まで大陸にぶつからないよう東北東に進んで北へ 復路:北33と少し進んで西へ</span></dt>
+  <dd><span class="item">唐代の竹細工</span>入手<span class="input">適当にCボタン連打</span></dd>
+
+  <dt>東アジアのどっか</dt>
+  <dd>出港所で<span class="item">ケイロンの竹地図</span>入手<span class="input">クリック連打、出港所に重ねる</span></dd>
+
+  <dt>ケイロンの竹地図に印された位置</dt>
+  <dd>探索、<span class="emblem">始皇帝の長信宮燈</span>入手</dd>
+</dl>
+
+<h3>インド洋の覇者の証入手</h3>
+
+<ul>
+  <li>リグ＝ヴェーダを入手しセラと離れるまで、アラブ圏の街に入らなければ、ひとつ短いイベントを飛ばせる。</li>
+</ul>
+
+<dl>
+  <dt>カリカット</dt>
+  <dd>酒場で酒をふるまって海賊の動向を知る</dd>
+
+  <dt>洋上</dt>
+  <dd>イスカル・ヤサールに勝利</dd>
+  <dd><span class="item">クシャナ朝の大皿</span>入手</dd>
+
+  <dt>インド洋のどっか</dt>
+  <dd>宿屋で<span class="item">ソロンの葉地図</span>入手<span class="input">クリック連打、出港所に重ねる</span></dd>
+
+  <dt>ソロンの葉地図に印された位置</dt>
+  <dd>探索、<span class="emblem">リグ＝ヴェーダ</span>入手</dd>
+
+  <dt>どっか</dt>
+  <dd>入港するとセラとさよなら<span class="input">クリック連打、出港所に重ねる</span></dd>
+
+  <dt>バスラ</dt>
+  <dd>造船所で船倉を積荷倉庫5*5作る</dd>
+  <dd>交易所で硝石10購入</dd>
+
+  <dt>アフリカのどっか(サン＝ジョルジェ)</dt>
+  <dd>入港するとエスカンテに宣戦布告される</dd>
+  <dd><span class="save">セーブ</span>その場で泊まり続けてエスカンテを解散させる</dd>
+  <dd>全ての地方艦隊をイスタンブールで哨戒<span class="memo">このときシェアを失った街を確認する</span></dd>
+</dl>
+
+<h3>地中海攻略・覇者の証入手</h3>
+
+<dl>
+  <dt>サン＝ジョルジェ？-シラクサ間</dt>
+  <dd>参謀室:フェルナンド -> 主計室<span class="memo">ベイルートとイスタンブールでシェア以上の交易品を購入するには主計長が必要</span></dd>
+
+  <dt>シラクサ</dt>
+  <dd>広場でユリス発見<span class="input">クリック連打、出港所に重ねる</span></dd>
+
+  <dt>ベイルート</dt>
+  <dd>交易所で木材5購入<span class="memo">左から2つ目</span></dd>
+
+  <dt>イスタンブール</dt>
+  <dd>交易所で硫黄10購入<span class="memo">左端</span></dd>
+  <dd>甲板でカスタムに変更<span class="memo">フェルナンドを参謀室に戻す</span></dd>
+  <dd>ファティシアにミロのヴィーナスをプレゼント<span class="input">プレゼント#1</span></dd>
+  <dd>酒場に入りなおすと遺跡(カッパドキア)出現</dd>
+  <dd>遺跡に入り、硫黄10木材5硝石10を渡し(選択肢: いいえ)<span class="input">遺跡に重ねたままクリック連打</span>、<span class="item">真鍮のランプ</span>入手<span class="input">クリック連打、ギルドに重ねる</span><span class="memo">積荷倉庫を全て物資倉庫に戻・・・すのは時間の無駄だろう</span></dd>
+  <dd>パシャに宣戦布告<span class="input">クリック連打、宿屋に重ねる</span>、10日間宿泊、20%投資</dd>
+  <dd><span class="save">セーブ</span>パシャが解散するまで泊まり続ける</dd>
+
+  <dt>イスタンブール-アレキサンドリア間</dt>
+  <dd>イスタンブール、クレタ(、キプロス)への投資で勢力値トップに</dd>
+
+  <dt>アレキサンドリア(選択肢: 相手になろう)<span class="memo">ハイレディンを敵に回さないと入れない</span></dt>
+  <dd>ハイレディンと停戦<span class="memo">2通</span></dd>
+  <dd>宿屋で10日間泊まり続ける</dd>
+  <dd>遺跡に入り、<span class="item">模様入りの布</span>入手<span class="input">クリック連打、出港所に重ねる</span></dd>
+  <dd>出港所で<span class="item">クレオブロスの布地図</span>入手<span class="input">クリック連打</span><span class="memo">セラって誰？誰だよ・・・</span></dd>
+
+  <dt>クレオブロスの布地図に印された位置</dt>
+  <dd>探索、<span class="emblem">カンビセスの冠</span>入手</dd>
+</dl>
+
+<h3>新大陸攻略・覇者の証入手</h3>
+
+<ul>
+  <li>シェアを失っている街は、サン＝ファンかサント＝ドミンゴで買収</li>
+</li>
+  <li>メリダ、ヴェラクスルへの投資で勢力値1500以上＆トップにする</li>
+</ul>
+
+<dl>
+  <dt>ヴェラクルス</dt>
+  <dd><span class="item">太陽紋の鞘</span>入手<span class="input">クリック連打、総督府に重ねる</span></dd>
+  <dd>ギルドで<span class="item">古代都市遺跡への地図</span>を購入</dd>
+
+  <dt>ハバナ</dt>
+  <dd>ギルドでウィリアム・クライブ討伐依頼<span class="input">クリック連打、出港所に重ねる</span></dd>
+  <dd>前座の海賊を3回狩り、ウィリアム・クライブに勝利<span class="memo">前座はジャマイカ、サント＝ドミンゴ、ヴェラクルスから、ウィリアム自身はサン＝ファンから</span></dd>
+
+  <dt>ハバナ</dt>
+  <dd>ギルドに報告すると遺跡(トゥーラの戦士像)出現<span class="input">クリック連打、遺跡に重ねる</span></dd>
+  <dd>遺跡に入り<span class="item">儀式用の小刀</span>入手<span class="input">スペース連打、出港所に重ねる</span><span class="memo">この後リスボンの出港所に行くとちょい長いイベントが起こるのでリスボンには入港しないこと</span></dd>
+  <dd>出港所で<span class="item">ピッタコスの刃地図</span>入手<span class="input">クリック連打</span></dd>
+
+  <dt>ピッタコスの刃地図に印された位置</dt>
+  <dd>探索、<span class="emblem">水晶のどくろ</span>入手</dd>
+</dl>
+
+<h3>北海の覇者の証入手</h3>
+
+<dl>
+  <dt>ロンドン</dt>
+  <dd>ギルドに報告すると遺跡(ストーンヘンジ)出現<span class="input">クリック連打、遺跡に重ねる</span><span class="memo">遺跡に入る前に日付(月)を確認</span></dd>
+  <dd>遺跡に入り(選択肢: 死んだふり)、<span class="item">古びた羊皮紙</span>入手<span class="input">クリック連打、遺跡発見後は宿屋に重ねる</span></dd>
+  <dd>1月まで寝太郎、リルからの呼び出し</dd>
+
+  <dt>アムステルダム</dt>
+  <dd><span class="item">紅色の顔料</span>入手<span class="input">クリック連打、出港所に重ねる</span></dd>
+  <dd>出港所で<span class="item">ターレスの紙地図</span>入手<span class="input">クリック連打</span></dd>
+
+  <dt>ターレスの紙地図に印された位置</dt>
+  <dd>探索、<span class="emblem">狩猟神ウルの弓矢</span>入手</dd>
+
+  <dt>ストックホルム</dt>
+  <dd><span class="save">セーブ？</span>王宮で依頼報告</dd>
+  <dd>王宮に入りなおすとエンディング。おつかれさまでした！</dd>
+</dl>
+
+<hr />
+
+<h2 id="refference">参考にさせていただいたもの</h2>
+
+<p>攻略本とか攻略サイトとかSSGとか2chログとかたくさん。いつになったらちゃんと書くん。</p>
+
+</body>
+</html>
