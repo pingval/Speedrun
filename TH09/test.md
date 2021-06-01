@@ -1,1 +1,1 @@
-<a id="note1" href="#note1ref"><sup>1</sup></a>Here is the footnote text.
+<sup><strong><a id="fn-rule1" href="#content-rule1">*1</a></strong></sup> 2021年6月現在の
