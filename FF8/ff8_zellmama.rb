@@ -26,7 +26,7 @@ require "io/console/size"
 
 $option = {
   # 言語 日本語:ja, English:en
-  language: :en,
+  language: :ja,
   
   # 探索の基準とするindex ドール終了:420~520?, ディアボロス直後:500~600?
   base: 550,
