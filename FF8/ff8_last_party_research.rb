@@ -30,7 +30,7 @@ $option = {
   base: 2800,
   
   # baseを中央として、これだけの幅を探索
-  width: 2000,
+  width: 6000,
   
   # 検索順 反転:reverse, 降順:ascending, 昇順:descending, 通常:それ以外
   order: :reverse,
@@ -412,6 +412,15 @@ def search_last_party(pattern)
   
   # 必要なだけテーブルを構築
   table = make_last_party_table(order.min, order.max)
+  len = 12
+  memo = Hash.new 0
+  table.each{|a|
+    next if a.nil?
+    key = a[:movements][/.{0,#{len}}$/]
+    memo[key] += 1
+  }
+  p memo.count{|k, v| v > 1}
+  exit
   # 探索
   order.map{|idx|
     data = table[idx]
