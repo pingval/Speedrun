@@ -68,7 +68,7 @@ SSは決定的瞬間を使わせてもらいました。正直すまんかった
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">次のタイムアタックは『東方紺珠伝 ～ Legacy of Lunatic Kingdom.』<br>カテゴリーは「Pointdevice(Lunatic)」<br>走者はユートロピーさん(<a href="https://twitter.com/eutropii?ref_src=twsrc%5Etfw">@eutropii</a>)です。<br>解説はmaronさん(<a href="https://twitter.com/maron8676?ref_src=twsrc%5Etfw">@maron8676</a>)です。<br><br>STGが続きます。<br>正面火力の高い魔理沙で駆け抜けます！<br><br>配信はこちら⇒<a href="https://t.co/iSbmGQ22Zj">https://t.co/iSbmGQ22Zj</a><a href="https://twitter.com/hashtag/RTAinJapan?src=hash&amp;ref_src=twsrc%5Etfw">#RTAinJapan</a> <a href="https://t.co/yP6X0CijGi">pic.twitter.com/yP6X0CijGi</a></p>&mdash; RTA in Japan (@RTAinJapan) <a href="https://twitter.com/RTAinJapan/status/1426409446150852610?ref_src=twsrc%5Etfw">August 14, 2021</a></blockquote>
 
-5面中ボスクラウンピース登場時にこの文面とSS4枚(弾幕3枚+クラウンピース)のツイートをするのは事前に考えていたこと。[昨年末のRiJ2020のジェットセットラジオ途中経過ツイート](https://twitter.com/RTAinJapan/status/1344157900101435393)でSSを4枚使ってタギングを紹介している人がいて、そういや1枚じゃなきゃダメっていう決まりはないよな～と思っていた。RTAの長さ的に途中経過ツイートはクラウンピース地点の1回だけ、しかしクラウンピースの画像だけでは弾幕を伝えられないので2-4面ボスの弾幕も添付というかたち。今思うと、難易度を象徴するクラウンピースの画像は1枚目に持ってきた方が収まりがよかったかも知れない。
+5面中ボスクラウンピース登場時にこの文面とSS4枚(弾幕3枚+クラウンピース)のツイートをするのは事前に考えていたこと。[昨年末のRiJ2020のジェットセットラジオ途中経過ツイートでSSを4枚使ってタギングを紹介](https://twitter.com/RTAinJapan/status/1344157900101435393)している人がいて、そういや1枚じゃなきゃダメっていう決まりはないよな～と思っていた。RTAの長さ的に途中経過ツイートはクラウンピース地点の1回だけ、しかしクラウンピースの画像だけでは弾幕を伝えられないので2-4面ボスの弾幕も添付という感じ。今思うと、難易度を象徴するクラウンピースの画像は1枚目に持ってきた方が収まりがよかったかも知れない。
 
 最後の行は「ここからが本当の地獄です。」の予定だったが、解説の「ここからが本番ですね」という発言が聞こえたので無難にそれを使わせてもらった。
 
