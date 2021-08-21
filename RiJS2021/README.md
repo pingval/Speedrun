@@ -1,7 +1,7 @@
 <!-- TOC depthFrom:1 depthTo:3 insertAnchor:false orderedList:false -->
 
 - [RTA in Japan Summer 2021 ボランティアレポート ping値編](#rta-in-japan-summer-2021-ボランティアレポート-ping値編)
-  - [Twitter](#twitter)
+  - [Twitter管理](#twitter管理)
     - [首都高バトル01](#首都高バトル01)
     - [ギャラクティックストーム](#ギャラクティックストーム)
     - [東方紺珠伝 ～ Legacy of Lunatic Kingdom.](#東方紺珠伝--legacy-of-lunatic-kingdom)
@@ -18,7 +18,7 @@
 
 これまでRTAイベントボランティアのレポートは書いたことがなかったが、せっかくだから~~俺はこの~~参加した記録として書いておく(運営に確認をとったところ、自由に書いてもらって構わないですよとのことだった)。
 
-## Twitter
+## Twitter管理
 
 オンラインボランティアのチャットモデレータ・Twitter管理に応募した。アピール・補足情報にはこう書いた。チャットモデレータについてなんも書いてないなこれ。
 
