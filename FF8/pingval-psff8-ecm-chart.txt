@@ -2143,8 +2143,13 @@ if (「さきがけ」未習得だった場合)
 ◆8. →Dp上、Dp上、Dp左上→即上(橙#2)→Dp右下→即左回り＆○(リフト)
 ◆リフトでコックピットへ移動し、イベントを進める ;; リフトで上がってから次の移動まで約9分
 
+8.4 Eyes On Me
 
-;; https://www.somenews.space/showArticle?id=null&main_id=315631
+作詞: 染谷和美 (和訳: https://www.somenews.space/showArticle?id=null&main_id=315631))
+作曲: 植松伸夫
+編曲: 浜口史郎
+歌: 王菲
+
 Whenever sang my songs
 ステージで歌うとき
 On the stage, on my own
