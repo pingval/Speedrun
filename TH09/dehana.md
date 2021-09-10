@@ -1,4 +1,8 @@
-最近[BOOTH](https://dehana.booth.pm/items/2906695)の在庫が復活し、そのうち電子書籍版も出るらしい東方花映塚総合攻略本『[DEHANA](https://dehanac99.tumblr.com/)』に寄稿したRTA解説記事です。
+**[『DEHANA』電子書籍版 is available now!](https://dehana.booth.pm/items/2906695)**
+
+----
+
+最近[BOOTH](https://dehana.booth.pm/items/2906695)の在庫が復活し、そのうち電子書籍版<del>も出るらしい</del>が出た東方花映塚総合攻略本『[DEHANA](https://dehanac99.tumblr.com/)』に寄稿したRTA解説記事です。
 
 ところで『アル花ディア～東方花映塚攻略のススメ～』(弾幕研究室)に提供してた[当たり判定情報](https://wikiwiki.jp/let/etc/%E7%9F%A5%E8%AD%98/%E8%8A%B1%E8%A7%A3%E6%9E%90%E3%83%A1%E3%83%A2#ve6ab01d)も公開してます。
 
