@@ -8,4 +8,4 @@
 1. [東アジア (East Asia)](./East%20Asia.md)
 1. [新大陸 (New Continent)](./New%20Continent.md)
 
-[セーブデータ](https://github.com/pingval/Speedrun/raw/master/DK4PKHD/DK4HD%20Saves%20for%20Hasha%20no%20Akashi%20All%20Maps.7z)
+[セーブデータ](https://github.com/pingval/Speedrun/raw/master/DK4PKHD/Hasha%20no%20Akashi/DK4HD%20Saves%20for%20Hasha%20no%20Akashi%20All%20Maps.7z)
