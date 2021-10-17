@@ -1,4 +1,4 @@
-# 覇者の証の地図
+# 覇者の証の地図全パターン
 
 1. [北海 (North Sea)](./North%20Sea.md)
 1. [地中海 (Mediterranean)](./Mediterranean.md)
