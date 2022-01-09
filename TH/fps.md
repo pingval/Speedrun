@@ -9,7 +9,7 @@
 | 11 | 地霊殿 | <img src="./custom/11.png" /> | <img src="./option/11.png" /> |
 | 12 | 星蓮船 | <img src="./custom/12.png" /> | <img src="./option/12.png" /> |
 | 12.5 | ダブルスポイラー | <img src="./custom/12.5.png" /> | <img src="./option/12.5.png" /> |
-| 12.8 | 妖精大戦争 | <img src="./custom/12.8.png" /> | <img src="./option/12.8.png" /> |
+| 12.8 | 妖精大戦争<br />custom.exeはこれで合ってます | <img src="./custom/12.8.png" /> | <img src="./option/12.8.png" /> |
 | 13 | 神霊廟 | <img src="./custom/13.png" /> | <img src="./option/13.png" /> |
 | 14 | 輝針城 | <img src="./custom/14.png" /> | <img src="./option/14.png" /> |
 | 14.3 | 弾幕アマノジャク | <img src="./custom/14.3.png" /> | <img src="./option/14.3.png" /> |
