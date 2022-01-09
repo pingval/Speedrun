@@ -1,5 +1,5 @@
 | No. | 作品名 | custom.exe | OPTION画面 |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | 06 | 紅魔郷 | <img src="./custom/06.png" width="50%" /> | <img src="./option/06.png" width="50%" /> |
 | 07 | 妖々夢 | <img src="./custom/07.png" width="50%" /> | <img src="./option/07.png" width="50%" /> |
 | 08 | 永夜抄 | <img src="./custom/08.png" width="50%" /> | <img src="./option/08.png" width="50%" /> |
