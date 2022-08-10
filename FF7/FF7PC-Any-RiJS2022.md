@@ -129,7 +129,9 @@ RiJS2022採用決定が2022/06/26、本番が8/13。
 
 2022/06/30にchuky氏の公開した[Reactor wrong warp saving](https://www.youtube.com/watch?v=evpZ7xow5F8)。これによってPC Any%のルートが更新され、[PC - Any%, No Turbo, No SCM](https://www.speedrun.com/ff7/full_game#PC)カテゴリのWRがzergu12氏の[1h41m43s](https://www.speedrun.com/ff7/run/yw3gdd3m)→同氏の[1h36m46s](https://www.speedrun.com/ff7/run/y88g7qxy)と約5分短縮された。
 
-カームカット(Kalm Skip)の方法が、簡単な[Kalm Skip 2](https://www.youtube.com/watch?v=ohf9W4boGr8)から難しい[Chocobo glitch](https://www.youtube.com/watch?v=vCRn5_ZTv7U)を含む発見当初の[Kalm Skip 1](https://www.youtube.com/watch?v=y_uUpSSYc4M)に戻ったのだから面白い(外野の気楽な意見)。
+PC Any%でのデバッグルームへのバトルモードワープには、長らく「カームの街での回想中の戦闘」が利用されてきたが、それが「壱番魔晄炉脱出中の戦闘」でも可能であると判明し、ルートが更新された。その結果、カームの街へは全く寄らなくなった。
+
+カームカット(Kalm Skip)の方法が、簡単な[Kalm Skip 2](https://www.youtube.com/watch?v=ohf9W4boGr8)から、難しい[Chocobo glitch](https://www.youtube.com/watch?v=vCRn5_ZTv7U)を含む発見当初の[Kalm Skip 1](https://www.youtube.com/watch?v=y_uUpSSYc4M)に戻ったのだから面白い(外野の気楽な意見)。
 
 - Chocobo glitch (Chocolom)
   - [Chocobo glitch setup with Zolom for Kalm skip (read description) - YouTube](https://www.youtube.com/watch?v=vCRn5_ZTv7U)
