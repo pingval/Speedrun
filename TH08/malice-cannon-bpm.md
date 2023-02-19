@@ -15,7 +15,7 @@
 
 - [DANAの部屋(消えてる…)](http://www.geocities.jp/dana13sai/)のSSGで無敵化
 - [東方永夜抄Normal稼ぎ Wiki*(自分のサイト)のSSG](https://wikiwiki.jp/let/etc/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AA%E3%81%A9/SpoilerAL%E7%94%A8%E3%81%AESSG%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB)で
-  - 妖率100%に固定(実際のプレイでもアリスの火力を上げるためにほぼ妖怪逢魔が時)
+  - 妖率100%に固定(実際のプレイでも~~アリス~~魔理沙の火力を上げるためにほぼ妖怪逢魔が時)
   - ダミー関数をON
   - アイテム出現ON/OFFで以下をOFF([刻符の回収によるSCB減少速度の変化](https://wikiwiki.jp/thk/%E6%B0%B8/Score#u1907091)を避けるため)
     - 使い魔破壊(#11)
