@@ -219,7 +219,7 @@
 
 ## 大まかな流れ
 
-めんどいので[右弐さんの提唱するアイテムの2文字略称](http://uniright2.fc2web.com/dq5/item_name.html)を使用。
+めんどいので[右弐さんの提唱するアイテムの2文字略称](https://uniright2.github.io/ancient/dq5/item_name.html)を使用。
 
 - `[]`
   - 行わない場合もある
@@ -480,7 +480,7 @@ if (天ベ未回収) {
 - [まーくさん](http://maaaaakunn2525dq.blog.fc2.com/)
 - [Maruさん](http://com.nicovideo.jp/community/co1180473)
   - 戦略・戦術・考察等を参考にさせていただきました。
-- [右弐さん](http://uniright2.fc2web.com/)
+- [右弐さん](https://uniright2.github.io/ancient/)
   - ラマダ戦★主人公ベホマ戦術、イブール戦女の子AI「おれにまかせろ」戦術を参考にさせていただきました。
 - [たらひろさん](http://ultimagarden.net/archive/tarahiro64/)
   - 男の子最終HP216を狙わない種の使い方を参考にさせていただきました。
